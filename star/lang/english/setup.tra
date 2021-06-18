@@ -7,17 +7,17 @@
 /* -------------- *
  *  Assassin Kit  *
  * -------------- */
-@101 = ~Assassin~
+@101 = ~assassin~
 @102 = ~Assassin~
 @103 = ~ASSASSIN: This is a killer trained in discreet and efficient murder, relying on anonymity and surprise to perform his task.
 
-Advantages
-- May coat his weapon in poison once per day per 4 levels. The next hot with that weapon will inject the poison into the target dealing out 1 damage per second for 24 seconds (3 damage for the first 6 seconds). A saving throw vs. poison limits damage to 12 total.
-- Bonus +1 to hit and +1 damage
-- Backstab reaches x7 instead of x5
+Advantages:
+- +1 bonus +1 to hit and damage rolls.
+- Backstab reaches x7 multiplier instead of capping at x5.
+- May coat his weapon in poison once per day per 4 levels. The next hit with that weapon will inject the poison into the target dealing out 1 damage per second for 24 seconds (3 damage for the first 6 seconds). A saving throw vs. poison limits damage to 12 total.
 
-Disadvantages
-- Only 15% per level to distribute on abilities.~
+Disadvantages:
+- May only distribute 15 skill points per level among thieving skills.~
 
 
 /* ----------- *

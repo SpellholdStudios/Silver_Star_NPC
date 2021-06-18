@@ -4,7 +4,7 @@
 /* -------------- *
  *  Assassin Kit  *
  * -------------- */
-@101 = ~Meuchelmörder~ 
+@101 = ~meuchelmörder~
 @102 = ~Meuchelmörder~
 @103 = ~Meuchelmörder: Ein Killer, ausgebildet um diskrete und effiziente Morde auszuführen, der Anonymität und Überraschung ausnutzt, um seine Aufträge zu erledigen.
 
@@ -14,14 +14,14 @@ Vorteile
 - Meucheln erreicht x7 statt x5
 
 Nachteile
--  Fähigkeiten: Nur 15% pro Stufe verteilbar.~ 
+-  Fähigkeiten: Nur 15% pro Stufe verteilbar.~
 
 
 /* ----------- *
  *  Creatures  *
  * ----------- */
 @201 = ~Silver Star~
-//@5  = ~Silver Star~ 
+//@5  = ~Silver Star~
 @202 = ~Wenn Ihr Silver Star nach ihrer Vergangenheit fragt, beginnt sie zu weinen, ihre Worte vermischen sich mit kontinuierlichen Schluchzen. Sie erzählt, dass sie ihren wahren Namen vergessen hat, dass Silver Star ein Spitzname ist, den ihr Irenicus gab. Ihre Vergangenheit ist fern und obskur und sie bevorzugt, dass dies so bleibt, weil sie sich wirklich lieber an nichts mehr erinnern möchte. Ihr fühlt Mitleid für dieses arme Geschöpf, aber ihr kindisches Wesen weist eine seltsame Art von Unschuld auf.~
 // These lines require translation into German!
 // ++++++++++++++++++++++++++++++++++++++++++++
@@ -35,9 +35,9 @@ Nachteile
 
 @210 = ~Mary~
 
-@8  = ~Dieser Ort benötigt wirklich dringend Reinigung ~ 
+@8  = ~Dieser Ort benötigt wirklich dringend Reinigung ~
 @9  = ~Viele, sehr viele rosa Bänder werden dies alles besser machen! Ja, es sollten mindestens eine Meile oder so helle, rosa Bänder aus Seide sein!~
-@10 = ~Wieso verschwende ich meine Zeit, um diesen ganzen Schmutz zu reinigen? Wahrscheinlich um es zu einem besseren Ort zu machen, wo einige Lämmer sich erholen können!~ 
+@10 = ~Wieso verschwende ich meine Zeit, um diesen ganzen Schmutz zu reinigen? Wahrscheinlich um es zu einem besseren Ort zu machen, wo einige Lämmer sich erholen können!~
 @11 = ~Was habt Ihr hier in den letzten zwanzig Jahren getan? Selbst eine Gruppe Oger wäre ordentlicher als Ihr. Ihr hättet Eures Vaters Erbe besser nutzen sollen.~
 @12 = ~Je mehr Arbeit es gibt, desto höher ist die Zahl der Schafe, die ich als Zahlung verlange. Seid Euch dessen bewusst!~
 
@@ -46,9 +46,9 @@ Nachteile
  *  Items and spells  *
  * ------------------ */
 @301 = ~Stärke Modifikation.~
-@302 = ~Schwefelreiches Gift~ 
+@302 = ~Schwefelreiches Gift~
 @303 = ~Kochbuch~
-@304 = ~Dies ist nicht wirklich ein Buch, sondern ein Haufen altes Papier, Kleidungsstücke und etwas, das wie Rattenhaut aussieht, zusammengebunden mit einem Stück Schnur. Es enthält verschiedene Arten von Rezepten. Einige Seiten wurden mit Tinte beschrieben, andere mit einer schlammartigen Substanz und andere mit einer roter Flüssigkeit, sicherlich Blut. Das Buch stinkt und ist teilweise von Schimmel bedeckt. Alle Rezepte haben eines gemeinsam: sie beschreiben wie man Lamm- und Schaffleisch kocht. Jedes Mal, wenn Silver Star durch die Seiten blättert, breitet sich langsam ein böses Lächeln auf ihrem Gesicht aus. Sie ist der Auffassung, dass die Lektüre dieses Buches von grundlegender Bedeutung ist und zu einer kultivierten Persönlichkeit führt. Sie glaubt, dass es viele Perlen der Weisheit enthält.~ 
+@304 = ~Dies ist nicht wirklich ein Buch, sondern ein Haufen altes Papier, Kleidungsstücke und etwas, das wie Rattenhaut aussieht, zusammengebunden mit einem Stück Schnur. Es enthält verschiedene Arten von Rezepten. Einige Seiten wurden mit Tinte beschrieben, andere mit einer schlammartigen Substanz und andere mit einer roter Flüssigkeit, sicherlich Blut. Das Buch stinkt und ist teilweise von Schimmel bedeckt. Alle Rezepte haben eines gemeinsam: sie beschreiben wie man Lamm- und Schaffleisch kocht. Jedes Mal, wenn Silver Star durch die Seiten blättert, breitet sich langsam ein böses Lächeln auf ihrem Gesicht aus. Sie ist der Auffassung, dass die Lektüre dieses Buches von grundlegender Bedeutung ist und zu einer kultivierten Persönlichkeit führt. Sie glaubt, dass es viele Perlen der Weisheit enthält.~
 @305 = ~ Dies ist nicht wirklich ein Buch, sondern ein Haufen altes Papier, Kleidungsstücke und etwas, das wie Rattenhaut aussieht, zusammengebunden mit einem Stück Schnur. Es enthält verschiedene Arten von Rezepten. Einige Seiten wurden mit Tinte beschrieben, andere mit einer schlammartigen Substanz und andere mit einer roter Flüssigkeit, sicherlich Blut. Das Buch stinkt und ist teilweise von Schimmel bedeckt. Alle Rezepte haben eines gemeinsam: sie beschreiben wie man Lamm- und Schaffleisch kocht. Jedes Mal, wenn Silver Star durch die Seiten blättert, breitet sich langsam ein böses Lächeln auf ihrem Gesicht aus. Sie ist der Auffassung, dass die Lektüre dieses Buches von grundlegender Bedeutung ist und zu einer kultivierten Persönlichkeit führt. Sie glaubt, dass es viele Perlen der Weisheit enthält. Am Ende des Buches wurde ein neues Rezept hinzugefügt, das ein tödliches Gift beschreibt. Ihr wollt die Details wirklich nicht kennen.~
 @306 = ~Mondklinge~
 @307 = ~Weinende Klinge~
@@ -59,13 +59,13 @@ EIGENSCHAFTEN:
 
 Unbekannt.
 
-Nur von einigen wenigen glücklichen Menschen benutzbar.~ 
+Nur von einigen wenigen glücklichen Menschen benutzbar.~
 
 @310 = ~Seufz...~
-@311 = ~Warum seid Ihr so böse, Stern meines Herzens?~ 
-@312 = ~Habt keine Angst, ich werde Euch immer lieben.~ 
+@311 = ~Warum seid Ihr so böse, Stern meines Herzens?~
+@312 = ~Habt keine Angst, ich werde Euch immer lieben.~
 @313 = ~Was hat Euch je ein Schaf angetan, Stern meines Herzens?~
-@314 = ~Jedes Mal, wenn Ihr ein Leben nehmt, blutet mein Herz.~ 
+@314 = ~Jedes Mal, wenn Ihr ein Leben nehmt, blutet mein Herz.~
 @315 = ~Tochter meiner Seele, warum tut Ihr dies?~
 
 @320 = ~Liecors Handbuch der Klingen 15ter Band.~
@@ -93,7 +93,7 @@ Zehn Blutsteine
 Tenser Korrektur
 Zehn "Magischer Pfeil" Rollen
 Zehn Lynxaugen
-Ein "Tensers Verwandlung" Rollen 
+Ein "Tensers Verwandlung" Rollen
 
 ...
 ...

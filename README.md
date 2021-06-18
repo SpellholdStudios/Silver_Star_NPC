@@ -130,7 +130,7 @@ Here is the changelog:
     - Rewrote install procedure to use WeiDU's built-in `HANDLE_AUDIO` function, and converted music files to acm.
     - Provided alternative TIS and PVRZ files for EE games (used Tipun's function to find free PVRZ-files indexes on EE-games).
     - Removed useless audio decoding and tiz unpacking `AT_NOW` and `AT_UNINSTALL` batch processes.
-    - `ADD_KIT` process: added missing lower kit strref and WeiDU `fl#add_kit_ee` function for EE games.
+    - `ADD_KIT` process: fixed lower kit strref added WeiDU `fl#add_kit_ee` function for EE games.
 - "*Portraits for non-joinable NPCs*" optional component: Does not overwrite joinable NPCs portraits anymore.
 - *fhlseb.baf*: Fixed wrong Gavin romance active variable (set to *`B!GavRA`*, was *`B!GavinRomanceActive`*).
 - Moved extended scripts into new :file_folder: *scriptsext* to avoid compiling useless baf files.
