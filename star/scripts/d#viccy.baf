@@ -1,0 +1,12 @@
+IF
+  InParty("D#silver")
+  !Dead("D#Silver")
+  CombatCounter(0)
+  GlobalGT("SilverViconia1","GLOBAL",2)
+  HPLT("D#Silver",25)
+  Global("Silverhurt","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Silverhurt","LOCALS",1)
+  Interact("D#Silver")
+END

@@ -1,0 +1,21 @@
+// Silver and the doppleganger.
+@1	= ~I know him. He stole Mommy! He has stolen my Mommy from the box of the Master! He changes! He twists! He lies!~
+@2	= ~Don't trust the elven child. Imprisonment has made her crazy. You hear how she speaks?~
+@3	= ~Now that my Mommy is here again, with me, our enemies will meet this blade of elven steel! No, no, Mommy, no one will touch you again with their dirty hands...I swear!~ [Female2a]
+@4	= ~I want my sword. It's mine. Give me my Mommy!~
+@5	= ~You have stolen my Mommy. You are evil and I don't want to stay with you any more! C'mon, Mommy...all the roads are filled with lambs.~
+
+// the blade to silver star (strings displayed over the head.)
+@6	= ~Sigh...~
+@7	= ~Why are you so evil, Star of my heart?~
+@8	= ~Don't be afraid. I will love you forever.~
+@9	= ~What has a sheep ever done to you, Star of my heart?~//Added by Seifer
+@10	= ~Every time you take a life, you cut my heart.~
+@11	= ~Daughter of my soul, why do this?~
+
+// base dialogue with the sword
+@12	= ~Dear Silver, what can I do for you?~ // blade
+@13	= ~Nothing, Mommy. I only want to be sure that you are alright.~ // Silver
+@14	= ~Yes, my Dear.~  // blade
+@15	= ~Then goodbye, Mommy.~ // silver
+@16	= ~I love you, Silver.~

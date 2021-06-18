@@ -1,0 +1,387 @@
+// Edwin
+@1 = ~I swear that Auril moves around the sun and not the opposite, Edwin.~
+@2 = ~No! It's impossible!~
+@3 = ~Even the wise Alaundo says in the third book of his "Mysteries Of the Sky" that...~
+@4 = ~I remember the last mage that said something like that is now incapable of doing anything with a girl. But you probably use your tongue with women, so I should cut it off instead... Hehehe!~ [Female2a]
+@5 = ~These simians! They always resort to the sword to settle an argument.~
+@6 = ~Hehehe, but it seems a simple sword can get rid of a powerful mage.~ [Female2a]
+@7 = ~Yes, but you, fool, have said nothing to explain to me why Auril Thorin goes around the sun. (Naturally, as it is a wrong, illogical and childish idea of your twisted mind)~
+@8 = ~Don't think I've not heard you. I've seen in Irenicus's crystal orb that in the next two years an adept of Oghma will prove it. But if you pay me, mage, I will kill him before.~
+// Viconia
+@9 = ~Can I come with you too? I mean, I want to become a Drow. All that darkness, that bloodshed, that strife. I feel kinship to the Drow in my soul.~
+@10 = ~You can color my skin and hair, so I will be perfect! Mary's drow-sheep, Beware! It's lamb chop time!~ [Innoc8]
+// Edwin
+@11 = ~Edwin, I think that we should consider the idea of having a relationship. You could be the brawn, while I would be the brain. It would be perfect!~
+@12 = ~You should say that I am the brain and you the brawn. (These monkeys, they think they can rule only because they know how to eat bananas!)~
+@13 = ~No, no, you cannot be the brain. You are too conceited, and remember, I have said I can hear your whispers.~
+@14 = ~I think that stealing and blackmailing would pay well, and we could invest the profits in lamb farms.~
+@15 = ~Even if I did stay with you, (and I don't want to), I would never waste my time and money on your damned Mommy's cows!~
+@16 = ~They are Mary's lambs!~
+@17 = ~Now that you are female you are even funnier, mage. I think we should become good friends.~
+@18 = ~Haven't you any sympathy for my condition?~
+@19 = ~Ed-win-a is falling down, falling down, falling down! Ed-win-a is falling down, oh my fair lady!~ [Female2a]
+@20 = ~One of these days... One of these days... Ahh, why do I waste my time with you?~ [EDWINW21]
+@21 = ~Because you like me!~
+// Jaheira
+@22 = ~Child, your actions are wild and dangerous to the group. Have you not found balance in your life?~
+@23 = ~You may play the part of the innocent, but I fear you may have been tainted by your 'Master'.~
+@24 = ~I'm tired of your balance-sickened speeches. I think the death of Khalid has made you bitter, like acid. Find a lover and don't bother me, darthiir elg'caress.~
+@25 = ~Don't call me that, and never speak of Khalid again! You have not earned the right... You spread evil to everything you touch. You do this with pleasure and without thought. It is wrong. Don't you understand? Everytime you kill, you die a little bit yourself. Killing is not like eating sweets, you...~
+@26 = ~This is my last word on the matter, bitch! Say anything else about thoughts or consequences and I will let you taste my poison.~
+@27 = ~... or maybe I will ask the mage to polymorph you into a lamb.~
+@28 = ~What? I want nothing to do with this! (She will be my damnation)~
+@29 = ~<CHARNAME>! You heard what she said. Have you nothing to say to her?~
+// Edwin & sex
+@30 = ~So, mage, what is your attitude about ... ehm... love?~
+@31 = ~Eh?~ [EDWINW22]
+@32 = ~I mean, now that you are female, are you still attracted to women?~
+@33 = ~That...is none of your business!~
+@34 = ~Oh, maybe you have no time for women but like men better?~
+@35 = ~Ah, and what do you know about that, fool?~
+@36 = ~I know enough... I remember the time I was with the smugglers, there was a young woman named Black Rose. During the day she taught me how to cut throats, and during the night she had other businesses... I began to follow her every night to spy on her... Well, I think that I know more than a Drow priestess on sex.~
+@37 = ~I don't think so. The Drow mastered the erotic arts eons ago.~ // viconia
+@38 = ~Bah! Then you know nothing of love, at least of true love.~
+@39 = ~This is what love is. It is deception. It is betrayal. It is worth nothing. I tracked her until she reached Baldur's Gate, but then I lost her. When I found her again she was dead. Someone else had killed her. Even vengeance was denied me!~
+@40 = ~Now I have only my ambitions. I don't want love anymore. It is an illusion.~
+@41 = ~Her name?~
+@42 = ~I have cleared it from my mind.~
+@43 = ~I think in the end you aren't so bad, mage. You have some good sides, only...you should love lambs more.~
+// Viconia
+@44 = ~Viconia, I want to learn something about your culture. Drows have fascinated me since my imprisonment.~
+@45 = ~Keep your distance, surfacer, and learn to respect your elders.~
+@46 = ~Please! And if I am a surfacer in the flesh, I am a Drow in my feelings! I like anything of the Drow. Drow clothing, Drow sun tan lotion and especially Drow coffee mugs.~
+@47 = ~Very well. Then the first thing you should know is that in the Underdark, one with your tongue would die in less than one minute.~
+@48 = ~Alright!~ [Female2a]
+@49 = ~This is clearly the Master's work, but by the gods I have never seen anything so exquisite! Nobody does it better.~ [Female2a]
+@50 = ~Alright, I will try another way. Viconia, please, can you teach me something about the Drow culture?~
+@51 = ~Surfacer, what have I said about keeping your distance from me?~
+@52 = ~Yes, I know, but I'm too interested.~
+@53 = ~And why this morbid interest?~
+@54 = ~Oh, let me think... What is most interesting to me is the Drow art of making poisons.~
+@55 = ~Then you must ask a lowly Drow mage, not a noble priestess like me.~
+@56 = ~Where can I find one of them?~
+@57 = ~In an Underdark city, of course!~
+@58 = ~That's a pity.~
+// minsc-edwin added after 42
+@59 = ~Dynaheir! You loved Dynaheir, and for revenge you tracked us to Baldur's Gate and tried to kill her! Boo thinks you should cover your eyes in shame.~ // Minsc if he is in party
+@60 = ~(I don't know who is more intelligent, the man or the hamster)~
+// jaheira
+@61 = ~You have been very rude, Silver Star. You shouldn't say those things to Jaheira. She has her reasons. Your behavior should be better. Now beg her pardon.~
+@62 = ~Jaheira, if you are unable to deal with her, why should I do anything?~
+@63 = ~Please forgive me, Jaheira.~
+// Aerie
+@64 = ~Aerie, I think you shouldn't let the loss of your wings ruin your life. There is so much beauty to admire, even here on the ground. Like sheep or the death of helpless creatures.~
+@65 = ~Oh please don't be afraid. I don't want to hurt you, truly. I want you to find other reasons to live. There is so much to see and to do. There is no need to be so sorrowful.~
+@66 = ~I'm not full of sorrow, it's only that my wings were a part of my soul. For the Avariel, flying means freedom, and I will never be free again.~
+@67 = ~They ripped out a piece of my life when they took my wings. I will never be the same. What should I do, ignore the reality and live blindly in my madness like you?~
+@68 = ~Ahhh! I...I'm not ignoring the truth, only...only... There is no truth... It hurts...so much... Thousands...thousands, they are...and they hurt, they scream, they hit... They leave nothing untouched...in the swamps or in the darkness or in my prison. I have to run...run...escape...hide.~ [Female2l]
+@69 = ~There is nowhere to run, nowhere to hide. There is only pain...and she...she is in my brain and wants to escape... I know, one day, she will be free!~ [Female2l]
+@70 = ~Calm, c...c...calm yourself, you are among friends. I d...d...don't want...~
+@71 = ~*Cough*.. *Cough*..I? ..What? ...Oh, Aerie... I...I'm sorry, I didn't mean to say those things. I...~
+// Jan
+@72 = ~Hey, Jan, I don't understand you. If you can make your own devices, why do you waste your time trying to sell illegal magical objects? Wouldn't it be simpler if you opened your own magic shop??~
+@73 = ~My own shop. Well, the problem with that is the Government. They bury you in forms. My Uncle Scratchy tried it once. He told me you must fill in form after form. And the questions they ask you! Explain your financial situation. Why do you have two sets of accounts? List the number of houses, where you want to build your business and the origins of your family for the past thirty generations.~
+@74 = ~Uncle Scratchy had to get a certificate from the Cowled Wizards to say he was selling *safe* magic, and they nearly turned him down. Do you know they said Uncle Scratchy's exploding mice weren't safe? What is the world coming to? Once you get past that, there's still the bribes, for the guards, the beggars, even the thieves guild. And that, combined with taxes, can eat into a third of your income, and let me tell you, that is a lot of turnips. Nope, that's not for me. I'll stay a smuggler.~
+@75 = ~Bah, I have known some real smugglers. Staying with them means that some days you would crawl through dirt on your butt. If you are a smuggler I am a sheep.~
+@76 = ~Uhm... A sheep... a lamb... it... it may be...~
+@77 = ~Hey, mage, why don't you morph me into a sheep?~ [Female2a]
+@78 = ~If you insist, I just might, one of these days.~ [EDWIN29]
+// Aerie added after 64
+@79 = ~Eeek! You... D...d...do you kill helpless creatures for fun?~ [AERIE58]
+@80 = ~A...a...am I one of your helpless c...c...creatures?~
+@81 = ~It's all gone now, Silver. I don't know who she is, but I can promise you that she will not hurt you anymore.~
+@82 = ~You don't understand... No problem. Let's go, there are so many lambs to steal and so little time.~
+@83 = ~That's the Silver I know.~
+// silver-edwin
+@84 = ~Have I ever said that I like magic? One of these days I will probably study it seriously. I started to think of this years ago, before that...before you know what.~
+@85 = ~Why are you telling me?~ [EDWIN25]
+@86 = ~I only want to make conversation. I want to see if there is any heart under that red cloak of yours. You are too serious, mage. You think too much, that is your problem. You should feel the atmosphere, the lust for killing, the blood that rushes in your veins when you fight, the cold taste of iron on the skin (Yes, especially the enemy's skin) and the joy when your poisoned blade hits the victim.~
+@87 = ~It feels good and bad at the same time. I know I should be disgusted by the bloodshed, but it attracts me.~
+@88 = ~Yes, yes, it attracts me too.~
+@89 = ~I knew there was a rebel spirit under that red cloak.~
+@90 = ~(Better this than her stupid sister's bears)~ [EDWIN23]
+@91 = ~You will never change. At least try to be more funny!~
+// silver-haer
+@92 = ~This sparrow understands that you too were a caged bird, till our faithful raven swept in to rescue you.~
+@93 = ~Yes, I was a prisoner, but I'm not going to talk to you about it.~
+@94 = ~Is this actor to play the soothsayer then? As you will, my flighty wren. But I would ask that you reconsider. You speak with the heart of an artist, the mind of a child and the soul of a ghost, so says this bard.~
+@95 = ~Your fancy words don't matter to me. You offend me with your eyes. I see the fog of chaos in them; I see what you are and what you want with me.~
+@96 = ~You have nothing to fear from my eyes; they can wield no blade. And I want nothing from you, save good conversation.~
+@97 = ~And you should learn to be more silent or you will face my poisoned blade. Some time ago I found one of your kind, a bard, and she brought me only grief. I will not let you do the same. You'll die first.~
+@98 = ~You should be wiser. You must not judge all by the action of one, but if you want to taste steel, then you will have it.~
+@99 = ~If a duel is the only way to solve our problems, decide the time and place. <CHARNAME> will be our witness.~
+@100 = ~Let the steel decide your fate.~
+@101 = ~Don't be stupid. Silver, tell Haer'Dalis you are sorry and let the issue end here, alright?!~
+// between 38-39
+@102 = ~Why? Do you know something about true love?~
+@103 = ~Yes, I do... A witch and I. It's difficult for you to comprehend, isn't it? (Although I didn't expect you to, you dolt). Well, let me educate you then. I shall tell you the story of my tragedy. I was born in Thay, a land rightfully ruled by mages, and when I was a child my natural genius for magic was noticed by the Thayvian wizards.~
+// viconia if silver is hurt badly
+@104 = ~You are hurt? Wonderful, you now need me. You have also bothered this priestess too often and I could let you die as punishment. Isn't that nice?~
+@105 = ~I don't see anything nice about it. And I have enough strength left to choke your words in your throat.~ [Female2m]
+// this happens immediately after jaheria and imoen have discussed about khalid's death.
+@106 = ~So you have seen the Master torturing people.~
+@107 = ~Yes. It was horrible...~
+@108 = ~I have tortured some people, even though the Master has had me for a long time... You can see under my robe the marks, on my arms? Have you ever been tortured?~
+@109 = ~I don't want to talk about it. It's too horrible. It still hurts like a blade in my brain. I feel as if this body isn't even mine...~
+@110 = ~I think you've also seen the Master's knife collection, haven't you? Which one is your favorite? I like the little curved one with the serrations. It is the best for cutting ears. I have cut ears before. Would you like to see one? I kept it, look.~
+@111 = ~(Imoen's face turns green and she coughs)~ [IMOEN19]
+// third banter with Aerie
+@112 = ~Aerie please forgive me, I didn't want to say all those horrible things.~
+@113 = ~I can understand. It is difficult for you to start a new life after all the horrors you have seen, but you frighten me. Is your attitude against everything that lives? Is it that you like to kill?~
+@114 = ~Don't be afraid, Aerie. I don't want to hurt you, as I told you, I want to be your friend.~
+@115 = ~I think we can try. Everyone needs a second chance. You are probably like me, betrayed by everyone in your life up to now, and you haven't found an Uncle Quayle that can help you. I don't want to think about what could've happened if Uncle Quayle had not found me.~
+@116 = ~I think we should go to the circus one of these days.~
+@117 = ~Yes, we may go sometimes, but you must promise me you won't hurt the customers or cause a disaster.~
+@118 = ~This reminds me of the time the Master sold an artist to a circus.~
+@119 = ~Irenicus is interested in the circus?~
+@120 = ~Oh no, he just had a beautiful human prisoner who he decided to sell. She disgusted him and he could not bear to see her face.~
+@121 = ~Why? Was she too beautiful to him?~
+@122 = ~No, oh no, it's simply that after I had thrown some acid on her face she was not so beautiful anymore. He also told me he had watched the first spectacle of the circus and the new artist exploded in a fireball, killing half the troupe and even more customers.~
+@123 = ~T...t...that's terrible.~
+@124 = ~No, I think it was just a little gross.~
+// Viconia, again about the mighty drow.
+@125 = ~I have thought long and hard about your desire to become a Drow. I think we can do it.~
+@126 = ~Truly?~
+@127 = ~Yes. First, we can burn your skin to make it black, then wash your hair with acid so it will have the right color. There is still the problem of the eyes, though... Hmm... I suppose we could just rip them out.~ // Viconia
+@128 = ~I don't know why, but I find myself no longer interested in becoming a Drow.~
+@129 = ~So I had imagined, girl.~
+// Valygar
+@130 = ~Valygar, do you like children?~
+@131 = ~I think...I might like them, but if I had a son, he would have my heritage. It would be cruel to pass on my curse to him.~
+@132 = ~I understand. I like children, especially orphans, but I cannot tolerate their suffering... I remember very little of my youth. My parents died when I was young. I was kidnapped and sold to some smugglers. I was small, so I could run easily in the sewers of cities and deliver their wares to clients.~
+@133 = ~I think that at the time I must have thought it was horrible, but now it makes me laugh. Can you imagine ten hours a day in the bog, crawling in the tunnels, carrying packs that are larger than you? You must be careful. There are great dangers in the sewers.~
+@134 = ~I started to run, but my legs were too short. He lifted me up in his great hand... I was able to see his enormous jaws. I started to cry for my Mommy. I remember the blood. All of my body was covered in blood. It was running out from a wound in his throat...in the wound was my knife.~
+@135 = ~No one should live that way. Not one of my friends is here to tell their story, they are all floating corpses in the sewers. They finished suffering long ago.~
+@136 = ~Why did you kill them? It’s sick.~ // valy
+@137 = ~Do you not understand? I have the same motive as you do for not wanting children. I want to spare them suffering. It is sad see them on the streets like beggars or in the cages of the slave merchants, I cannot tolerate it.~
+@138 = ~Killing them will only make them suffer more, you cannot deny them hope.~
+@139 = ~There is no future, don't you understand? Does your birthright give you a future? My imprisonment give me a future?~
+@140 = ~Did Aerie's lost wings give her any future?~ // if aerie is in party
+// edwin-silver
+@141 = ~You have said that your first teacher was a woman named Rose, wasn't it?~
+@142 = ~Black Rose, mage. Why are you suddenly so interested in my education?~
+@143 = ~Nothing, only I cannot imagine that you have had any education, considering your behavior.~ //edwin
+@144 = ~I think you can, but imagination isn't really your strength. She taught me how to kill people before they can see you and react and how to find the most vulnerable points on an enemy. She also taught me to avoid men like you. Everything else I have learned by myself, included reading and writing.~
+@145 = ~If she has taught you to stay away from 'men like me,' why do you insist on bothering me?~ [EDWIN25]
+@146 = ~I don't bother you. And it is because you make me laugh.~ [Female2a]
+@147 = ~I make you laugh?!?~
+@150 = ~Yes, you are so red and serious, so intent on achieving power, that you never have the time to see what is right under your nose.~
+@151 = ~And what do I have under my nose?~
+@152 = ~You ask me? Don't you understand? Truly? But... You have me under your nose! You don't feel anything for me after all this time?~ // silver
+// silver first time with aerie
+@153 = ~So, are you an Avariel? A winged elf? I had thought the Avariel were extinct, only stories that my Mommy told me.~
+@154 = ~I think I can barely consider myself an Avariel without my wings.~
+@155 = ~The Master's face could hardly be considered human, but he was still an elf.~
+@156 = ~I don't know. It is so difficult. Walking when you are used to flying... Sometimes my legs aren't strong enough. My entire world has changed.~
+@157 = ~Poor child... It isn't right that you suffer. Someone should do something to stop your pain once and for all.~
+@158 = ~Uncle Quayle did all he could. He saved me, he fed me, he taught me to work.~
+@159 = ~It was not enough. He has not stopped your suffering.~
+// anomen
+@160 = ~What do you think of justice?~
+@161 = ~I don't think about it myself, but the Master has said before that even garbage is of more use.~
+@162 = ~Do you mean to say you don't respect honor?~
+@163 = ~The Master said that honor is for the corpses in their graves.~
+@164 = ~And courage?~
+@165 = ~Never heard of it.~
+@166 = ~Respect?~
+@167 = ~Who? I have never met him. Could you introduce me?~
+@168 = ~By Helm! Who has taught you all these years? We must do something for your education before it is too late. What are your values?~
+@169 = ~To kill, to torture, to poison and...and lambs. Yes, lambs.~
+@170 = ~Those...those aren't values!~
+@171 = ~The Master would have disagreed with you... Except for lambs.~
+// viconia and silver again
+@176 = ~Viconia, I want to know something about your family.~
+@177 = ~Why do you ask?~
+@178 = ~I hardly remember my family. They had a farm, they bred sheep. They were murdered and I was sold to a slave merchant. When I'm sad I dream about my parents and their lambs. One day I will have enough money to start my own farm.~
+@179 = ~You have lost nothing. As for my family, to displease the matriarch is punishable by execution, I have killed my sisters, and in regards to my brother... I don't want to talk about my brother.~
+@180 = ~I agree we must kill the young ones so they cannot suffer in the future.~
+@181 = ~Darthiir! You understand nothing. I killed them for my own self preservation, so they couldn't steal my power and deny me the pleasures of life. One even tried to take one of my males. As if the jaluk was worth my wrath.~
+// mazzy and silver
+@182 = ~So you were imprisoned by this Irenicus. It must have been terrible.~
+@183 = ~Yes it was, but I have learned much in prison.~
+@184 = ~Surely it was a trying experience, but such trials can forge the will to make it stronger, by learning from them... What did you learn?~
+@185 = ~I have learned to kill hopeless creatures, how to torture a man for days without killing him...all things of importance, general culture, you could say.~
+@186 = ~I recall one time the Master brought me a halfling, a pipsqueak like you. I fed her poison. She died after two weeks of exquisite pain, coughing blood all over the floor of her cell, alone, without anyone who cared for her...~ [Female2a]
+@187 = ~I cannot believe... It...would be better for you to cease speaking before I decide to please Arvoreen by putting an end to your life, monster! And do not dare call me pipsqueak again!~
+@188 = ~How could you have done that! It is sick! I am disgusted...killing a prisoner in such a way is... It is depraved!~ [MAZZY05]
+// Party has stopped to rest and mazzy is in party
+@189 = ~(Aerie sleeps soundly as Silver Star approaches her. Silver Star lifts a lock of the Avariel's hair and carefully plaits it. Once Aerie's long golden hair is neatly arranged, Silver Star places her hand on her blade...)~
+@190 = ~No more pain, my pretty little Aerie... No more pain...~
+@191 = ~Hey! Keep away from her!~ [MAZZY05]
+@192 = ~I only wanted to touch her beautiful hair.~
+// if in party Mazzy
+@193 = ~Mazzy had a little lamb...~ [Female2a]
+@194 = ~What are you saying, elf?~
+@195 = ~Nothing.~
+// aerie and silver 4th time
+@196 = ~Silver, how did you become a prisoner of Irenicus?~
+@197 = ~I was living with some smugglers after the death of my parents. I don't know what work they did for the Master, but they didn't please him. So he killed them. At that time I was seventy years old. He let me live. In the following years I would have preferred he hadn't. I remained his prisoner for too long a time to count.~
+@198 = ~My life with the smugglers was hard, but my time with the Master was enough to make anyone lose their mind. I had a little cage that I couldn't even sit down in. Twice a day a golem gave me a meal, but every time I ate, it hurt badly. So for a time I ignored the meals, until my need for food became greater than my fear of pain. It was terrible... Every night I could hear the screams of the other prisoners. I can't imagine what he did to them. Until...~
+@199 = ~The first time he tortured me...he started with a hot knife...~
+@200 = ~P..P...Please stop, i..i...it is horrible, too horrible. I have suffered imprisonment, I ha..ha...have been caged only for the fun of the humans, b..b...but this, I c..c...could never imagine... I d..d...don't want to ever imagine that again.~
+@201 = ~(Silver takes Aerie by her arms) Try... please try... Imagine how it feels when the hot iron touches your skin...how your backbone shivers... Imagine that you scream and scream, but you can't run away and hide under a table or behind your dolly... There is no safe place and no dolly... I beg you! Do it! Please imagine!~ [Innoce]
+@202 = ~I cannot, I c...c...cannot, p...p...please...please let me go.~
+@203 = ~(Silver lets Aerie run away from her)~
+// after 103
+@204 = ~I was apprenticed to a red wizard by the name of Matthias Ordeth. I rose through the ranks and after Ordeth's mysterious... accident... I was on the verge of greatness. However, as usual, other's incompetence hindered me and I was given the humiliating task of 'visiting' Rashemen (A demotion was degrading enough without being subjected to the stench of a land of brutes who never bathe) to obtain a Rashemen artifact.~
+@205 = ~In the tribe I visited there was a charming young woman, one with magical gifts such as I, and who very obviously fell for me during my stay (as is to be expected). I reciprocated, and out of adoration for me she gave me the artifact. We had planned that I would return to Thay triumphant, then later I would send for her to join me.~
+@206 = ~THE ARTIFACT WAS A FAKE!!! She ruined me! The trinket she had given me was not a religious relic as she had told me, but a child's toy. I was laughed out of the audience chamber. I returned to Rashemen (two visits in one lifetime... what had I done to deserve that?!) to confront this harpy. I was told she had departed for the Sword Coast.~
+@207 = ~But there was a letter... In it, she confessed she had never loved me, that she could never have loved me, and that she had used me to save her tribe. (See, she admitted it! She used me...bitch!)~
+// Silver-Jhaeria 2 only if she has killed the lost child or a slave child.
+@208 = ~You cannot just kill a child! Everything has a right to live.~
+@209 = ~It doesn't matter if I kill them.~
+@210 = ~What, child?! How can you say that?~
+@211 = ~Well, after I've played with them, if they broke you could just take them to a temple and the priest would make them all better.~
+@212 = ~You...you don't understand. Sometimes spells don't work.~
+@213 = ~In that case, the gods didn't want them to live, so I was right to break them. Anyway, you're a Druid. In the wild, don't big animals eat the little animals?~
+@214 = ~That is completely different. Animals kill for food and because they need to survive, not for fun.~
+@215 = ~But humans kill animals for fun.~
+// korgan
+@216 = ~At last! A companion who doesn't turn lily-white at th' sight o' blood!~
+@217 = ~I like blood. Blood is pretty! And screams of agony are even more beautiful!~ [Female2a]
+@218 = ~Aye, that they are. Let us drink a toast: To the spilling of our enemies' blood and to all the gold we can carry! Har har!~ [KORGAN58]
+@219 = ~Yessss! Drink their blood and spill the lamb's beer.~ [Female2a]
+@220 = ~I think we're gonna get along just fine, lass.~
+// silver and jan on taxes
+@221 = ~You never seem to be afraid. Are you too silly to be afraid, gnome? Go on, tell me what it is that makes you afraid. Is it dragons, kobolds or vampires?~
+@222 = ~Taxes.~
+@223 = ~Taxes?!~
+@224 = ~Yep. You see, there are only three certainties in this life. Death, taxes and...something else, but no need to go into that right now.~
+@225 = ~Anyway, with death you can be resurrected, or at the very least settle down for a nice sleep in the earth, like a turnip, but taxes... Oh dear, taxes are a different story.~
+@226 = ~Explain to me about these taxes.~
+@227 = ~The basic idea is you pay people money to order you around. It's astounding, really. You can't do this, you can't do that, you can't sell exploding mice...like I said, simply ridiculous.~
+@228 = ~Well, then don't pay them.~
+@229 = ~Don't pay? DON'T PAY?! Don't say that out loud lass, they may hear you! Shhhh...~
+@230 = ~Who are 'THEY'?~
+@231 = ~Why, Cyric's Dark Lords themselves, the revenuers! Now, quiet, lass. This is a dangerous topic and you could endanger everyone...~
+// silver: jan you are a rubbish thief!
+@232 = ~I'm staying out of this one.~
+@233 = ~Yes, Jan, Silver is right. You are a lousy thief.~
+@234 = ~No, Jan is a skilled thief.~
+@235 = ~Thief, me? Why, I am absolutely flabbergasted! I'm no thief. I'm a simple turnip merchant and occasional adventurer, but I'm no thief. That's despicable!~
+@236 = ~But you are a thief. You pick locks, don't you?~
+@237 = ~No, no, no. You've got me all wrong, my little Stardust. Picking locks indeed... To clear up any possible smudges on my honor, I should say my cousin Queezy taught me. He said if I could pick locks, it would open a lot of doors for me in the turnip trade. See, essential merchant tool. Nothing at all to do with thievery.~
+@238 = ~And the sneaking and the hiding?~
+@239 = ~Well, again, that's a merchant trick. I learned that to stay out of the way of the revenuers. Like I said, nasty folk. They have hell hounds, you know.~
+@240 = ~And the stealing?~
+@241 = ~I don't steal. Stealing is wrong, lass. I just borrow things from people, and when they ask me, "Jan, have you seen my magic sword?", naturally I give it back to them.~
+@242 = ~And if they don't ask you?~
+@243 = ~Well then, in that case it was lost and it's finders, keepers, losers, weepers. Remember that, girl, finders, keepers. Oh, that's a five turnip saying, that is.~
+// silver interjects with Edwina
+@244 = ~Alright! Now we can play dolls together, Edwina! Isn't it amazing? Only...only first, I must ask for Mommy's permission.~ [Female2a]
+@245 = ~Except for the fact that you make every day of my life more irritating, truly no.~ [EDWIN25]
+@246 = ~It is sad, mage...very sad.~
+// added to valy dialogue
+@247 = ~The first year there were ten children. At the end I was the only one who survived, so twelve new children were acquired. They became my family. They taught me all that I know. When I was good they insulted me, when I was bad they kicked me.~ //silver
+@248 = ~Once, three of us were eaten by Daddy Ogre. Funny...my fear was the first thing that died. After that I stole a knife from a smuggler. One day I was carrying some bottles when Daddy Ogre appeared. At that time he could have eaten me all in one gulp.~
+@249 = ~But then I started to slice Daddy Ogre into little pieces, until he was an ogre no more. I must have spent half a day cutting.~
+@250 = ~The other children called me a hero. The smugglers beat me because I had lost the stolen goods. In the following weeks all the children died, killed by a new monster that inhabited the vacancy left by Daddy Ogre...~
+@251 = ~...It was me.~
+// Yoshimo banter from Dancer Fritz
+@253 = ~Do you think I'm pretty, Yoshimo?~
+@254 = ~As the flower in a madwoman's hair, my fellow thief.~
+@255 = ~I only wondered. I've noticed you staring at me, so I was curious.~
+@256 = ~Have you? I think your mind is playing tricks on you, Silver... heh, again.~
+@257 = ~No, no, I don't think so. I remember your eyes. You didn't think I noticed, but I did. Always peering at me from the dark. I never minded, though. I felt better, somehow, knowing you were watching...~
+@258 = ~You have me at a loss, friend. Perhaps I remind you of an old smuggler acquaintance, yes?~
+@259 = ~Yes, oh yes, you do...~
+@260 = ~Well, if it bothers you I will try not to stare too long at a time in your general direction.~ 
+@261 = ~I do not mind. I understand if it bothers you, though, little lamb.~
+@262 = ~Ah...very well. Glad we cleared that up, then.~ [Yoshim56]
+// Miscellaneous banters from Seifer Workroom
+@266 = ~Do we have to stay here? There is too much shiny goodness.~ // SS oN ENTERING ORDER OF RADIENT HEART
+@267 = ~Jan, you are slow, old and...a gnome. In fact, from watching you in action, you are the worst thief I have ever seen. Isn't that right, <CHARNAME>?~ // originally miscoded as @231
+
+// Nalia banter after the Keep quest courtesy of Dancer Fitz
+@290 = ~We are alike, you and I.~ // SS
+@291 = ~We are? I fail to see how you reached that conclusion.~
+@292 = ~I mean we have both lost family and we both like the sneak work, but especially we both want to help poor suffering people.~
+@293 = ~Oh. Well, regardless, we do not see eye to eye on many issues, Silver, no matter how similar our situations. ~ // Nalia
+@294 = ~Yes, that is true. I know you mean well, but your methods for helping the poor are not very effective. Money will not change anything. The sad ones will always be in pain, always the victims of terrible dreams that make every night a time of dread and restlessness. I know this to be a fact.~
+@295 = ~I shudder to think what you would consider appropriate aid, and you are wrong about this. The common folk have always had to work so hard just to put bread on their tables. Money does make a difference, because it can give them some relief from...oh, nevermind. Forgive me, but I think it is probably no use talking to you about this.~
+@296 = ~No, *you* do not understand. They are trapped in their lives, yes. Their lives of grief and nothingness and torment. If we are to help, we must release them. What use does a lamb have for gold? None!~
+@297 = ~Oh dear, not that talk again. Now, I have no doubt that at one point you might have agreed with me on this issue. As it is...perhaps it's best if we just stick to discussing the weather.~
+@298 = ~No, I think we should talk about torture instead. The dungeon in your keep tells me you would know of that, or at least your father would. Oh! Sorry. Your father *did* you know.~
+@299 = ~How...how dare you slander my father, so soon after... Your tact reveals you for the cruel, common, twisted soul that you are!!~ [NALIA06]
+@300 = ~Why is the princess upset? I only wanted to talk about something interesting. I don't know many people who think the weather is very interesting. ~
+@301 = ~It has nothing to do with that! I am angry because of the meaning behind your words. I do not care how insane you are or how innocent you seem, you purposefully meant to insult my family!~ // Nalia
+@302 = ~Oh, so even the mad can understand subtlety then? No, I don't think so. I am sorry, princess, but we won't agree on this. You were right before. We should only talk about boring nothings.~
+@303 = ~You...you are a devious creature, Silver. I do not appreciate your methods, but you have made your point. Now please, let's drop the matter.~
+@304 = ~I always have a point! If not in my words, then in my knife. Hehehe.~ [Female2a]
+
+// KORGAN LONG BANTER
+@400 = ~Ye be livin' a grand tale, if'n e'er I heard one. No sooner dropped from yer mam's womb and its labor n' torture n' bloodlust n' madness. Spin me another, elf, 'afore I keel over from watchin our leader scratch his arse.~
+@401 = ~Another? Another what? What do you mean, Korgan?~
+@402 = ~Another...bloody piss, girl! Another tale o' blood, guts n' gold, of course! The hell ye think I be askin' fer, to sing me a lullaby?~
+@403 = ~Oh, but I do know some lullabies! Very nice ones, about lambs and babies and falling down...though I don't like the falling one very much...the lambs help me to sleep better. I like that, because sometimes I have nightmares...~
+@404 = ~The only songs I'm interested in'r the ones me foes be singing when I spit 'em on me axe. Har har! Now, do ye have a thought o' interest or has th' loommuse gripped ye again?~
+@405 = ~Yes, I remember a fine story! It was from when I worked in the city, during nighttime. There are always so many sorts to play with at night, especially around the taverns.~
+@406 = ~Play with? Ye best be meanin' something other'n hopscotch.~
+@407 = ~Hop what? No, no, now let me tell it! I'd just finished spying on a smuggler, Black Rose, and I was heading back. I was passing a tavern when two of the city guard came out. They were so silly, shouting and stumbling around the street!~
+@408 = ~But then they saw me, and we were all alone out there, so they came over and started talking to me. One tried to grab me while the other laughed, and so I cut off a few of his fingers to stop him. They had said they wanted to play with me, so it didn't make sense when they got so mad.~
+@409 = ~Har har! Silly brutes, who can understand 'em?~ [KORGAN58]
+@420 = ~What are ye gawking at? Ye've not the belly for our mad elf's yarn?~
+@421 = ~Exactly! Anyway, they turned very nasty after that, so I gutted one and used one of my more agonizing poisons on the other. Hehe! He started foaming at the mouth and twitching, but I didn't get to enjoy it very long, because I had to go slit the gutted one's throat to stop his screams.~ 
+@422 = ~No one in the bar seemed to notice, so I went through their pockets and took what they had. One had a pretty ring with a woman's name in it. I remember because a merchant gave me a whole sack of rice for it the next day! For one ring!~
+@423  = ~Well, that's a nice enough tale. I've heard better, but ye've a charm the way ye tell it. A love for the craft, if ye will. Heh heh.~
+@424 = ~Wait, I'm not finished. Since no one was around, and I'd always thought the bars on that street looked so sad and shabby, I decided to decorate the place. It took some time and I was tired from working, but, oh, it was so pretty afterward!~ 
+@425 = ~I came back the next morning to see what everyone thought. There was a whole crowd of people! And the blood looked so much brighter in the light. But the viscera had dried up a little, and someone had taken the heads down from where I'd hung them on the tavern sign. I was so upset! I'd worked so hard to make the guards' faces hold those expressions. I'd had to use string from my own clothing to stitch them up.~
+@426 = ~Ye did what?! HAR HAR HAR!! Ah, what I'd've given to see the lilypale looks on those tightholed longlimbs!! Har har har! That be a good one, whelp. Let's curdle blood o'er a strong pint together when next we've a break from the grind, eh, lass?~
+@427 = ~Yay! And eat lambs too! I like lamb and ale together, or lamb alone is fine. I'd like to hear your stories too, Korgan.~ [Female2a]
+@428 = ~Mayhap ye shall, bit. Though I've not the taste for mutton ye seem to 'ave. Now, on to some killin', me axe is twitchin.~ 
+@429 = ~Not at the moment. Could you both take your conversation elsewhere?~ //to KorganShvIt A
+@430 = ~No doubt this will degenerate into base and offensive slop. I'll not have such talk!~
+@431 = ~Stuff it, Korgan. I can't hear the elf.~
+@432 = ~Heh! Figured as much. S'what I get fer mixin' with sissy lumps like yerself.~
+@433 = ~Let's be off, elf, before <CHARNAME>'s maiden ears start bleedin'.~
+@434 = ~Shut yer cakehole, then, so I can hear me story.~
+@435 = ~Oh...oh.. <CHARNAME>, please, could you tell them to stop? I...I d-don't want to hear any more of their s...s...stories.~
+@436 = ~I think I'd rather hear this. They have such colorful language.~ // Edwin
+@437 = ~I did not join this group to hear stories of the insane and depraved. <CHARNAME>, I would prefer if we could relax without having to listen to this.~ // Valygar
+@438 = ~The depravity! I will not suffer this revolting exchange. <CHARNAME>, I demand you exercise your leadership and tell them to cease their offensive discussion!~ // Anomen
+@439 = ~I've heard this sort of talk in the slums, but I never thought I'd have to listen to it from my chosen companions. Would you handle this, <CHARNAME>?~ // Nalia
+@440 = ~I suspect this anecdote will not be filled with valor and aim. <CHARNAME>, would you make the effort to ensure the quality of our group discussions?~ // Keldorn
+@441 = ~I do not approve of the discourse you have started, Korgan, nor do I care for your interest, Silver. <CHARNAME>, I would request that you tell our comrades to restrain themselves from continuing their conversation.~ // Mazzy
+@442 = ~Ooh! A tale of heroic butt kicking of evil's minions! What joy! Go on, little elf maid, Boo is on the edge of his seat.~ // Minsc to Korgan1
+@443 = ~Oh...well, that is not exactly the story we were hoping for. Boo thinks next time you should tell one about rescuing a town or butt kicking for goodness.~ // resume
+@444 = ~Well, I'm all for entertaining stories, but I have a feeling this one is meant for those with castiron stomachs.~ // Yoshimo
+// Jaheira - 2nd conversation
+@455 = ~Child, I have been thinking on our last conversation...~
+@456 = ~You mean argument.~
+@457 = ~Yes, quite... I believe I have an answer for you. Humans kill and injure other humans and animals because they are out of balance with nature. That is the aim of the Harpers and druids, to help others find harmony within their environment. Killing without reason would make us less than animals.~
+@458 = ~But...but if the gods resurrect you, doesn't that mean they don't think we're less than animals, no matter what we've done?~
+@459 = ~To that I would say that some of the gods are less than animals in their own behavior. There are even mustard jelly gods; do you think they would respond to your pleas for aid?~
+@460 = ~Do you recall the Time of Troubles, when the gods walked the earth and fought one another? They had their own agendas, and, as such, one god might chose not to resurrect you if it did not serve his purpose, where another might.~
+@461 = ~So? That still means that some god wanted me to kill that person.~
+@462 = ~And maybe that same divinity allowed the imprisonment that drove you mad, child. Do not put your trust in the gods.~
+@463 = ~Do not? As you did not trust Silvanus to guide your husband in his after-journey?~
+@464 = ~I... You bait me purposefully, oh learned innocent. I have warned you before, do not speak of him again. I will not have foolish tongues slander what they cannot understand.~
+@465 = ~If I cannot understand it, then stop speaking to me of such things.~
+// Mazzy - Further conversation
+@470 = ~Silver Star, I have been watching you these many days, to determine if you are truly the monster you appeared to be when last we spoke.~ // Mazzy
+@471 = ~I...believe there is hope for you yet. I see you struggle with your demons, but I do not know if you even realize it.~
+@472 = ~My demons? Do you mean the orcs we fought earlier? They were not so bad, and yes, I do notice when I am struggling with them.~
+@473 = ~No, you misunderstand me. *Sigh* I suppose I shouldn't be surprised. Regardless, my wayward companion, I would suggest that you may find your life more rewarding if you strove to better yourself, to be pure and noble, as members of your elven race always are.~
+@474 = ~Ummm...why?~
+@475 = ~Why what?~
+@476 = ~Well...two things, why do doing these things make you a better person than everyone else and why do these things in the first place? What use are they?~
+@477 = ~Can your adolescent mind not yet see the virtue of protecting people and doing good to provide an example to those faltering on their own paths?~ 
+@478 = ~Hmmm... I think the Master once said, "Virtue is merely an exaggerated vice."~
+@479 = ~Then...then I would suggest that doing these things might help you to keep your nightmares at bay. I pray, for your sake, that you take my words to heart.~
+@480 = ~Oh, certainly! To whose heart, though? Should I write it out in the blood, or do you mean I should put it on paper and stuff it in the person's chest?~
+@481 = ~By Arvoreen, I fear one day I shall see your childlike face on the other side of my blade.~
+@482 = ~Now you don't like me, pipsqueak? Maybe I should make a virtuous and pure poison, just for you.~ [Female2a]
+// SS comments on lovetalks
+@485 = ~Aerie and <CHARNAME> sitting in a tree~
+@486 = ~Viconia and <CHARNAME> sitting in a tree~
+@487 = ~Jaheira and <CHARNAME> sitting in a tree~
+@488 = ~K - I - S - S - I - N - G
+First comes love, then comes marriage~
+@489 = ~then comes Aerie with a baby carriage!~ [Female2a]
+@490 = ~then comes Viconia with a baby carriage!~ [Female2a]
+@491 = ~then comes Jaheira with a baby carriage!~ [Female2a]
+@492 = ~(blushing) P..Please stop.  You...you are embarrassing me.~
+@493 = ~Keep your comments to yourself...I shall remember this insult, darthir!~
+@494 = ~Pbbbt!~
+@495 = ~I'm sorry, Haer'Dalis.~
+@500 = ~I've met more pleasant children in bogs with banshee wails. Stand me back from her, she's a creeper if'n I ever saw one.~

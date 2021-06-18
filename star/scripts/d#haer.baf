@@ -1,0 +1,12 @@
+IF
+  InParty(Myself)
+  InParty("D#Silver")
+  !Dead("D#Silver")
+  CombatCounter(0)
+  Global("HaerSilTalk","LOCALS",0)
+THEN
+  RESPONSE #100
+  SetGlobal("HaerSilTalk","LOCALS",1)
+  Interact("D#Silver")
+END
+
