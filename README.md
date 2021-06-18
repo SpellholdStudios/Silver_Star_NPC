@@ -106,7 +106,7 @@ Considering that the official version of the mod is almost nowhere to be found, 
 
 
 Here is the changelog:
-- added full compatibility with EE and EET versions of the game (adapted journal entries, items, created versions of portraits for the EE version, etc.)
+- added full compatibility with EE and EET versions of the game (adapted journal entries, items, etc.)
 - added command LAF HANDLE_AUDIO to install a sound file
 - added iconv transcoder
 - added Gwendolyne's function to automatically adapt item descriptions depending on the version of the game
@@ -131,7 +131,7 @@ Here is the changelog:
     - Added WeiDU's built-in `HANDLE_CHARSETS` function to convert string entries for EE games.
     - Converted inventory BAMs to EE: This feature attempts to modify original inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the *override* folder.
     - Added `ADD_JOURNAL` entries.
-    - Provided NPCs portraits for EE games.
+    - Provided NPC portraits for EE games.
     - Rewrote install procedure to use WeiDU's built-in `HANDLE_AUDIO` function, and converted music files to acm.
     - Provided alternative TIS and PVRZ files for EE games (used Tipun's function to find free PVRZ-files indexes on EE-games).
     - Removed useless audio decoding and tiz unpacking `AT_NOW` and `AT_UNINSTALL` batch processes.

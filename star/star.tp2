@@ -190,10 +190,17 @@ LAF fl#add_kit_ee
 		//crippstr	= ~~
 END
 
-/* -------------------------------------------------------------- *
- *  Workaround to fix Sebastian creature file installation issue  * 
- * -------------------------------------------------------------- */
+// Workaround to fix Sebastian creature file installation issue
+// ------------------------------------------------------------
 OUTER_SET silverstar_kit_id = IDS_OF_SYMBOL(~kit~ ~StarHL~)
+
+
+/* -------------------------- *
+ *  Installing NPC portraits  *
+ * -------------------------- */
+
+COPY ~%MOD_FOLDER%/portraits%ee_file%~ ~override~
+COPY ~%MOD_FOLDER%/portraits_others~ ~override~
 
 
 /* ---------------------- *
@@ -309,13 +316,6 @@ EXTEND_TOP ~Korgan.bcs~ ~star/scripts/D#Korgan.baf~
 EXTEND_BOTTOM ~Viconia.bcs~ ~star/scripts/D#Viccy.baf~
 EXTEND_BOTTOM ~Haerdali.bcs~ ~star/scripts/D#Haer.baf~
 EXTEND_BOTTOM ~D#Silver.bcs~ ~star/scripts/DiFix#1.baf~
-
-COPY ~star/Portraits/malefi6L.bmp~ ~override/malefi6L.bmp~
-     ~star/Portraits/malefi6S.bmp~ ~override/malefi6S.bmp~
-     ~star/Portraits/HLIDMM.bmp~ ~override/HLIDMM.bmp~
-     ~star/Portraits/TGME.bmp~ ~override/TGME.bmp~
-     ~star/Portraits/Seifer.bmp~ ~override/Seifer.bmp~
-     ~star/Portraits/DFNE.bmp~ ~override/DFNE.bmp~
 
 COPY ~star/spells/D#Spoi1.spl~ ~override/D#Spoi1.spl~
 	SAY NAME1 @302
