@@ -1,38 +1,38 @@
 BEGIN D#Silve1
 
 IF ~Global("D#SilverSummoned","GLOBAL",1) !GlobalGT("Silvermorph","GLOBAL",0)~ tob0
-  SAY ~And what kind of stupid place is this? There is enough dust here to choke an ogre! You should be more serious about tidying up your room.~
-  IF ~~ REPLY ~This isn't my room, it's a Pocket Plane, and I've only just discovered it.~ DO ~SetGlobal("D#SilverSummoned","GLOBAL",2)~ GOTO tob1
+  SAY @94
+  IF ~~ THEN REPLY @95 DO ~SetGlobal("D#SilverSummoned","GLOBAL",2)~ GOTO tob1
 END
 
 IF ~~ tob1
-  SAY ~So you are bothering me again, aren't you? I don't know why I waste my time with you when there are so many lambs to kill and so little time.~
-  IF ~~ REPLY ~I need some help, but you probably aren't the right person for this task.~ GOTO tob2
+  SAY @96
+  IF ~~ THEN REPLY @97 GOTO tob2
 END
 
 IF ~~ tob2
-  SAY ~I'm the right person for ANY task, and you have interrupted my search for lambs. You must take me with you, it is the least you can do!~
-  IF ~~ REPLY ~I have changed my mind, for now I don't need your help.~ GOTO tob3
-  IF ~~ REPLY ~Yes, just try to be a little quieter than usual.~ DO ~SetGlobal("SilverJoined","LOCALS",1) JoinParty() ~ EXIT
+  SAY @98
+  IF ~~ THEN REPLY @99 GOTO tob3
+  IF ~~ THEN REPLY @100 DO ~SetGlobal("SilverJoined","LOCALS",1) JoinParty() ~ EXIT
 END
 
 IF ~~ tob3
-  SAY ~Ok, I will stay here and try to make this horrible hole a little more comfortable. Have you some pink ribbons, no? Ok I will do without them, but it will not be the same...~
-  IF ~~ DO ~ChangeAIScript("D#Silv01",OVERRIDE)~ EXIT
+  SAY @101
+  IF ~~ THEN DO ~ChangeAIScript("D#Silv01",OVERRIDE)~ EXIT
 END
 
 IF ~Global("D#SilverSummoned","GLOBAL",2) !GlobalGT("Silvermorph","GLOBAL",0)~ tob4
-  SAY ~Why you are pestering me again? Don't you see I'm trying to make this place nicer and cleaner?~
-  IF ~~ REPLY ~I just want to say you are doing good work.~ EXIT
-  IF ~~ REPLY ~To stop you from wrecking this Pocket Plane. Come with me! It's hard to say, but it seems that I need you.~ DO ~ChangeAIScript("D#Silv01",OVERRIDE) SetGlobal("SilverJoined","LOCALS",1) JoinParty()~ EXIT
+  SAY @102
+  IF ~~ THEN REPLY @103 EXIT
+  IF ~~ THEN REPLY @104 DO ~ChangeAIScript("D#Silv01",OVERRIDE) SetGlobal("SilverJoined","LOCALS",1) JoinParty()~ EXIT
 END
 
 IF ~NumTimesTalkedTo(0)
     Global("SilverJoined","LOCALS",0)~ FirstMeeting
-  SAY ~Will you play with me? Or has the Master sent you to bother me again?~
-  IF ~~ REPLY ~I'm no servant of your damned Master!~ GOTO Greet
-  IF ~Class(Player1,THIEF_ALL)~ THEN REPLY ~I don't want to play now, I must escape, but... hey I know an assassin when I see one.~ GOTO BothThief
-  IF ~~ REPLY ~I have no time for games, I must escape, sorry.~ GOTO GoAway
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO Greet
+  IF ~Class(Player1,THIEF_ALL)~ THEN REPLY @3 GOTO BothThief
+  IF ~~ THEN REPLY @4 GOTO GoAway
 END
 
 IF ~~ THEN BEGIN Greet
@@ -90,17 +90,17 @@ END
 IF ~~ Silmorph2
  SAY @187
  IF ~InParty("Edwin")~ GOTO Silmorph3
- IF ~~ EXIT
+ IF ~~ THEN EXIT
 END
 
 IF ~~ Silmorph3
  SAY @188
- IF ~~ EXIT
+ IF ~~ THEN EXIT
 END
 
 IF ~Global("Silvermorph","GLOBAL",6)~ Silmorph4
 SAY @183
-IF ~~ DO ~DisplayStringHead(Player1,@42) Wait(5) DisplayStringHead(Player1,@43) SetGlobal("Silvermorph","GLOBAL",7)~ EXIT
+IF ~~ THEN DO ~DisplayStringHead(Player1,@42) Wait(5) DisplayStringHead(Player1,@43) SetGlobal("Silvermorph","GLOBAL",7)~ EXIT
 END
 
 ////////////////////////////////////////////////////////////////
@@ -108,109 +108,109 @@ END
 
 IF WEIGHT #0 ~Global("SilDream1","GLOBAL",1)~ Sildream
 SAY @112
-  IF ~~ DO ~SetGlobal("SilDream1","GLOBAL",2)~ GOTO Sildream2
+  IF ~~ THEN DO ~SetGlobal("SilDream1","GLOBAL",2)~ GOTO Sildream2
 END
 
 IF ~~ Sildream2
   SAY @113
-  IF ~!InParty("Edwin")~ REPLY @116 EXIT
-  IF ~!InParty("Edwin")~ REPLY @117 EXIT
-  IF ~InParty("Edwin") !Dead("Edwin")~ EXTERN Edwinj Sildream3
+  IF ~!InParty("Edwin")~ THEN REPLY @116 EXIT
+  IF ~!InParty("Edwin")~ THEN REPLY @117 EXIT
+  IF ~InParty("Edwin") !Dead("Edwin")~ THEN EXTERN Edwinj Sildream3
 END
 
 IF ~~ Sildream4
   SAY @115
-  IF ~~ REPLY @116 EXIT
-  IF ~~ REPLY @117 EXIT
+  IF ~~ THEN REPLY @116 EXIT
+  IF ~~ THEN REPLY @117 EXIT
 END
 
 IF WEIGHT #0 ~Global("SilDream1","GLOBAL",3)~ Sildream5
   SAY @118 = @119 = @120 = @121 = @122
-  IF ~InParty("Edwin") !Dead("Edwin")~ REPLY @123 DO ~SetGlobal("SilDream1","GLOBAL",4)~ EXTERN Edwinj Sildream6
-  IF ~!InParty("Edwin")~ REPLY @125 DO ~SetGlobal("SilDream1","GLOBAL",4)~ EXIT
+  IF ~InParty("Edwin") !Dead("Edwin")~ THEN REPLY @123 DO ~SetGlobal("SilDream1","GLOBAL",4)~ EXTERN Edwinj Sildream6
+  IF ~!InParty("Edwin")~ THEN REPLY @125 DO ~SetGlobal("SilDream1","GLOBAL",4)~ EXIT
 END
 
 IF WEIGHT #0 ~Global("SilDream1","GLOBAL",5)~ Sildream7
   SAY @126 = @127
-  IF ~~ REPLY @128 DO ~SetGlobal("SilDream1","GLOBAL",6)~ EXIT
+  IF ~~ THEN REPLY @128 DO ~SetGlobal("SilDream1","GLOBAL",6)~ EXIT
 END
 
 APPEND Edwinj
 IF ~~ Sildream6
   SAY @124
-  IF ~~ EXIT
+  IF ~~ THEN EXIT
 END
 
 IF ~~ Sildream3
   SAY @114
-  IF ~~ EXTERN D#Silver Sildream4
+  IF ~~ THEN EXTERN D#Silver Sildream4
 END
 END
 ////////////////////////////////////
 APPEND D#Silver
 IF ~Global("#Silveryy1","GLOBAL",1)~ SYouth1
 SAY @153
-  IF ~~ REPLY @154 DO ~SetGlobal("#Silveryy1","GLOBAL",2)~ GOTO SYouth12
-  IF ~InParty("Jan")~ REPLY @155 DO ~SetGlobal("#Silveryy1","GLOBAL",2)~ GOTO SYouth2
-  IF ~!InParty("Jan")~ REPLY @155 DO ~SetGlobal("#Silveryy1","GLOBAL",2)~ GOTO SYouth3
+  IF ~~ THEN REPLY @154 DO ~SetGlobal("#Silveryy1","GLOBAL",2)~ GOTO SYouth12
+  IF ~InParty("Jan")~ THEN REPLY @155 DO ~SetGlobal("#Silveryy1","GLOBAL",2)~ GOTO SYouth2
+  IF ~!InParty("Jan")~ THEN REPLY @155 DO ~SetGlobal("#Silveryy1","GLOBAL",2)~ GOTO SYouth3
 END
 
 IF ~~ SYouth2
 SAY @156
-  IF ~~ GOTO SYouth3
+  IF ~~ THEN GOTO SYouth3
 END
 
 IF ~~ SYouth3
 SAY @157
-  IF ~~ REPLY @158 GOTO SYouth4
-  IF ~~ REPLY @159 GOTO SYouth5
+  IF ~~ THEN REPLY @158 GOTO SYouth4
+  IF ~~ THEN REPLY @159 GOTO SYouth5
 END
 
 IF ~~ SYouth4
 SAY @160
-  IF ~~ DO ~SetGlobal("OneMoTime","GLOBAL",1)~ EXIT
+  IF ~~ THEN DO ~SetGlobal("OneMoTime","GLOBAL",1)~ EXIT
 END
 
 IF ~~ SYouth5
 SAY @161
-  IF ~~ GOTO SYouth12
+  IF ~~ THEN GOTO SYouth12
 END
 
 IF ~~ SYouth12
 SAY @162
-  IF ~~ REPLY @231 GOTO SYouth6
+  IF ~~ THEN REPLY @231 GOTO SYouth6
 END
 
 IF ~~ SYouth7
 SAY @167
-  IF ~~ REPLY @168 GOTO SYouth8
-  IF ~~ REPLY @169 GOTO SYouth8
+  IF ~~ THEN REPLY @168 GOTO SYouth8
+  IF ~~ THEN REPLY @169 GOTO SYouth8
 END
 
 IF ~~ SYouth8
 SAY @170 = @171 = @234 = @172 = @235
-IF ~InParty("Aerie")~ REPLY @173 GOTO SYouth8b
-IF ~!InParty("Aerie")~ GOTO SYouth8b
+IF ~InParty("Aerie")~ THEN REPLY @173 GOTO SYouth8b
+IF ~!InParty("Aerie")~ THEN GOTO SYouth8b
 END
 
 IF ~~ SYouth8b
 SAY @174 = @236 = @175 = @237
-IF ~~ GOTO SYouth9
+IF ~~ THEN GOTO SYouth9
 END
 
 IF ~~ SYouth9
 SAY @176
-  IF ~~ REPLY @177 GOTO SYouth10
+  IF ~~ THEN REPLY @177 GOTO SYouth10
 END
 
 IF ~~ SYouth10
 SAY @178 = @179 = @238 = @180
-  IF ~~ REPLY @181 GOTO SYouth11
+  IF ~~ THEN REPLY @181 GOTO SYouth11
 END
 
 IF ~~ SYouth11
 SAY @182
-  IF ~~ DO ~SetGlobal("OneMoTime","GLOBAL",3)~ EXIT
+  IF ~~ THEN DO ~SetGlobal("OneMoTime","GLOBAL",3)~ EXIT
 END
 END
 
@@ -276,8 +276,8 @@ END
 APPEND D#silver
 IF ~~ gi1
   SAY @33
-  IF ~~ REPLY @34 EXTERN Girl2 1
-  IF ~~ REPLY @35 EXTERN Girl2 gi2
+  IF ~~ THEN REPLY @34 EXTERN Girl2 1
+  IF ~~ THEN REPLY @35 EXTERN Girl2 gi2
 END
 END
 
@@ -300,7 +300,7 @@ EXIT
 ////////////////////////////////////////////////////////////////
  
 I_C_T idryad2 0 sildryad
-== idryad3 @45
+== idryad3 IF ~IsValidForPartyDialog("D#Silver")~ THEN @45
 == idryad1 @46
 == idryad2 @47
 == idryad3 @48
@@ -333,7 +333,7 @@ END
 // The escaped clone and Ellesimie's room
 
 I_C_T clone1 1 escclone1
-== clone1 @61
+== clone1 IF ~IsValidForPartyDialog("D#Silver")~ THEN @61
 == D#silver @62
 == clone1 @63
 == D#silver @64
@@ -356,9 +356,9 @@ END D#Silver Fingertalk2
 APPEND D#Silver
 IF ~~ Fingertalk2
 SAY @248
-IF ~~ REPLY @312 GOTO Fingertalk3
-IF ~~ REPLY @313 GOTO Fingertalk3
-IF ~~ REPLY @314 GOTO Fingertalk3
+IF ~~ THEN REPLY @312 GOTO Fingertalk3
+IF ~~ THEN REPLY @313 GOTO Fingertalk3
+IF ~~ THEN REPLY @314 GOTO Fingertalk3
 END
 END
 
@@ -415,7 +415,7 @@ END Dlost lchild4
 APPEND Dlost
 IF ~~ lchild4
   SAY @70
-  IF ~~ REPLY @80 DO ~EscapeArea()~ EXTERN D#Silver lchild5
+  IF ~~ THEN REPLY @80 DO ~EscapeArea()~ EXTERN D#Silver lchild5
 END
 END
 
@@ -436,13 +436,13 @@ END D#silver lchild2
 APPEND D#Silver
 IF ~~ lchild2
   SAY @78
-  IF ~~ REPLY @79 GOTO lchild3
+  IF ~~ THEN REPLY @79 GOTO lchild3
 END
 
 IF ~~ lchild3
   SAY @81
-  IF ~~ REPLY @82 EXIT
-  IF ~~ REPLY @83 DO ~IncrementGlobal("SilverEvil","GLOBAL",1) ReputationInc(-1)
+  IF ~~ THEN REPLY @82 EXIT
+  IF ~~ THEN REPLY @83 DO ~IncrementGlobal("SilverEvil","GLOBAL",1) ReputationInc(-1)
   SetGlobal("Jaheirainquire","GLOBAL",1)~ EXIT
 END
 END
@@ -460,7 +460,7 @@ END
 APPEND D#Silver
 IF ~~ shade1
   SAY @84
-  IF ~~ EXTERN SHADEL shade2
+  IF ~~ THEN EXTERN SHADEL shade2
 END
 END
 
@@ -481,8 +481,8 @@ END
 APPEND D#SILVER
 IF ~~ elgea1
   SAY @86
-  IF ~~ REPLY @87 EXTERN ELGEA 2
-  IF ~~ REPLY @88 DO ~IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN ELGEA 6
+  IF ~~ THEN REPLY @87 EXTERN ELGEA 2
+  IF ~~ THEN REPLY @88 DO ~IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN ELGEA 6
 END
 END
 ///////////////////////////////////////
@@ -502,8 +502,8 @@ END
 APPEND D#SILVER
 IF ~~ sgemfar1
   SAY @91
-  IF ~~ REPLY @92 EXTERN gemfar02 8
-  IF ~~ REPLY @93 DO ~IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN gemfar02 10
+  IF ~~ THEN REPLY @92 EXTERN gemfar02 8
+  IF ~~ THEN REPLY @93 DO ~IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN gemfar02 10
 END
 END
 ////////////////////////////////////////////////////////////////
@@ -516,8 +516,8 @@ END
 APPEND D#SILVER
 IF ~~ neeber1
   SAY @105
-  IF ~~ REPLY @106 GOTO neeber2
-  IF ~~ REPLY @107 GOTO neeber3
+  IF ~~ THEN REPLY @106 GOTO neeber2
+  IF ~~ THEN REPLY @107 GOTO neeber3
 END
 
 IF ~~ neeber2
@@ -556,8 +556,8 @@ END
 APPEND D#Silver
 IF ~~ TorSet1
   SAY @129
-  IF ~~ REPLY @130 EXTERN Sethle 6
-  IF ~~ REPLY @131 DO ~IncrementGlobal("SilverEvil","GLOBAL",1) FaceObject("Sethle")~ GOTO TorSet2
+  IF ~~ THEN REPLY @130 EXTERN Sethle 6
+  IF ~~ THEN REPLY @131 DO ~IncrementGlobal("SilverEvil","GLOBAL",1) FaceObject("Sethle")~ GOTO TorSet2
 END
 END
 
@@ -583,13 +583,13 @@ END
 APPEND D#Silver
 IF ~~ DruidPois1
   SAY @142 = @143
-  IF ~~ REPLY @144 DO ~IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN TREVIL01 33
-  IF ~~ REPLY @145 DO ~SetGlobal("SilWallace","GLOBAL",1)~ EXTERN TREVIL01 29
+  IF ~~ THEN REPLY @144 DO ~IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN TREVIL01 33
+  IF ~~ THEN REPLY @145 DO ~SetGlobal("SilWallace","GLOBAL",1)~ EXTERN TREVIL01 29
 END
 
 IF ~Global("SilverPoison","GLOBAL",1)~ DruidPois2
   SAY @146
-  IF ~~ DO ~SetGlobal("SilverPoison","GLOBAL",2)~ EXIT
+  IF ~~ THEN DO ~SetGlobal("SilverPoison","GLOBAL",2)~ EXIT
 END
 END
 //////////////////////////////////////////////////////////////////////
@@ -602,15 +602,15 @@ END
 APPEND D#Silver
 IF ~~ Sginia1
   SAY @147
-  IF ~~ REPLY @148 DO ~SetGlobal("GiniaSilver","GLOBAL",1) IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN PIRCOR02 Sginia2
-  IF ~~ REPLY @149 DO ~SetGlobal("GiniaSilver","GLOBAL",1)~ EXTERN PIRCOR02 15
+  IF ~~ THEN REPLY @148 DO ~SetGlobal("GiniaSilver","GLOBAL",1) IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN PIRCOR02 Sginia2
+  IF ~~ THEN REPLY @149 DO ~SetGlobal("GiniaSilver","GLOBAL",1)~ EXTERN PIRCOR02 15
 END
 END
 
 APPEND PIRCOR02
 IF ~~ Sginia2
   SAY @150
-  IF ~~ DO ~Kill("PIRCOR02") ReputationInc(-1)~ EXIT
+  IF ~~ THEN DO ~Kill("PIRCOR02") ReputationInc(-1)~ EXIT
 END
 END
 ////////////////////////////////////////////////////////////////////////////
@@ -641,8 +641,8 @@ END
 APPEND D#Silver
 IF ~~ kamuz1
   SAY @196
-  IF ~~ REPLY @197 DO ~SetGlobal("Silverkamuz1","GLOBAL",1)~ EXTERN Maeguy01 5
-  IF ~~ REPLY @198 DO ~SetGlobal("Silverkamuz1","GLOBAL",1) IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN Maeguy01 10
+  IF ~~ THEN REPLY @197 DO ~SetGlobal("Silverkamuz1","GLOBAL",1)~ EXTERN Maeguy01 5
+  IF ~~ THEN REPLY @198 DO ~SetGlobal("Silverkamuz1","GLOBAL",1) IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN Maeguy01 10
 END
 END
 ////////////////////////////
@@ -670,44 +670,44 @@ IF ~Global("#Silveryy1","GLOBAL",3)
     See("Edwin") !Dead("Edwin")
     Global("SilverEdwina","GLOBAL",3)~ THEN Tale2
 SAY @331
-  IF ~IsValidForPartyDialog("Edwin")~ REPLY @336 EXTERN EDWINJ EdwinTale2
-  IF ~!InParty("Edwin")~ REPLY @336 GOTO Tale6
-  IF ~InParty("Jan") !Dead("Jan")~ REPLY @335 EXTERN JANJ JanTale2
-  IF ~InParty("Aerie") !Dead("Aerie")~ REPLY @334 EXTERN AERIEJ AerieTale2
-  IF ~~ REPLY @333 GOTO Tale2a
+  IF ~IsValidForPartyDialog("Edwin")~ THEN REPLY @336 EXTERN EDWINJ EdwinTale2
+  IF ~!InParty("Edwin")~ THEN REPLY @336 GOTO Tale6
+  IF ~InParty("Jan") !Dead("Jan")~ THEN REPLY @335 EXTERN JANJ JanTale2
+  IF ~InParty("Aerie") !Dead("Aerie")~ THEN REPLY @334 EXTERN AERIEJ AerieTale2
+  IF ~~ THEN REPLY @333 GOTO Tale2a
 END
 
 IF ~~ Tale2a
 SAY @156
-IF ~~ REPLY @332 EXIT
+IF ~~ THEN REPLY @332 EXIT
 END
 
 IF ~~ Tale6
 SAY @342 = @343 = @344 = @345 = @346 = @347
-IF ~~ REPLY @348 DO ~SetGlobal("#Silveryy1","GLOBAL",4)~ GOTO Tale6b
+IF ~~ THEN REPLY @348 DO ~SetGlobal("#Silveryy1","GLOBAL",4)~ GOTO Tale6b
 END
 
 IF ~~ Tale6b
 SAY @349 = @350 = @351
-IF ~~ REPLY @352 GOTO Tale6c
+IF ~~ THEN REPLY @352 GOTO Tale6c
 END
 
 IF ~~ JanTale2a
 SAY @341
-// IF ~~ GOTO Tale6
-IF ~~ EXTERN JANJ JanTale2b
+// IF ~~ THEN GOTO Tale6
+IF ~~ THEN EXTERN JANJ JanTale2b
 END
 END
 
 APPEND JANJ
 IF ~~ JanTale2
 SAY @338
-IF ~~ EXTERN D#Silver JanTale2a
+IF ~~ THEN EXTERN D#Silver JanTale2a
 END
 
 IF ~~ JanTale2b
 SAY @395
-IF ~~ EXTERN D#SILVER Tale6
+IF ~~ THEN EXTERN D#SILVER Tale6
 END
 END 
 
@@ -719,7 +719,7 @@ END D#Silver Tale6
 APPEND EDWINJ
 IF ~~ EdwinTale2
 SAY @339
-IF ~~ EXTERN D#Silver Tale6
+IF ~~ THEN EXTERN D#Silver Tale6
 END
 END
 
@@ -766,7 +766,7 @@ IF ~AreaCheck("AR0603")
 Global("SThief1","LOCALS",0)
 Dead("ISHADMT1")~ THEN Jonspeaks
 SAY @311
-IF ~~ DO ~SetGlobal("SThief1","LOCALS",1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("SThief1","LOCALS",1)~ EXIT
 END
 END
 ////////////////////////////////////////////////
@@ -774,7 +774,7 @@ APPEND D#SILVER
 IF ~Global("Slyich","LOCALS",1)
 See("DuegarClanChief") !Dead("DuegarClanChief")~ THEN Feefifoefum
 SAY @285
-IF ~~ DO ~SetGlobal("Slyich","LOCALS",2)
+IF ~~ THEN DO ~SetGlobal("Slyich","LOCALS",2)
 Wait(2)~ EXIT
 END
 END
@@ -786,26 +786,26 @@ IF ~Global("DLittle","GLOBAL",1)
 !HasItem("MISC5L","D#Silver")
 PartyHasItem("MISC5L")~ THEN BEGIN Wantbear
 SAY @508
-IF ~~ REPLY @509 DO ~SetGlobal("DLittle","GLOBAL",2) GiveItem("MISC5L","D#Silver")
+IF ~~ THEN REPLY @509 DO ~SetGlobal("DLittle","GLOBAL",2) GiveItem("MISC5L","D#Silver")
 SetGlobal("Littleman","GLOBAL",0)~ EXIT
 END
 
 IF ~Global("DLittle","GLOBAL",1)
 HasItem("MISC5L","D#Silver")~ THEN BEGIN Wantbear2
 SAY @511
-IF ~~ REPLY @509 DO ~SetGlobal("DLittle","GLOBAL",2) SetGlobal("Littleman","GLOBAL",0)~ EXIT
+IF ~~ THEN REPLY @509 DO ~SetGlobal("DLittle","GLOBAL",2) SetGlobal("Littleman","GLOBAL",0)~ EXIT
 END
 
 IF ~~ Keepbear
 SAY @510
-IF ~~ REPLY @512 DO ~SetGlobal("Littleman","GLOBAL",1) SetGlobal("DLittle","GLOBAL",3)~ EXTERN WELLYN 10
-IF ~~ REPLY @513 DO ~SetGlobal("DLittle","GLOBAL",3) IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN WELLYN 16
+IF ~~ THEN REPLY @512 DO ~SetGlobal("Littleman","GLOBAL",1) SetGlobal("DLittle","GLOBAL",3)~ EXTERN WELLYN 10
+IF ~~ THEN REPLY @513 DO ~SetGlobal("DLittle","GLOBAL",3) IncrementGlobal("SilverEvil","GLOBAL",1)~ EXTERN WELLYN 16
 END
 
 IF ~Dead("GRREVEN")
 Global("DropBear","GLOBAL",1)~ THEN BEGIN DropBear
 SAY @515
-IF ~~ DO ~SetGlobal("DropBear","GLOBAL",2)
+IF ~~ THEN DO ~SetGlobal("DropBear","GLOBAL",2)
 EraseJournalEntry(34337)
 AddJournalEntry(@516,QUEST_DONE)~ EXIT 
 END
@@ -819,7 +819,7 @@ APPEND D#SILVER
 IF ~AreaCheck("AR0301")
 Global("Maevar","LOCALS",1)~ THEN Hateit
 SAY @151
-IF ~~ DO ~SetGlobal("Maevar","LOCALS",2)~ EXIT
+IF ~~ THEN DO ~SetGlobal("Maevar","LOCALS",2)~ EXIT
 END
 END
 
@@ -828,7 +828,7 @@ IF ~AreaCheck("AR0307")
 See("Booter") !Dead("Booter")
 Global("Booter","LOCALS",1)~ THEN Hateit2
 SAY @152
-IF ~~ DO ~SetGlobal("Booter","LOCALS",2)~ EXIT
+IF ~~ THEN DO ~SetGlobal("Booter","LOCALS",2)~ EXIT
 END
 END
 /////////////////////////////////
@@ -879,7 +879,7 @@ END UDDROW24 HEY
 APPEND UDDROW24
 IF ~~ HEY
 SAY @202
-IF ~~ REPLY @203 EXTERN D#Silver HitHead
+IF ~~ THEN REPLY @203 EXTERN D#Silver HitHead
 END
 END
 
@@ -904,14 +904,14 @@ END
 APPEND D#SILVER
 IF ~~ SNITCH
 SAY @551
-IF ~~ EXTERN TIANA 5
+IF ~~ THEN EXTERN TIANA 5
 END
 END
 
 // Silver wants revenge against Irenicus
 
 APPEND D#SILVER
-IF ~GlobalGT("Chapter","GLOBAL",1)
+IF ~GlobalGT("Chapter","GLOBAL",%bg2_chapter_1%)
 Global("IrenTalk","LOCALS",1)
 OR(2)
 AreaCheck("AR0313")
@@ -968,22 +968,22 @@ END
 
 IF ~~ SilRev8a
 SAY @619
-IF ~~ EXIT
+IF ~~ THEN EXIT
 END
 
 IF ~~ SilRev9a
 SAY @620
-IF ~~ EXIT
+IF ~~ THEN EXIT
 END
 
 IF ~~ SilRev10a
 SAY @621
-IF ~~ EXIT
+IF ~~ THEN EXIT
 END
 
 IF ~~ SilRev11a
 SAY @622
-IF ~~ EXIT
+IF ~~ THEN EXIT
 END
 
 IF ~~ SilRev12a
@@ -995,7 +995,7 @@ END
 
 IF ~~ SilRev14a
 SAY @639
-IF ~~ EXIT
+IF ~~ THEN EXIT
 END
 END
 

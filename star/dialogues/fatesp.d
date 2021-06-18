@@ -3,7 +3,7 @@ EXTEND_BOTTOM FATESP 6
 !GlobalGT("Silvermorph","GLOBAL",0)
 Global("SilverFMT","GLOBAL",0)
 !InMyArea("D#Silver")
-Global("D#SilverSummoned","GLOBAL",0)~ THEN REPLY ~Bring me Silver Star, the insane assassin.~
+Global("D#SilverSummoned","GLOBAL",0)~ THEN REPLY @1
  DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
 Wait(2)
 CreateCreature("D#Silver",[1999.1228],0)

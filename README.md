@@ -7,7 +7,7 @@
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGII%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
 
 
-<div align="center"><h1></a>Silver Star NPC</h1>
+<div align="center"><h1></a>Silver Star NPC (WIP)</h1>
 
 <h3>A Spellhold Studios mod for Baldur's Gate II: SoA and ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
@@ -110,12 +110,6 @@ Here is the changelog:
 - added command LAF HANDLE_AUDIO to install a sound file
 - added iconv transcoder
 - added Gwendolyne's function to automatically adapt item descriptions depending on the version of the game
-- included fixes from BWP Project
-
-:: micbaldur's scriptlet for Silver Star - Frennedan compatibility (modified a bit by Lollorian) and SHAPE.CRE patched not overwritten
-:: http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566376
-
-:: Traifed the .d-files, too
 
 ##### Version 2.0.0 &nbsp;(June 18, 2021)
 
@@ -134,10 +128,9 @@ Here is the changelog:
     - `ADD_KIT` process: fixed lower kit strref added WeiDU `fl#add_kit_ee` function for EE games.
 - *fhlseb.baf*: Fixed wrong Gavin romance active variable (set to *`B!GavRA`*, was *`B!GavinRomanceActive`*).
 - Moved extended scripts into new :file_folder: *scriptsext* to avoid compiling useless baf files.
-- *bfhlseb.d*: Fixed the <a href="http://www.shsforums.net/topic/35897-dialogue-bugs/#entry412277">dialogue teasing Aerie not ending bug</a>.
-- Sebastian and Andrei soundsets: harmonized string references and removed duplicated ones (due to typos).
 - Included all BWP Fixpack fixes:
     - Patched "*shape.cre*" instead of overwriting it to solve the <a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/page-14#entry566376">micbaldur Silverstar NPC - Frennedan NPC compatibility</a>.
+    - Completed dialogues traification, and added the <a href="http://www.shsforums.net/topic/13501-updated-silverstar-released/page-2?p=533395#entry533395">Escaped clone Silver Star dialog bug fix by Lollorian</a>.
     - Added a more robust workaround than <a href="https://www.gibberlings3.net/forums/topic/21964-add_kit-and-tobex/?do=findComment&comment=183270">BWP Fixpack cmorgan's ToBEx compatible ADD_KIT fix</a> to fix Sebastian creature file installation issue with classic games if TobEx is not installed and more than 256 kits are installed. I know, pretty rare case, but who knows... :wink:
 - Updated *setup.tra* file for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function requirements which automatically removes items usability restrictions for EE games.
 - Proofread strrefs (Gwendolyne).

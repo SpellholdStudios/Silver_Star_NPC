@@ -13,6 +13,8 @@ ALLOW_MISSING ~ar4500.bcs~
 
 ALWAYS
 
+	ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN // Always block must run only once per install!
+
 		/* ----------------------------------------- *
 		 *    Determines which game is installed.    *
 		 * ----------------------------------------- */
@@ -39,6 +41,22 @@ ALWAYS
 		END ELSE BEGIN
 			OUTER_SET kits_lim_256  = 1
 		END
+
+		/* ------------------------------------------- *
+		 *    EET chapters continuity compatibility    *
+		 * ------------------------------------------- */
+		ACTION_IF is_eet BEGIN
+			OUTER_SET bg2_chapter = 12
+		END ELSE BEGIN
+			OUTER_SET bg2_chapter = 0
+		END
+		OUTER_FOR (i = 1 ; i <= 10 ; ++i) BEGIN
+			OUTER_SET bg2_chapter = bg2_chapter + 1
+			OUTER_SPRINT name_source ~bg2_chapter_%i%~
+			OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+		END
+
+	END
 
 END
 
@@ -320,6 +338,13 @@ ACTION_IF is_ee BEGIN
 	ADD_JOURNAL @516 USING ~%MOD_FOLDER%/lang/%LANGUAGE%/silverj.tra~
 END 
 
+COMPILE ~%MOD_FOLDER%/dialogues~ EVALUATE_BUFFER
+
+
+/* ------------------- *
+ *  Compiling Scripts  *
+ * ------------------- */
+
 
 COPY ~star/scripts/D#Silver.bcs~ ~override/D#Silver.bcs~
 
@@ -388,12 +413,6 @@ COPY ~star/spells/DCSdoom.spl~ ~override/DCSdoom.spl~
      ~star/spells/DCSston.spl~ ~override/DCSston.spl~
      ~star/spells/DCSunwo.spl~ ~override/DCSunwo.spl~
      ~star/scripts/D#Sbansh.bcs~ ~override/D#Sbansh.bcs~
-
-COMPILE ~star/Dialogue/SilverJ.d~
-COMPILE ~star/Dialogue/SilverP.d~
-COMPILE ~star/Dialogue/Sword.d~
-COMPILE ~star/Dialogue/BSilver.d~
-COMPILE ~star/Dialogue/fatesp.d~
 
 APPEND ~pdialog.2da~
 ~D#SILVER    D#SILVP   D#SILVER~
