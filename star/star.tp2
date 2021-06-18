@@ -8,7 +8,7 @@ README ~star/readme-star.html~
 
 
 ALLOW_MISSING ~ar4500.bcs~
-              ~FATESP.dlg~
+              ~fatesp.dlg~
 
 
 ALWAYS
@@ -25,6 +25,13 @@ ALWAYS
 		/* ------------------------------------------------------- *
 		 *    Sets default variables if they're not set already    *
 		 * ------------------------------------------------------- */
+
+		// Variable used to properly install specific EE games ressources
+		ACTION_IF (is_ee) BEGIN
+			OUTER_SPRINT ee_file "_ee"
+		END ELSE BEGIN
+			OUTER_SPRINT ee_file ""
+		END
 
 		// Variable used to properly install Sebastian kit
 		ACTION_IF (is_ee OR is_tobex) BEGIN
@@ -203,6 +210,13 @@ COPY ~%MOD_FOLDER%/portraits%ee_file%~ ~override~
 COPY ~%MOD_FOLDER%/portraits_others~ ~override~
 
 
+/* ------------------------ *
+ *  Installing audio files  *
+ * ------------------------ */
+
+COPY ~%MOD_FOLDER%/sounds~ ~override~
+
+
 /* ---------------------- *
  *  Installing creatures  *
  * ---------------------- */
@@ -295,6 +309,16 @@ COPY_EXISTING ~trgyp02.cre~ ~override~
 COPY_EXISTING ~degard.cre~ ~override~
 	WRITE_ASCII 0x34 ~hlidmm~ #8
 
+
+/* --------------------- *
+ *  Compiling Dialogues  *
+ * --------------------- */
+
+// If a EE version is installed, change the journal entries to adapt it
+// --------------------------------------------------------------------
+ACTION_IF is_ee BEGIN
+	ADD_JOURNAL @516 USING ~%MOD_FOLDER%/lang/%LANGUAGE%/silverj.tra~
+END 
 
 
 COPY ~star/scripts/D#Silver.bcs~ ~override/D#Silver.bcs~

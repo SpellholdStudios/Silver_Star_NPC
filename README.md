@@ -106,7 +106,7 @@ Considering that the official version of the mod is almost nowhere to be found, 
 
 
 Here is the changelog:
-- added full compatibility with EE and EET versions of the game (adapted journal entries, items, etc.)
+- added full compatibility with EE and EET versions of the game (items, etc.)
 - added command LAF HANDLE_AUDIO to install a sound file
 - added iconv transcoder
 - added Gwendolyne's function to automatically adapt item descriptions depending on the version of the game
@@ -129,14 +129,9 @@ Here is the changelog:
 - Commented code as much as possible.
 - Added native EE and EET compatibility:
     - Added WeiDU's built-in `HANDLE_CHARSETS` function to convert string entries for EE games.
-    - Converted inventory BAMs to EE: This feature attempts to modify original inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the *override* folder.
     - Added `ADD_JOURNAL` entries.
     - Provided NPC portraits for EE games.
-    - Rewrote install procedure to use WeiDU's built-in `HANDLE_AUDIO` function, and converted music files to acm.
-    - Provided alternative TIS and PVRZ files for EE games (used Tipun's function to find free PVRZ-files indexes on EE-games).
-    - Removed useless audio decoding and tiz unpacking `AT_NOW` and `AT_UNINSTALL` batch processes.
     - `ADD_KIT` process: fixed lower kit strref added WeiDU `fl#add_kit_ee` function for EE games.
-- "*Portraits for non-joinable NPCs*" optional component: Does not overwrite joinable NPCs portraits anymore.
 - *fhlseb.baf*: Fixed wrong Gavin romance active variable (set to *`B!GavRA`*, was *`B!GavinRomanceActive`*).
 - Moved extended scripts into new :file_folder: *scriptsext* to avoid compiling useless baf files.
 - *bfhlseb.d*: Fixed the <a href="http://www.shsforums.net/topic/35897-dialogue-bugs/#entry412277">dialogue teasing Aerie not ending bug</a>.
@@ -153,10 +148,9 @@ Here is the changelog:
 - Removed useless :file_folder: "*backup*" folder.
 - Lower cased files.
 - Included Linux and macOS versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
-- Updated OggDec to v1.9.7 and added sox v14.4.1 for mac.
 - Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v247.
-- Uploaded mod to official <a href="https://github.com/SpellholdStudios">Spellhold Studios GitHub mirror account</a>.
+- Uploaded mod to official Spellhold Studios GitHub mirror account.
 
 ## 
 
