@@ -112,6 +112,11 @@ Here is the changelog:
 - added Gwendolyne's function to automatically adapt item descriptions depending on the version of the game
 - included fixes from BWP Project
 
+:: micbaldur's scriptlet for Silver Star - Frennedan compatibility (modified a bit by Lollorian) and SHAPE.CRE patched not overwritten
+:: http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566376
+
+:: Traifed the .d-files, too
+
 ##### Version 2.0.0 &nbsp;(June 18, 2021)
 
 - Added *star.ini* metadata file (including dynamic install order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
@@ -136,8 +141,9 @@ Here is the changelog:
 - Moved extended scripts into new :file_folder: *scriptsext* to avoid compiling useless baf files.
 - *bfhlseb.d*: Fixed the <a href="http://www.shsforums.net/topic/35897-dialogue-bugs/#entry412277">dialogue teasing Aerie not ending bug</a>.
 - Sebastian and Andrei soundsets: harmonized string references and removed duplicated ones (due to typos).
-- Added a more robust workaround than <a href="https://www.gibberlings3.net/forums/topic/21964-add_kit-and-tobex/?do=findComment&comment=183270">BWP Fixpack cmorgan's ToBEx compatible ADD_KIT fix</a> to fix Sebastian creature file installation issue with classic games if TobEx is not installed and more than 256 kits are installed. I know, pretty rare case, but who knows... :wink:
-- Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one.
+- Included all BWP Fixpack fixes:
+    - Patched "*shape.cre*" instead of overwriting it to solve the <a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/page-14#entry566376">micbaldur Silverstar NPC - Frennedan NPC compatibility</a>.
+    - Added a more robust workaround than <a href="https://www.gibberlings3.net/forums/topic/21964-add_kit-and-tobex/?do=findComment&comment=183270">BWP Fixpack cmorgan's ToBEx compatible ADD_KIT fix</a> to fix Sebastian creature file installation issue with classic games if TobEx is not installed and more than 256 kits are installed. I know, pretty rare case, but who knows... :wink:
 - Updated *setup.tra* file for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function requirements which automatically removes items usability restrictions for EE games.
 - Proofread strrefs (Gwendolyne).
 - Proofread Russian translation (Austin).

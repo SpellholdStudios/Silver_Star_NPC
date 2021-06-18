@@ -251,11 +251,43 @@ COPY ~star/creature/d#silver.cre~ ~override~
 	SAY HIDDEN_IN_SHADOWS    ~~ [Innoc5]
 	SAY SET_A_TRAP           ~~ [Innoc7]
 
-COPY ~star/creature/D#Sbansh.cre~ ~override/D#Sbansh.cre~
+COPY ~star/creature/d#sbansh.cre~ ~override~
 	SAY NAME1 @201
 	SAY NAME2 @201
 	SAY BIO @208
 COPY ~star/spells/D#SBwail.spl~ ~override/D#SBwail.spl~
+
+// Frennedan
+// ---------
+COPY_EXISTING ~shape.cre~ ~override~
+  PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+    ADD_CRE_ITEM ~D#CRYBL1~ #0 #0 #0 ~NONE~ ~INV~
+  END
+BUT_ONLY
+
+// Mary
+// ----
+COPY ~star/creature/d#mary.cre~ ~override~
+	SAY NAME1 @210
+	SAY NAME2 @210
+
+COPY_EXISTING ~ishadmt1.cre~ ~override~ // Kismet
+	WRITE_ASCII DEATHVAR ~ISHADMT1~ #8
+
+// Adding small portraits
+// ----------------------
+COPY_EXISTING ~neeber.cre~ ~override~
+	WRITE_ASCII 0x34 ~seifer~ #8
+
+COPY_EXISTING ~renal.cre~ ~override~
+	WRITE_ASCII 0x34 ~tgme~ #8
+
+COPY_EXISTING ~trgyp02.cre~ ~override~
+	WRITE_ASCII 0x34 ~dfne~ #8
+
+COPY_EXISTING ~degard.cre~ ~override~
+	WRITE_ASCII 0x34 ~hlidmm~ #8
+
 
 
 COPY ~star/scripts/D#Silver.bcs~ ~override/D#Silver.bcs~
@@ -322,9 +354,6 @@ EXTEND_BOTTOM ~Baldur.bcs~ ~star/scripts/D#Crybl1.bcs~
 COPY ~star/creature/SHAPE.cre~ ~override/SHAPE.cre~
 // Mary
 // ----
-COPY ~star/creature/D#Mary.cre~ ~override/D#Mary.cre~
-	SAY NAME1 @210
-	SAY NAME2 @210
 COPY ~star/items/D#liec1.itm~ ~override/D#liec1.itm~
 	SAY NAME1 @320
 	SAY NAME2 @320
@@ -335,21 +364,6 @@ COPY ~star/spells/DCSdoom.spl~ ~override/DCSdoom.spl~
      ~star/spells/DCSston.spl~ ~override/DCSston.spl~
      ~star/spells/DCSunwo.spl~ ~override/DCSunwo.spl~
      ~star/scripts/D#Sbansh.bcs~ ~override/D#Sbansh.bcs~
-
-COPY_EXISTING ~ISHADMT1.cre~ ~override~ // Kismet
-WRITE_ASCII 0x280 ~ISHADMT1~ //kismet
-
-COPY_EXISTING ~Neeber.cre~ ~override~
-WRITE_ASCII 0x34 ~Seifer~
-
-COPY_EXISTING ~Renal.cre~ ~override~
-WRITE_ASCII 0x34 ~TGME~
-
-COPY_EXISTING ~trgyp02.cre~ ~override~
-WRITE_ASCII 0x34 ~DFNE~
-
-COPY_EXISTING ~Degard.cre~ ~override~
-WRITE_ASCII 0X34 ~HLIDMM~
 
 COMPILE ~star/Dialogue/SilverJ.d~
 COMPILE ~star/Dialogue/SilverP.d~
