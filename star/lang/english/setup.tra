@@ -1,6 +1,15 @@
-@1 = ~Assassin~
-@2 = ~Assassin~
-@3 = ~ASSASSIN: This is a killer trained in discreet and efficient murder, relying on anonymity and surprise to perform his task.
+/* ======================= *
+ *  Installation messages  *
+ * ======================= */
+
+
+
+/* -------------- *
+ *  Assassin Kit  *
+ * -------------- */
+@101 = ~Assassin~
+@102 = ~Assassin~
+@103 = ~ASSASSIN: This is a killer trained in discreet and efficient murder, relying on anonymity and surprise to perform his task.
 
 Advantages
 - May coat his weapon in poison once per day per 4 levels. The next hot with that weapon will inject the poison into the target dealing out 1 damage per second for 24 seconds (3 damage for the first 6 seconds). A saving throw vs. poison limits damage to 12 total.
@@ -9,22 +18,43 @@ Advantages
 
 Disadvantages
 - Only 15% per level to distribute on abilities.~
-@4 = ~Silver Star~
-@5 = ~Silver Star~
-@6 = ~If you ask SILVER STAR about her past she starts to cry, her words intermingled with continuous sobbing. She says that she has forgotten her name, that SilverStar was a nickname given to her by Irenicus.  Everything in her past is distant and obscure and she prefers that things remain as they are, as she truly doesn't want to remember. You feel pity for this poor creature but in her childish way there is a kind of strange innocence.~
-@7 = ~Strength Modification.~
+
+
+/* ----------- *
+ *  Creatures  *
+ * ----------- */
+@201 = ~Silver Star~
+//@5 = ~Silver Star~
+@202 = ~If you ask SILVER STAR about her past she starts to cry, her words intermingled with continuous sobbing. She says that she has forgotten her name, that SilverStar was a nickname given to her by Irenicus. Everything in her past is distant and obscure and she prefers that things remain as they are, as she truly doesn't want to remember. You feel pity for this poor creature but in her childish way there is a kind of strange innocence.~
+@203 = ~Please, a little kill, even a little one! I'm bored.~ [Innocd]
+@204 = ~Mommy, I must sleep.~ [Innocc]
+@205 = ~Why will no one play with me?~
+@206 = ~You are mean! You don't want me to play with my knife on other people!~
+@207 = ~How can I enjoy myself without a little killing? You said that you would play with me!~
+
+@208 = ~Silver Star no longer wants to speak of her past. The only thing she does is cry and sob until she emits one of her glacial screams. She thinks and with good reason, that you are responsible for her condition as well as her restless soul. If you look into her eyes you can see her anger and desperation, and her desire to kill you as revenge for what you have done to her, but she knows that she cannot hurt you without causing her own death, it is with this in mind that she remains still ... for now.~
+
+
+@210 = ~Mary~
+
 @8 = ~This place really, really needs cleaning~
 @9 = ~Lots and lots of pink ribbons will make this all better! Yes, there should be at least one mile or so of bright pink silk ribbons!~
 @10 = ~Why do I waste my time cleaning up all this dirt?  Probably as it will make this a better place for some lambs to recover!~
 @11 = ~What have you done here in the last twenty years? Even a band of ogres would be tidier than you. You should have put your father's legacy to better use.~
 @12 = ~The more work there is, the higher the number of sheep that I will require in payment, be sure of this!~
-@13 = ~Sulphorous poison~
-@14 = ~Cooking Book~
-@15 = ~This is not truly a book but a pile of old papers, pieces of clothes and something that appears to be a rat skin, tied together with a piece of string. It contains various types of recipes. The pages have been written with ink, others with a mud like substance and others with red liquid that is surely blood. The book stinks and is partially covered in mould. All the recipes have one thing in common: they are about how to cook lamb and sheep. Every time that Silver Star leafs through the pages an evil smile slowly spreads across her face. She thinks that reading this book is of fundamental importance and makes a person cultured. She believes it contains many pearls of wisdom.~
-@16 = ~This is not truly a book but a pile of old papers, pieces of clothes and something that appears to be a rat skin, tied together with a piece of string. It contains various types of recipes. The pages have been written with ink, others with a mud like substance and others with red liquid that is surely blood. The book stinks and is partially covered in mould. All the recipes have one thing in common: they are about how to cook lamb and sheep. Every time that Silver Star leafs through the pages an evil smile slowly spreads across her face. She thinks that reading this book is of fundamental importance and makes a person cultured. She believes it contains many pearls of wisdom. At the end of the book a recipe has been added describing a deadly poison. You truly don't want to know the details.~
-@17 = ~Moon Blade~
-@18 = ~Cry Blade~
-@19 = ~This is the blade that once belonged to Silver Star's mother and is her greatest treasure. Sometimes she speaks with the sword calling it, "Mommy", believing that the blade is her lost mother, or that part of her is still in it. The true origins of this blade are a mystery though. It is difficult to say what powers the sword has, only Silver Star herself could possibly answer that.
+
+
+/* ------------------ *
+ *  Items and spells  *
+ * ------------------ */
+@301 = ~Strength Modification.~
+@302 = ~Sulphorous poison~
+@303 = ~Cooking Book~
+@304 = ~This is not truly a book but a pile of old papers, pieces of clothes and something that appears to be a rat skin, tied together with a piece of string. It contains various types of recipes. The pages have been written with ink, others with a mud like substance and others with red liquid that is surely blood. The book stinks and is partially covered in mould. All the recipes have one thing in common: they are about how to cook lamb and sheep. Every time that Silver Star leafs through the pages an evil smile slowly spreads across her face. She thinks that reading this book is of fundamental importance and makes a person cultured. She believes it contains many pearls of wisdom.~
+@305 = ~This is not truly a book but a pile of old papers, pieces of clothes and something that appears to be a rat skin, tied together with a piece of string. It contains various types of recipes. The pages have been written with ink, others with a mud like substance and others with red liquid that is surely blood. The book stinks and is partially covered in mould. All the recipes have one thing in common: they are about how to cook lamb and sheep. Every time that Silver Star leafs through the pages an evil smile slowly spreads across her face. She thinks that reading this book is of fundamental importance and makes a person cultured. She believes it contains many pearls of wisdom. At the end of the book a recipe has been added describing a deadly poison. You truly don't want to know the details.~
+@306 = ~Moon Blade~
+@307 = ~Cry Blade~
+@308 = ~This is the blade that once belonged to Silver Star's mother and is her greatest treasure. Sometimes she speaks with the sword calling it, "Mommy", believing that the blade is her lost mother, or that part of her is still in it. The true origins of this blade are a mystery though. It is difficult to say what powers the sword has, only Silver Star herself could possibly answer that.
 
 
 STATISTICS:
@@ -32,15 +62,16 @@ STATISTICS:
 Not clear at all.
 
 Usability: Only by a few fortunate people.~
-@20 = ~Sigh...~
-@21 = ~Why are you so evil, Star of my heart?~
-@22 = ~Don't be afraid I will love you forever.~
-@23 = ~What has a sheep ever done to you, Star of my heart?~//Added by Seifer
-@24 = ~Every time you take a life, you cut my heart.~
-@25 = ~Daughter of my soul, why do this?~
-@26 = ~Mary~
-@27 = ~Liecor's Blade Handbook 15th~
-@28 = ~Introduction.
+
+@310 = ~Sigh...~
+@311 = ~Why are you so evil, Star of my heart?~
+@312 = ~Don't be afraid I will love you forever.~
+@313 = ~What has a sheep ever done to you, Star of my heart?~ //Added by Seifer
+@314 = ~Every time you take a life, you cut my heart.~
+@315 = ~Daughter of my soul, why do this?~
+
+@320 = ~Liecor's Blade Handbook 15th~
+@321 = ~Introduction.
 Liecor was a proficient mage, so when he found the recipe for his terrible sword he also recorded the enchantment in a manual so he didn't forget it. But Liecor was also careless; he forgot to record one of the fundamental ingredients for the creation of the weapon.
 There are nearly twenty different versions of Liecor's blade and no one know what the original is, the only thing that is sure is that all are extremely powerful. This book reports the recipe of the Liecor's blade with both the Vecna and Tenser corrections.
 They are known to be... blah, blah, blah, blah...
@@ -70,6 +101,5 @@ Tenser correction
 ...
 ...
 The text continues explaining the complicated and contorted alchemical methods to make the sword.~
-@29 = ~Signed~
-@30 = ~Silver Star no longer wants to speak of her past. The only thing she does is cry and sob until she emits one of her glacial screams. She thinks and with good reason, that you are responsible for her condition as well as her restless soul. If you look into her eyes you can see her anger and desperation, and her desire to kill you as revenge for what you have done to her, but she knows that she cannot hurt you without causing her own death, it is with this in mind that she remains still ... for now.~
 
+@29 = ~Signed~

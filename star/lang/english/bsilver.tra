@@ -35,7 +35,7 @@
 @30 = ~So, mage, what is your attitude about ... ehm... love?~
 @31 = ~Eh?~ [EDWINW22]
 @32 = ~I mean, now that you are female, are you still attracted to women?~
-@33 = ~That...is none of your business!~
+@33 = ~That... is none of your business!~
 @34 = ~Oh, maybe you have no time for women but like men better?~
 @35 = ~Ah, and what do you know about that, fool?~
 @36 = ~I know enough... I remember the time I was with the smugglers, there was a young woman named Black Rose. During the day she taught me how to cut throats, and during the night she had other businesses... I began to follow her every night to spy on her... Well, I think that I know more than a Drow priestess on sex.~
@@ -45,7 +45,7 @@
 @40 = ~Now I have only my ambitions. I don't want love anymore. It is an illusion.~
 @41 = ~Her name?~
 @42 = ~I have cleared it from my mind.~
-@43 = ~I think in the end you aren't so bad, mage. You have some good sides, only...you should love lambs more.~
+@43 = ~I think in the end you aren't so bad, mage. You have some good sides, only... you should love lambs more.~
 // Viconia
 @44 = ~Viconia, I want to learn something about your culture. Drows have fascinated me since my imprisonment.~
 @45 = ~Keep your distance, surfacer, and learn to respect your elders.~
@@ -74,10 +74,10 @@
 @65 = ~Oh please don't be afraid. I don't want to hurt you, truly. I want you to find other reasons to live. There is so much to see and to do. There is no need to be so sorrowful.~
 @66 = ~I'm not full of sorrow, it's only that my wings were a part of my soul. For the Avariel, flying means freedom, and I will never be free again.~
 @67 = ~They ripped out a piece of my life when they took my wings. I will never be the same. What should I do, ignore the reality and live blindly in my madness like you?~
-@68 = ~Ahhh! I...I'm not ignoring the truth, only...only... There is no truth... It hurts...so much... Thousands...thousands, they are...and they hurt, they scream, they hit... They leave nothing untouched...in the swamps or in the darkness or in my prison. I have to run...run...escape...hide.~ [Female2l]
-@69 = ~There is nowhere to run, nowhere to hide. There is only pain...and she...she is in my brain and wants to escape... I know, one day, she will be free!~ [Female2l]
+@68 = ~Ahhh! I... I'm not ignoring the truth, only... only... There is no truth... It hurts... so much... Thousands... thousands, they are... and they hurt, they scream, they hit... They leave nothing untouched... in the swamps or in the darkness or in my prison. I have to run... run... escape... hide.~ [Female2l]
+@69 = ~There is nowhere to run, nowhere to hide. There is only pain... and she... she is in my brain and wants to escape... I know, one day, she will be free!~ [Female2l]
 @70 = ~Calm, c...c...calm yourself, you are among friends. I d...d...don't want...~
-@71 = ~*Cough*.. *Cough*..I? ..What? ...Oh, Aerie... I...I'm sorry, I didn't mean to say those things. I...~
+@71 = ~*Cough*.. *Cough*..I? .. .What? ... Oh, Aerie... I... I'm sorry, I didn't mean to say those things. I...~
 // Jan
 @72 = ~Hey, Jan, I don't understand you. If you can make your own devices, why do you waste your time trying to sell illegal magical objects? Wouldn't it be simpler if you opened your own magic shop??~
 @73 = ~My own shop. Well, the problem with that is the Government. They bury you in forms. My Uncle Scratchy tried it once. He told me you must fill in form after form. And the questions they ask you! Explain your financial situation. Why do you have two sets of accounts? List the number of houses, where you want to build your business and the origins of your family for the past thirty generations.~
@@ -93,7 +93,7 @@
 @82 = ~You don't understand... No problem. Let's go, there are so many lambs to steal and so little time.~
 @83 = ~That's the Silver I know.~
 // silver-edwin
-@84 = ~Have I ever said that I like magic? One of these days I will probably study it seriously. I started to think of this years ago, before that...before you know what.~
+@84 = ~Have I ever said that I like magic? One of these days I will probably study it seriously. I started to think of this years ago, before that... before you know what.~
 @85 = ~Why are you telling me?~ [EDWIN25]
 @86 = ~I only want to make conversation. I want to see if there is any heart under that red cloak of yours. You are too serious, mage. You think too much, that is your problem. You should feel the atmosphere, the lust for killing, the blood that rushes in your veins when you fight, the cold taste of iron on the skin (Yes, especially the enemy's skin) and the joy when your poisoned blade hits the victim.~
 @87 = ~It feels good and bad at the same time. I know I should be disgusted by the bloodshed, but it attracts me.~
@@ -147,10 +147,10 @@
 @129 = ~So I had imagined, girl.~
 // Valygar
 @130 = ~Valygar, do you like children?~
-@131 = ~I think...I might like them, but if I had a son, he would have my heritage. It would be cruel to pass on my curse to him.~
+@131 = ~I think... I might like them, but if I had a son, he would have my heritage. It would be cruel to pass on my curse to him.~
 @132 = ~I understand. I like children, especially orphans, but I cannot tolerate their suffering... I remember very little of my youth. My parents died when I was young. I was kidnapped and sold to some smugglers. I was small, so I could run easily in the sewers of cities and deliver their wares to clients.~
 @133 = ~I think that at the time I must have thought it was horrible, but now it makes me laugh. Can you imagine ten hours a day in the bog, crawling in the tunnels, carrying packs that are larger than you? You must be careful. There are great dangers in the sewers.~
-@134 = ~I started to run, but my legs were too short. He lifted me up in his great hand... I was able to see his enormous jaws. I started to cry for my Mommy. I remember the blood. All of my body was covered in blood. It was running out from a wound in his throat...in the wound was my knife.~
+@134 = ~I started to run, but my legs were too short. He lifted me up in his great hand... I was able to see his enormous jaws. I started to cry for my Mommy. I remember the blood. All of my body was covered in blood. It was running out from a wound in his throat... in the wound was my knife.~
 @135 = ~No one should live that way. Not one of my friends is here to tell their story, they are all floating corpses in the sewers. They finished suffering long ago.~
 @136 = ~Why did you kill them? It’s sick.~ // valy
 @137 = ~Do you not understand? I have the same motive as you do for not wanting children. I want to spare them suffering. It is sad see them on the streets like beggars or in the cages of the slave merchants, I cannot tolerate it.~
@@ -186,8 +186,8 @@
 @166 = ~Respect?~
 @167 = ~Who? I have never met him. Could you introduce me?~
 @168 = ~By Helm! Who has taught you all these years? We must do something for your education before it is too late. What are your values?~
-@169 = ~To kill, to torture, to poison and...and lambs. Yes, lambs.~
-@170 = ~Those...those aren't values!~
+@169 = ~To kill, to torture, to poison and... and lambs. Yes, lambs.~
+@170 = ~Those... those aren't values!~
 @171 = ~The Master would have disagreed with you... Except for lambs.~
 // viconia and silver again
 @176 = ~Viconia, I want to know something about your family.~
@@ -200,10 +200,10 @@
 @182 = ~So you were imprisoned by this Irenicus. It must have been terrible.~
 @183 = ~Yes it was, but I have learned much in prison.~
 @184 = ~Surely it was a trying experience, but such trials can forge the will to make it stronger, by learning from them... What did you learn?~
-@185 = ~I have learned to kill hopeless creatures, how to torture a man for days without killing him...all things of importance, general culture, you could say.~
+@185 = ~I have learned to kill hopeless creatures, how to torture a man for days without killing him... all things of importance, general culture, you could say.~
 @186 = ~I recall one time the Master brought me a halfling, a pipsqueak like you. I fed her poison. She died after two weeks of exquisite pain, coughing blood all over the floor of her cell, alone, without anyone who cared for her...~ [Female2a]
-@187 = ~I cannot believe... It...would be better for you to cease speaking before I decide to please Arvoreen by putting an end to your life, monster! And do not dare call me pipsqueak again!~
-@188 = ~How could you have done that! It is sick! I am disgusted...killing a prisoner in such a way is... It is depraved!~ [MAZZY05]
+@187 = ~I cannot believe... It... would be better for you to cease speaking before I decide to please Arvoreen by putting an end to your life, monster! And do not dare call me pipsqueak again!~
+@188 = ~How could you have done that! It is sick! I am disgusted... killing a prisoner in such a way is... It is depraved!~ [MAZZY05]
 // Party has stopped to rest and mazzy is in party
 @189 = ~(Aerie sleeps soundly as Silver Star approaches her. Silver Star lifts a lock of the Avariel's hair and carefully plaits it. Once Aerie's long golden hair is neatly arranged, Silver Star places her hand on her blade...)~
 @190 = ~No more pain, my pretty little Aerie... No more pain...~
@@ -217,22 +217,22 @@
 @196 = ~Silver, how did you become a prisoner of Irenicus?~
 @197 = ~I was living with some smugglers after the death of my parents. I don't know what work they did for the Master, but they didn't please him. So he killed them. At that time I was seventy years old. He let me live. In the following years I would have preferred he hadn't. I remained his prisoner for too long a time to count.~
 @198 = ~My life with the smugglers was hard, but my time with the Master was enough to make anyone lose their mind. I had a little cage that I couldn't even sit down in. Twice a day a golem gave me a meal, but every time I ate, it hurt badly. So for a time I ignored the meals, until my need for food became greater than my fear of pain. It was terrible... Every night I could hear the screams of the other prisoners. I can't imagine what he did to them. Until...~
-@199 = ~The first time he tortured me...he started with a hot knife...~
+@199 = ~The first time he tortured me... he started with a hot knife...~
 @200 = ~P..P...Please stop, i..i...it is horrible, too horrible. I have suffered imprisonment, I ha..ha...have been caged only for the fun of the humans, b..b...but this, I c..c...could never imagine... I d..d...don't want to ever imagine that again.~
-@201 = ~(Silver takes Aerie by her arms) Try... please try... Imagine how it feels when the hot iron touches your skin...how your backbone shivers... Imagine that you scream and scream, but you can't run away and hide under a table or behind your dolly... There is no safe place and no dolly... I beg you! Do it! Please imagine!~ [Innoce]
+@201 = ~(Silver takes Aerie by her arms) Try... please try... Imagine how it feels when the hot iron touches your skin... how your backbone shivers... Imagine that you scream and scream, but you can't run away and hide under a table or behind your dolly... There is no safe place and no dolly... I beg you! Do it! Please imagine!~ [Innoce]
 @202 = ~I cannot, I c...c...cannot, p...p...please...please let me go.~
 @203 = ~(Silver lets Aerie run away from her)~
 // after 103
 @204 = ~I was apprenticed to a red wizard by the name of Matthias Ordeth. I rose through the ranks and after Ordeth's mysterious... accident... I was on the verge of greatness. However, as usual, other's incompetence hindered me and I was given the humiliating task of 'visiting' Rashemen (A demotion was degrading enough without being subjected to the stench of a land of brutes who never bathe) to obtain a Rashemen artifact.~
 @205 = ~In the tribe I visited there was a charming young woman, one with magical gifts such as I, and who very obviously fell for me during my stay (as is to be expected). I reciprocated, and out of adoration for me she gave me the artifact. We had planned that I would return to Thay triumphant, then later I would send for her to join me.~
 @206 = ~THE ARTIFACT WAS A FAKE!!! She ruined me! The trinket she had given me was not a religious relic as she had told me, but a child's toy. I was laughed out of the audience chamber. I returned to Rashemen (two visits in one lifetime... what had I done to deserve that?!) to confront this harpy. I was told she had departed for the Sword Coast.~
-@207 = ~But there was a letter... In it, she confessed she had never loved me, that she could never have loved me, and that she had used me to save her tribe. (See, she admitted it! She used me...bitch!)~
+@207 = ~But there was a letter... In it, she confessed she had never loved me, that she could never have loved me, and that she had used me to save her tribe. (See, she admitted it! She used me... bitch!)~
 // Silver-Jhaeria 2 only if she has killed the lost child or a slave child.
 @208 = ~You cannot just kill a child! Everything has a right to live.~
 @209 = ~It doesn't matter if I kill them.~
 @210 = ~What, child?! How can you say that?~
 @211 = ~Well, after I've played with them, if they broke you could just take them to a temple and the priest would make them all better.~
-@212 = ~You...you don't understand. Sometimes spells don't work.~
+@212 = ~You... you don't understand. Sometimes spells don't work.~
 @213 = ~In that case, the gods didn't want them to live, so I was right to break them. Anyway, you're a Druid. In the wild, don't big animals eat the little animals?~
 @214 = ~That is completely different. Animals kill for food and because they need to survive, not for fun.~
 @215 = ~But humans kill animals for fun.~
@@ -246,10 +246,10 @@
 @221 = ~You never seem to be afraid. Are you too silly to be afraid, gnome? Go on, tell me what it is that makes you afraid. Is it dragons, kobolds or vampires?~
 @222 = ~Taxes.~
 @223 = ~Taxes?!~
-@224 = ~Yep. You see, there are only three certainties in this life. Death, taxes and...something else, but no need to go into that right now.~
+@224 = ~Yep. You see, there are only three certainties in this life. Death, taxes and... something else, but no need to go into that right now.~
 @225 = ~Anyway, with death you can be resurrected, or at the very least settle down for a nice sleep in the earth, like a turnip, but taxes... Oh dear, taxes are a different story.~
 @226 = ~Explain to me about these taxes.~
-@227 = ~The basic idea is you pay people money to order you around. It's astounding, really. You can't do this, you can't do that, you can't sell exploding mice...like I said, simply ridiculous.~
+@227 = ~The basic idea is you pay people money to order you around. It's astounding, really. You can't do this, you can't do that, you can't sell exploding mice... like I said, simply ridiculous.~
 @228 = ~Well, then don't pay them.~
 @229 = ~Don't pay? DON'T PAY?! Don't say that out loud lass, they may hear you! Shhhh...~
 @230 = ~Who are 'THEY'?~
@@ -268,15 +268,15 @@
 @242 = ~And if they don't ask you?~
 @243 = ~Well then, in that case it was lost and it's finders, keepers, losers, weepers. Remember that, girl, finders, keepers. Oh, that's a five turnip saying, that is.~
 // silver interjects with Edwina
-@244 = ~Alright! Now we can play dolls together, Edwina! Isn't it amazing? Only...only first, I must ask for Mommy's permission.~ [Female2a]
+@244 = ~Alright! Now we can play dolls together, Edwina! Isn't it amazing? Only... only first, I must ask for Mommy's permission.~ [Female2a]
 @245 = ~Except for the fact that you make every day of my life more irritating, truly no.~ [EDWIN25]
-@246 = ~It is sad, mage...very sad.~
+@246 = ~It is sad, mage... very sad.~
 // added to valy dialogue
 @247 = ~The first year there were ten children. At the end I was the only one who survived, so twelve new children were acquired. They became my family. They taught me all that I know. When I was good they insulted me, when I was bad they kicked me.~ //silver
-@248 = ~Once, three of us were eaten by Daddy Ogre. Funny...my fear was the first thing that died. After that I stole a knife from a smuggler. One day I was carrying some bottles when Daddy Ogre appeared. At that time he could have eaten me all in one gulp.~
+@248 = ~Once, three of us were eaten by Daddy Ogre. Funny... my fear was the first thing that died. After that I stole a knife from a smuggler. One day I was carrying some bottles when Daddy Ogre appeared. At that time he could have eaten me all in one gulp.~
 @249 = ~But then I started to slice Daddy Ogre into little pieces, until he was an ogre no more. I must have spent half a day cutting.~
 @250 = ~The other children called me a hero. The smugglers beat me because I had lost the stolen goods. In the following weeks all the children died, killed by a new monster that inhabited the vacancy left by Daddy Ogre...~
-@251 = ~...It was me.~
+@251 = ~... It was me.~
 // Yoshimo banter from Dancer Fritz
 @253 = ~Do you think I'm pretty, Yoshimo?~
 @254 = ~As the flower in a madwoman's hair, my fellow thief.~
@@ -287,10 +287,10 @@
 @259 = ~Yes, oh yes, you do...~
 @260 = ~Well, if it bothers you I will try not to stare too long at a time in your general direction.~ 
 @261 = ~I do not mind. I understand if it bothers you, though, little lamb.~
-@262 = ~Ah...very well. Glad we cleared that up, then.~ [Yoshim56]
+@262 = ~Ah... very well. Glad we cleared that up, then.~ [Yoshim56]
 // Miscellaneous banters from Seifer Workroom
 @266 = ~Do we have to stay here? There is too much shiny goodness.~ // SS oN ENTERING ORDER OF RADIENT HEART
-@267 = ~Jan, you are slow, old and...a gnome. In fact, from watching you in action, you are the worst thief I have ever seen. Isn't that right, <CHARNAME>?~ // originally miscoded as @231
+@267 = ~Jan, you are slow, old and... a gnome. In fact, from watching you in action, you are the worst thief I have ever seen. Isn't that right, <CHARNAME>?~ // originally miscoded as @231
 
 // Nalia banter after the Keep quest courtesy of Dancer Fitz
 @290 = ~We are alike, you and I.~ // SS
@@ -298,22 +298,22 @@
 @292 = ~I mean we have both lost family and we both like the sneak work, but especially we both want to help poor suffering people.~
 @293 = ~Oh. Well, regardless, we do not see eye to eye on many issues, Silver, no matter how similar our situations. ~ // Nalia
 @294 = ~Yes, that is true. I know you mean well, but your methods for helping the poor are not very effective. Money will not change anything. The sad ones will always be in pain, always the victims of terrible dreams that make every night a time of dread and restlessness. I know this to be a fact.~
-@295 = ~I shudder to think what you would consider appropriate aid, and you are wrong about this. The common folk have always had to work so hard just to put bread on their tables. Money does make a difference, because it can give them some relief from...oh, nevermind. Forgive me, but I think it is probably no use talking to you about this.~
+@295 = ~I shudder to think what you would consider appropriate aid, and you are wrong about this. The common folk have always had to work so hard just to put bread on their tables. Money does make a difference, because it can give them some relief from... oh, nevermind. Forgive me, but I think it is probably no use talking to you about this.~
 @296 = ~No, *you* do not understand. They are trapped in their lives, yes. Their lives of grief and nothingness and torment. If we are to help, we must release them. What use does a lamb have for gold? None!~
-@297 = ~Oh dear, not that talk again. Now, I have no doubt that at one point you might have agreed with me on this issue. As it is...perhaps it's best if we just stick to discussing the weather.~
+@297 = ~Oh dear, not that talk again. Now, I have no doubt that at one point you might have agreed with me on this issue. As it is... perhaps it's best if we just stick to discussing the weather.~
 @298 = ~No, I think we should talk about torture instead. The dungeon in your keep tells me you would know of that, or at least your father would. Oh! Sorry. Your father *did* you know.~
-@299 = ~How...how dare you slander my father, so soon after... Your tact reveals you for the cruel, common, twisted soul that you are!!~ [NALIA06]
+@299 = ~How... how dare you slander my father, so soon after... Your tact reveals you for the cruel, common, twisted soul that you are!!~ [NALIA06]
 @300 = ~Why is the princess upset? I only wanted to talk about something interesting. I don't know many people who think the weather is very interesting. ~
 @301 = ~It has nothing to do with that! I am angry because of the meaning behind your words. I do not care how insane you are or how innocent you seem, you purposefully meant to insult my family!~ // Nalia
 @302 = ~Oh, so even the mad can understand subtlety then? No, I don't think so. I am sorry, princess, but we won't agree on this. You were right before. We should only talk about boring nothings.~
-@303 = ~You...you are a devious creature, Silver. I do not appreciate your methods, but you have made your point. Now please, let's drop the matter.~
+@303 = ~You... you are a devious creature, Silver. I do not appreciate your methods, but you have made your point. Now please, let's drop the matter.~
 @304 = ~I always have a point! If not in my words, then in my knife. Hehehe.~ [Female2a]
 
 // KORGAN LONG BANTER
 @400 = ~Ye be livin' a grand tale, if'n e'er I heard one. No sooner dropped from yer mam's womb and its labor n' torture n' bloodlust n' madness. Spin me another, elf, 'afore I keel over from watchin our leader scratch his arse.~
 @401 = ~Another? Another what? What do you mean, Korgan?~
-@402 = ~Another...bloody piss, girl! Another tale o' blood, guts n' gold, of course! The hell ye think I be askin' fer, to sing me a lullaby?~
-@403 = ~Oh, but I do know some lullabies! Very nice ones, about lambs and babies and falling down...though I don't like the falling one very much...the lambs help me to sleep better. I like that, because sometimes I have nightmares...~
+@402 = ~Another... bloody piss, girl! Another tale o' blood, guts n' gold, of course! The hell ye think I be askin' fer, to sing me a lullaby?~
+@403 = ~Oh, but I do know some lullabies! Very nice ones, about lambs and babies and falling down... though I don't like the falling one very much... the lambs help me to sleep better. I like that, because sometimes I have nightmares...~
 @404 = ~The only songs I'm interested in'r the ones me foes be singing when I spit 'em on me axe. Har har! Now, do ye have a thought o' interest or has th' loommuse gripped ye again?~
 @405 = ~Yes, I remember a fine story! It was from when I worked in the city, during nighttime. There are always so many sorts to play with at night, especially around the taverns.~
 @406 = ~Play with? Ye best be meanin' something other'n hopscotch.~
@@ -323,7 +323,7 @@
 @420 = ~What are ye gawking at? Ye've not the belly for our mad elf's yarn?~
 @421 = ~Exactly! Anyway, they turned very nasty after that, so I gutted one and used one of my more agonizing poisons on the other. Hehe! He started foaming at the mouth and twitching, but I didn't get to enjoy it very long, because I had to go slit the gutted one's throat to stop his screams.~ 
 @422 = ~No one in the bar seemed to notice, so I went through their pockets and took what they had. One had a pretty ring with a woman's name in it. I remember because a merchant gave me a whole sack of rice for it the next day! For one ring!~
-@423  = ~Well, that's a nice enough tale. I've heard better, but ye've a charm the way ye tell it. A love for the craft, if ye will. Heh heh.~
+@423 = ~Well, that's a nice enough tale. I've heard better, but ye've a charm the way ye tell it. A love for the craft, if ye will. Heh heh.~
 @424 = ~Wait, I'm not finished. Since no one was around, and I'd always thought the bars on that street looked so sad and shabby, I decided to decorate the place. It took some time and I was tired from working, but, oh, it was so pretty afterward!~ 
 @425 = ~I came back the next morning to see what everyone thought. There was a whole crowd of people! And the blood looked so much brighter in the light. But the viscera had dried up a little, and someone had taken the heads down from where I'd hung them on the tavern sign. I was so upset! I'd worked so hard to make the guards' faces hold those expressions. I'd had to use string from my own clothing to stitch them up.~
 @426 = ~Ye did what?! HAR HAR HAR!! Ah, what I'd've given to see the lilypale looks on those tightholed longlimbs!! Har har har! That be a good one, whelp. Let's curdle blood o'er a strong pint together when next we've a break from the grind, eh, lass?~
@@ -335,7 +335,7 @@
 @432 = ~Heh! Figured as much. S'what I get fer mixin' with sissy lumps like yerself.~
 @433 = ~Let's be off, elf, before <CHARNAME>'s maiden ears start bleedin'.~
 @434 = ~Shut yer cakehole, then, so I can hear me story.~
-@435 = ~Oh...oh.. <CHARNAME>, please, could you tell them to stop? I...I d-don't want to hear any more of their s...s...stories.~
+@435 = ~Oh... oh.. <CHARNAME>, please, could you tell them to stop? I... I d-don't want to hear any more of their s...s...stories.~
 @436 = ~I think I'd rather hear this. They have such colorful language.~ // Edwin
 @437 = ~I did not join this group to hear stories of the insane and depraved. <CHARNAME>, I would prefer if we could relax without having to listen to this.~ // Valygar
 @438 = ~The depravity! I will not suffer this revolting exchange. <CHARNAME>, I demand you exercise your leadership and tell them to cease their offensive discussion!~ // Anomen
@@ -343,13 +343,13 @@
 @440 = ~I suspect this anecdote will not be filled with valor and aim. <CHARNAME>, would you make the effort to ensure the quality of our group discussions?~ // Keldorn
 @441 = ~I do not approve of the discourse you have started, Korgan, nor do I care for your interest, Silver. <CHARNAME>, I would request that you tell our comrades to restrain themselves from continuing their conversation.~ // Mazzy
 @442 = ~Ooh! A tale of heroic butt kicking of evil's minions! What joy! Go on, little elf maid, Boo is on the edge of his seat.~ // Minsc to Korgan1
-@443 = ~Oh...well, that is not exactly the story we were hoping for. Boo thinks next time you should tell one about rescuing a town or butt kicking for goodness.~ // resume
+@443 = ~Oh... well, that is not exactly the story we were hoping for. Boo thinks next time you should tell one about rescuing a town or butt kicking for goodness.~ // resume
 @444 = ~Well, I'm all for entertaining stories, but I have a feeling this one is meant for those with castiron stomachs.~ // Yoshimo
 // Jaheira - 2nd conversation
 @455 = ~Child, I have been thinking on our last conversation...~
 @456 = ~You mean argument.~
 @457 = ~Yes, quite... I believe I have an answer for you. Humans kill and injure other humans and animals because they are out of balance with nature. That is the aim of the Harpers and druids, to help others find harmony within their environment. Killing without reason would make us less than animals.~
-@458 = ~But...but if the gods resurrect you, doesn't that mean they don't think we're less than animals, no matter what we've done?~
+@458 = ~But... but if the gods resurrect you, doesn't that mean they don't think we're less than animals, no matter what we've done?~
 @459 = ~To that I would say that some of the gods are less than animals in their own behavior. There are even mustard jelly gods; do you think they would respond to your pleas for aid?~
 @460 = ~Do you recall the Time of Troubles, when the gods walked the earth and fought one another? They had their own agendas, and, as such, one god might chose not to resurrect you if it did not serve his purpose, where another might.~
 @461 = ~So? That still means that some god wanted me to kill that person.~
@@ -359,15 +359,15 @@
 @465 = ~If I cannot understand it, then stop speaking to me of such things.~
 // Mazzy - Further conversation
 @470 = ~Silver Star, I have been watching you these many days, to determine if you are truly the monster you appeared to be when last we spoke.~ // Mazzy
-@471 = ~I...believe there is hope for you yet. I see you struggle with your demons, but I do not know if you even realize it.~
+@471 = ~I... believe there is hope for you yet. I see you struggle with your demons, but I do not know if you even realize it.~
 @472 = ~My demons? Do you mean the orcs we fought earlier? They were not so bad, and yes, I do notice when I am struggling with them.~
 @473 = ~No, you misunderstand me. *Sigh* I suppose I shouldn't be surprised. Regardless, my wayward companion, I would suggest that you may find your life more rewarding if you strove to better yourself, to be pure and noble, as members of your elven race always are.~
-@474 = ~Ummm...why?~
+@474 = ~Ummm... why?~
 @475 = ~Why what?~
-@476 = ~Well...two things, why do doing these things make you a better person than everyone else and why do these things in the first place? What use are they?~
+@476 = ~Well... two things, why do doing these things make you a better person than everyone else and why do these things in the first place? What use are they?~
 @477 = ~Can your adolescent mind not yet see the virtue of protecting people and doing good to provide an example to those faltering on their own paths?~ 
 @478 = ~Hmmm... I think the Master once said, "Virtue is merely an exaggerated vice."~
-@479 = ~Then...then I would suggest that doing these things might help you to keep your nightmares at bay. I pray, for your sake, that you take my words to heart.~
+@479 = ~Then... then I would suggest that doing these things might help you to keep your nightmares at bay. I pray, for your sake, that you take my words to heart.~
 @480 = ~Oh, certainly! To whose heart, though? Should I write it out in the blood, or do you mean I should put it on paper and stuff it in the person's chest?~
 @481 = ~By Arvoreen, I fear one day I shall see your childlike face on the other side of my blade.~
 @482 = ~Now you don't like me, pipsqueak? Maybe I should make a virtuous and pure poison, just for you.~ [Female2a]
@@ -380,8 +380,8 @@ First comes love, then comes marriage~
 @489 = ~then comes Aerie with a baby carriage!~ [Female2a]
 @490 = ~then comes Viconia with a baby carriage!~ [Female2a]
 @491 = ~then comes Jaheira with a baby carriage!~ [Female2a]
-@492 = ~(blushing) P..Please stop.  You...you are embarrassing me.~
-@493 = ~Keep your comments to yourself...I shall remember this insult, darthir!~
+@492 = ~(blushing) P..Please stop. You... you are embarrassing me.~
+@493 = ~Keep your comments to yourself... I shall remember this insult, darthir!~
 @494 = ~Pbbbt!~
 @495 = ~I'm sorry, Haer'Dalis.~
 @500 = ~I've met more pleasant children in bogs with banshee wails. Stand me back from her, she's a creeper if'n I ever saw one.~

@@ -27,7 +27,7 @@ LANGUAGE ~Russian~
  * ====================================================== */
 
 BEGIN ~SilverStar Mod~
-AT_INTERACTIVE_EXIT ~VIEW Star\Readme_Star.HTML~
+AT_INTERACTIVE_EXIT ~VIEW star/Readme_Star.HTML~
 
 ADD_KIT ~StarHL~
 ~StarHL                  1           1           1           1           1           0           0           0~
@@ -38,142 +38,149 @@ ADD_KIT ~StarHL~
 ~StarHL                  0       0       0       0       0       0~
 ~StarHL                  0       1       1       1       1       1       1       1       1~
 ~StarHL                  0       0       0       0       0       0~
-~Star\StarHL.2da~
+~star/StarHL.2da~
 ~~
 ~0x00040000	4~
 ~TH0~
 ~LEAT14 * * BAG28 RING06 RING05,10 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
-SAY @1
-SAY @2
-SAY @3
+SAY @101
+SAY @102
+SAY @103
 
-COPY ~Star\StarHL.2da~ ~override\StarHL.2da~
+
+COPY ~star/StarHL.2da~ ~override~
+
 /* Cre transfer */
-COPY ~Star\Creature\D#Silver.cre~ ~override\D#Silver.cre~
-  SAY AREA_CITY ~~ [Innoco]
-  SAY AREA_DUNGEON ~~ [Innocp]
-  SAY AREA_FOREST ~~ [Innocn]
-  SAY AREA_NIGHT ~~ [Innocr]
-  SAY BATTLE_CRY1 ~~ [Female2a]
-  SAY BATTLE_CRY2 ~~ [Innoc8]
-  SAY BORED ~Please, a little kill, even a little one! I'm bored.~ [Innocd]
-  SAY CRITICAL_HIT ~~ [Innocz]
-  SAY CRITICAL_MISS ~~ [Innoc1]
-  SAY DAMAGE ~~ [Female2l]
-  SAY DYING ~~ [Female2m]
-  SAY HAPPY ~~ [Female2a]
-  SAY HURT ~~ [Innoce]
-  SAY LEADER ~~ [Innocb]
-  SAY PICKED_POCKET ~~ [Innoc4]
-  SAY REACT_TO_DIE_GENERAL ~~ [Innocw]
-  SAY SELECT_ACTION1 ~~ [Innocf]
-  SAY SELECT_ACTION2 ~~ [Innocg]
-  SAY SELECT_ACTION3 ~~ [Innoch]
-  SAY SELECT_ACTION4 ~~ [Innocs]
-  SAY SELECT_ACTION5 ~~ [Innoct]
-  SAY SELECT_ACTION6 ~~ [Innocu]
-  SAY SELECT_COMMON1 ~~ [Innocx]
-  SAY SELECT_COMMON2 ~~ [Innocy]
-  SAY SELECT_COMMON3 ~~ [Innoch]
-  SAY SELECT_COMMON4 ~~ [Innocs]
-  SAY SELECT_RARE1 ~~ [Innocx]
-  SAY SELECT_RARE2 ~~ [Innocy]
-  SAY TARGET_IMMUNE ~~ [Innoc2]
-  SAY TIRED ~Mommy,I must sleep.~ [Innocc]
-  SAY UNHAPPY_ANNOYED ~Why will no one play with me?~
-  SAY UNHAPPY_BREAKING ~You are mean! You don't want me to play with my knife on other people!~
-  SAY UNHAPPY_SERIOUS ~How can I enjoy myself without a little killing? You said that you would play with me!~
-  SAY SPELL_DISRUPTED ~~ [Innoc6]
-  SAY HIDDEN_IN_SHADOWS ~~ [Innoc5]
-  SAY SET_A_TRAP ~~ [Innoc7]
-  WRITE_SHORT   0x244 0
-  WRITE_BYTE    0x246 ~%StarHL%~
-  WRITE_BYTE    0x247 0x40
-  SAY NAME1 ~Silver Star~
-  SAY NAME2 ~Silver Star~
-  SAY BIO @6
+// Silver Star
+// -----------
+COPY ~star/creature/d#silver.cre~ ~override~
+	SAY NAME1 @201
+	SAY NAME2 @201
+	SAY BIO @202
+	SAY AREA_CITY            ~~ [Innoco]
+	SAY AREA_DUNGEON         ~~ [Innocp]
+	SAY AREA_FOREST          ~~ [Innocn]
+	SAY AREA_NIGHT           ~~ [Innocr]
+	SAY BATTLE_CRY1          ~~ [Female2a]
+	SAY BATTLE_CRY2          ~~ [Innoc8]
+	SAY BORED                @203 // ~Please, a little kill, even a little one! I'm bored.~ [Innocd]
+	SAY CRITICAL_HIT         ~~ [Innocz]
+	SAY CRITICAL_MISS        ~~ [Innoc1]
+	SAY DAMAGE               ~~ [Female2l]
+	SAY DYING                ~~ [Female2m]
+	SAY HAPPY                ~~ [Female2a]
+	SAY HURT                 ~~ [Innoce]
+	SAY LEADER               ~~ [Innocb]
+	SAY PICKED_POCKET        ~~ [Innoc4]
+	SAY REACT_TO_DIE_GENERAL ~~ [Innocw]
+	SAY SELECT_ACTION1       ~~ [Innocf]
+	SAY SELECT_ACTION2       ~~ [Innocg]
+	SAY SELECT_ACTION3       ~~ [Innoch]
+	SAY SELECT_ACTION4       ~~ [Innocs]
+	SAY SELECT_ACTION5       ~~ [Innoct]
+	SAY SELECT_ACTION6       ~~ [Innocu]
+	SAY SELECT_COMMON1       ~~ [Innocx]
+	SAY SELECT_COMMON2       ~~ [Innocy]
+	SAY SELECT_COMMON3       ~~ [Innoch]
+	SAY SELECT_COMMON4       ~~ [Innocs]
+	SAY SELECT_RARE1         ~~ [Innocx]
+	SAY SELECT_RARE2         ~~ [Innocy]
+	SAY TARGET_IMMUNE        ~~ [Innoc2]
+	SAY TIRED                @204 // ~Mommy,I must sleep.~ [Innocc]
+	SAY UNHAPPY_ANNOYED      @205 // ~Why will no one play with me?~
+	SAY UNHAPPY_BREAKING     @206 // ~You are mean! You don't want me to play with my knife on other people!~
+	SAY UNHAPPY_SERIOUS      @207 // ~How can I enjoy myself without a little killing? You said that you would play with me!~
+	SAY SPELL_DISRUPTED      ~~ [Innoc6]
+	SAY HIDDEN_IN_SHADOWS    ~~ [Innoc5]
+	SAY SET_A_TRAP           ~~ [Innoc7]
+	WRITE_SHORT 0x244 0
+	WRITE_BYTE  0x246 ~%StarHL%~
+	WRITE_BYTE  0x247 0x40
 
-COPY ~Star\Scripts\D#Silver.bcs~ ~override\D#Silver.bcs~
+COPY ~star/creature/D#Sbansh.cre~ ~override/D#Sbansh.cre~
+	SAY NAME1 @201
+	SAY NAME2 @201
+	SAY BIO @208
+COPY ~star/spells/D#SBwail.spl~ ~override/D#SBwail.spl~
 
-COPY ~Star\Spells\D#Sstr.spl~ ~override\D#Sstr.spl~
-  SAY NAME1 @7
 
-EXTEND_BOTTOM ~Ar0602.bcs~ ~Star\Scripts\DAr0602.bcs~
-EXTEND_BOTTOM ~Ar0020.bcs~ ~Star\Scripts\DAr0020.bcs~
-COPY ~Star\Scripts\D#Silv01.bcs~ ~override\D#Silv01.bcs~
+COPY ~star/scripts/D#Silver.bcs~ ~override/D#Silver.bcs~
+
+COPY ~star/spells/D#Sstr.spl~ ~override/D#Sstr.spl~
+	SAY NAME1 @301
+
+EXTEND_BOTTOM ~ar0602.bcs~ ~star/scripts/dar0602.bcs~
+EXTEND_BOTTOM ~ar0020.bcs~ ~star/scripts/dar0020.bcs~
+COPY ~star/scripts/D#Silv01.bcs~ ~override/D#Silv01.bcs~
   REPLACE ~999999~ @8
   REPLACE ~999998~ @9
   REPLACE ~999997~ @10
   REPLACE ~999996~ @11
   REPLACE ~999995~ @12
 
-EXTEND_BOTTOM ~Ar4500.bcs~ ~Star\Scripts\D#Ar4500.bcs~
-EXTEND_TOP ~Korgan.bcs~ ~Star\Scripts\D#Korgan.baf~
-EXTEND_BOTTOM ~Viconia.bcs~ ~Star\Scripts\D#Viccy.baf~
-EXTEND_BOTTOM ~Haerdali.bcs~ ~Star\Scripts\D#Haer.baf~
-EXTEND_BOTTOM ~D#Silver.bcs~ ~Star\Scripts\DiFix#1.baf~
+EXTEND_BOTTOM ~Ar4500.bcs~ ~star/scripts/D#Ar4500.bcs~
+EXTEND_TOP ~Korgan.bcs~ ~star/scripts/D#Korgan.baf~
+EXTEND_BOTTOM ~Viconia.bcs~ ~star/scripts/D#Viccy.baf~
+EXTEND_BOTTOM ~Haerdali.bcs~ ~star/scripts/D#Haer.baf~
+EXTEND_BOTTOM ~D#Silver.bcs~ ~star/scripts/DiFix#1.baf~
 
-COPY ~Star\Portraits\malefi6L.bmp~ ~override\malefi6L.bmp~
-     ~Star\Portraits\malefi6S.bmp~ ~override\malefi6S.bmp~
-     ~Star\Portraits\HLIDMM.bmp~ ~override\HLIDMM.bmp~
-     ~Star\Portraits\TGME.bmp~ ~override\TGME.bmp~
-     ~Star\Portraits\Seifer.bmp~ ~override\Seifer.bmp~
-     ~Star\Portraits\DFNE.bmp~ ~override\DFNE.bmp~
+COPY ~star/Portraits/malefi6L.bmp~ ~override/malefi6L.bmp~
+     ~star/Portraits/malefi6S.bmp~ ~override/malefi6S.bmp~
+     ~star/Portraits/HLIDMM.bmp~ ~override/HLIDMM.bmp~
+     ~star/Portraits/TGME.bmp~ ~override/TGME.bmp~
+     ~star/Portraits/Seifer.bmp~ ~override/Seifer.bmp~
+     ~star/Portraits/DFNE.bmp~ ~override/DFNE.bmp~
 
-COPY ~Star\Spells\D#Spoi1.spl~ ~override\D#Spoi1.spl~
-SAY NAME1 @13
-COPY ~Star\Spells\D#Spoi2.spl~ ~override\D#Spoi2.spl~
-     ~Star\EFF\D#Spoi1.eff~ ~override\D#Spoi1.eff~
-     ~Star\EFF\D#Spoi2.eff~ ~override\D#Spoi2.eff~
-     ~Star\EFF\sulphur.eff~ ~override\sulphur.eff~
+COPY ~star/spells/D#Spoi1.spl~ ~override/D#Spoi1.spl~
+	SAY NAME1 @302
+COPY ~star/spells/D#Spoi2.spl~ ~override/D#Spoi2.spl~
+     ~star/EFF/D#Spoi1.eff~ ~override/D#Spoi1.eff~
+     ~star/EFF/D#Spoi2.eff~ ~override/D#Spoi2.eff~
+     ~star/EFF/sulphur.eff~ ~override/sulphur.eff~
 
-COPY ~Star\Items\D#Silve1.itm~ ~override\D#Silve1.itm~
-  SAY NAME1 @14
-  SAY NAME2 @14
-  SAY UNIDENTIFIED_DESC @15
-  SAY DESC @15
+COPY ~star/items/D#Silve1.itm~ ~override/D#Silve1.itm~
+	SAY NAME1 @303
+	SAY NAME2 @303
+	SAY UNIDENTIFIED_DESC @304
+	SAY DESC @304
 
-COPY ~Star\Items\D#Silve1.itm~ ~override\D#Silve2.itm~
-  SAY NAME1 @14
-  SAY NAME2 @14
-  SAY UNIDENTIFIED_DESC @16
-  SAY DESC @16
+COPY ~star/items/D#Silve1.itm~ ~override/D#Silve2.itm~
+	SAY NAME1 @303
+	SAY NAME2 @303
+	SAY UNIDENTIFIED_DESC @305
+	SAY DESC @305
 
-COPY ~Star\Items\D#Crybl1.itm~ ~override\D#Crybl1.itm~
-  SAY NAME1 @17
-  SAY NAME2 @18
-  SAY UNIDENTIFIED_DESC @17
-  SAY DESC @19
+COPY ~star/items/D#Crybl1.itm~ ~override/D#Crybl1.itm~
+	SAY NAME1 @306
+	SAY NAME2 @307
+	SAY UNIDENTIFIED_DESC @306
+	SAY DESC @308
 
 APPEND ~ItemDial.2da~ ~D#Crybl1    5689    D#Crybl1~
-EXTEND_BOTTOM ~Baldur.bcs~ ~Star\Scripts\D#Crybl1.bcs~
-REPLACE 4000 @20
-REPLACE 4001 @21
-REPLACE 4002 @22
-REPLACE 4003 @23
-REPLACE 4004 @24
-REPLACE 4005 @25
+EXTEND_BOTTOM ~Baldur.bcs~ ~star/scripts/D#Crybl1.bcs~
+	REPLACE 4000 @310
+	REPLACE 4001 @315
+	REPLACE 4002 @316
+	REPLACE 4003 @317
+	REPLACE 4004 @318
+	REPLACE 4005 @319
 
-COPY ~Star\Creature\SHAPE.cre~ ~override\SHAPE.cre~
-COPY ~Star\creature\D#Mary.cre~ ~override\D#Mary.cre~
- SAY NAME1 @26
- SAY NAME2 @26
-COPY ~Star\Items\D#liec1.itm~ ~override\D#liec1.itm~
-  SAY NAME1 @27
-  SAY NAME2 @27
-  SAY UNIDENTIFIED_DESC @28
-COPY ~Star\Scripts\D#Mary.bcs~ ~override\D#Mary.bcs~
+COPY ~star/creature/SHAPE.cre~ ~override/SHAPE.cre~
+// Mary
+// ----
+COPY ~star/creature/D#Mary.cre~ ~override/D#Mary.cre~
+	SAY NAME1 @210
+	SAY NAME2 @210
+COPY ~star/items/D#liec1.itm~ ~override/D#liec1.itm~
+	SAY NAME1 @320
+	SAY NAME2 @320
+	SAY UNIDENTIFIED_DESC @321
+COPY ~star/scripts/D#Mary.bcs~ ~override/D#Mary.bcs~
 
-COPY ~Star\Spells\DCSdoom.spl~ ~override\DCSdoom.spl~
-     ~Star\Spells\DCSston.spl~ ~override\DCSston.spl~
-     ~Star\Spells\DCSunwo.spl~ ~override\DCSunwo.spl~
-     ~Star\Scripts\D#Sbansh.bcs~ ~override\D#Sbansh.bcs~
-
-COPY ~Star\Creature\D#Sbansh.cre~ ~override\D#Sbansh.cre~
-  SAY NAME1 @4
-  SAY NAME2 @4
-  SAY BIO @30
-COPY ~Star\Spells\D#SBwail.spl~ ~override\D#SBwail.spl~
+COPY ~star/spells/DCSdoom.spl~ ~override/DCSdoom.spl~
+     ~star/spells/DCSston.spl~ ~override/DCSston.spl~
+     ~star/spells/DCSunwo.spl~ ~override/DCSunwo.spl~
+     ~star/scripts/D#Sbansh.bcs~ ~override/D#Sbansh.bcs~
 
 COPY_EXISTING ~ISHADMT1.cre~ ~override~ // Kismet
 WRITE_ASCII 0x280 ~ISHADMT1~ //kismet
@@ -190,11 +197,11 @@ WRITE_ASCII 0x34 ~DFNE~
 COPY_EXISTING ~Degard.cre~ ~override~
 WRITE_ASCII 0X34 ~HLIDMM~
 
-COMPILE ~Star\Dialogue\SilverJ.d~
-COMPILE ~Star\Dialogue\SilverP.d~
-COMPILE ~Star\Dialogue\Sword.d~
-COMPILE ~Star\Dialogue\BSilver.d~
-COMPILE ~Star\Dialogue\fatesp.d~
+COMPILE ~star/Dialogue/SilverJ.d~
+COMPILE ~star/Dialogue/SilverP.d~
+COMPILE ~star/Dialogue/Sword.d~
+COMPILE ~star/Dialogue/BSilver.d~
+COMPILE ~star/Dialogue/fatesp.d~
 
 APPEND ~pdialog.2da~
 ~D#SILVER    D#SILVP   D#SILVER~
