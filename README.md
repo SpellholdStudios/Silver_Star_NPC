@@ -116,7 +116,9 @@ Here is the changelog:
 
 - Added *star.ini* metadata file (including dynamic install order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
 - Moved *star.tp2* into mod top folder to support AL|EN's "Project Infinity".
-- Replaced `AUTHOR` keyword with `SUPPORT`
+- Replaced `AUTHOR` keyword with `SUPPORT`.
+- Added `VERSION` keyword.
+- Replaced deprecated `AT_INTERACTIVE_EXIT` command with `README` keyword.
 - Added `REQUIRE_PREDICATE` condition to avoid installing the mod in inaccurate games.
 - Externalized tp2 code into *main_component.tpa* library for more comfortable readability and maintenance.
 - Commented code as much as possible.

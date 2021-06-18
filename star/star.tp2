@@ -2,6 +2,11 @@ BACKUP ~star/backup~
 
 AUTHOR ~Olryx2@Yahoo.co.uk~
 
+VERSION ~v2.0.0~
+
+README ~star/readme-star.html~
+
+
 ALLOW_MISSING ~ar4500.bcs~
               ~FATESP.dlg~
 
@@ -27,7 +32,6 @@ LANGUAGE ~Russian~
  * ====================================================== */
 
 BEGIN ~SilverStar Mod~
-AT_INTERACTIVE_EXIT ~VIEW star/Readme_Star.HTML~
 
 ADD_KIT ~StarHL~
 ~StarHL                  1           1           1           1           1           0           0           0~
