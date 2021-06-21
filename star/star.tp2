@@ -294,14 +294,13 @@ COPY ~star/creature/d#sbansh.cre~ ~override~
 	SAY NAME1 @201
 	SAY NAME2 @201
 	SAY BIO @208
-COPY ~star/spells/D#SBwail.spl~ ~override/D#SBwail.spl~
 
 // Frennedan
 // ---------
 COPY_EXISTING ~shape.cre~ ~override~
-  PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
-    ADD_CRE_ITEM ~D#CRYBL1~ #0 #0 #0 ~NONE~ ~INV~
-  END
+	PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+		ADD_CRE_ITEM ~D#CRYBL1~ #0 #0 #0 ~NONE~ ~INV~
+	END
 BUT_ONLY
 
 // Mary
@@ -345,103 +344,87 @@ COMPILE ~%MOD_FOLDER%/dialogues~ EVALUATE_BUFFER
  *  Compiling Scripts  *
  * ------------------- */
 
+COMPILE ~%MOD_FOLDER%/scripts/d#silver.baf~ EVALUATE_BUFFER
+COMPILE ~%MOD_FOLDER%/scripts/d#silv01.baf~ USING ~%MOD_FOLDER%/lang/%LANGUAGE%/setup.tra~
+COMPILE ~%MOD_FOLDER%/scripts/d#mary.baf~
+COMPILE ~%MOD_FOLDER%/scripts/d#sbansh.baf~
 
-COPY ~star/scripts/D#Silver.bcs~ ~override/D#Silver.bcs~
+EXTEND_BOTTOM ~ar0602.bcs~   ~%MOD_FOLDER%/scripts/dar0602.baf~
+EXTEND_BOTTOM ~ar0020.bcs~   ~%MOD_FOLDER%/scripts/dar0020.baf~
+EXTEND_BOTTOM ~ar4500.bcs~   ~%MOD_FOLDER%/scripts/d#ar4500.baf~
+EXTEND_TOP    ~korgan.bcs~   ~%MOD_FOLDER%/scripts/d#korgan.baf~
+EXTEND_BOTTOM ~viconia.bcs~  ~%MOD_FOLDER%/scripts/d#viccy.baf~
+EXTEND_BOTTOM ~haerdali.bcs~ ~%MOD_FOLDER%/scripts/d#haer.baf~
 
-COPY ~star/spells/D#Sstr.spl~ ~override/D#Sstr.spl~
+EXTEND_BOTTOM ~baldur.bcs~   ~%MOD_FOLDER%/scripts/d#crybl1.baf~ USING ~%MOD_FOLDER%/lang/%LANGUAGE%/sword.tra~
+
+
+/* ----------------------------- *
+ *  Installing items and spells  *
+ * ----------------------------- */
+
+// Wail of the Banshee
+COPY ~%MOD_FOLDER%/spells/d#sbwail.spl~ ~override~
+
+// Strength Modification
+COPY ~%MOD_FOLDER%/spells/d#sstr.spl~ ~override~
 	SAY NAME1 @301
 
-EXTEND_BOTTOM ~ar0602.bcs~ ~star/scripts/dar0602.bcs~
-EXTEND_BOTTOM ~ar0020.bcs~ ~star/scripts/dar0020.bcs~
-COPY ~star/scripts/D#Silv01.bcs~ ~override/D#Silv01.bcs~
-  REPLACE ~999999~ @8
-  REPLACE ~999998~ @9
-  REPLACE ~999997~ @10
-  REPLACE ~999996~ @11
-  REPLACE ~999995~ @12
-
-EXTEND_BOTTOM ~Ar4500.bcs~ ~star/scripts/D#Ar4500.bcs~
-EXTEND_TOP ~Korgan.bcs~ ~star/scripts/D#Korgan.baf~
-EXTEND_BOTTOM ~Viconia.bcs~ ~star/scripts/D#Viccy.baf~
-EXTEND_BOTTOM ~Haerdali.bcs~ ~star/scripts/D#Haer.baf~
-EXTEND_BOTTOM ~D#Silver.bcs~ ~star/scripts/DiFix#1.baf~
-
-COPY ~star/spells/D#Spoi1.spl~ ~override/D#Spoi1.spl~
+// Sulphurous poison
+COPY ~%MOD_FOLDER%/spells/d#spoi1.spl~ ~override~
 	SAY NAME1 @302
-COPY ~star/spells/D#Spoi2.spl~ ~override/D#Spoi2.spl~
-     ~star/EFF/D#Spoi1.eff~ ~override/D#Spoi1.eff~
-     ~star/EFF/D#Spoi2.eff~ ~override/D#Spoi2.eff~
-     ~star/EFF/sulphur.eff~ ~override/sulphur.eff~
+COPY ~%MOD_FOLDER%/spells/d#spoi2.spl~ ~override~
+COPY ~%MOD_FOLDER%/eff~ ~override~
 
-COPY ~star/items/D#Silve1.itm~ ~override/D#Silve1.itm~
+COPY ~%MOD_FOLDER%/spells/dcsdoom.spl~ ~override~
+     ~%MOD_FOLDER%/spells/dcsston.spl~ ~override~
+     ~%MOD_FOLDER%/spells/dcsunwo.spl~ ~override~
+
+// Cooking Book
+COPY ~%MOD_FOLDER%/items/d#silve1.itm~ ~override~
 	SAY NAME1 @303
 	SAY NAME2 @303
 	SAY UNIDENTIFIED_DESC @304
 	SAY DESC @304
 
-COPY ~star/items/D#Silve1.itm~ ~override/D#Silve2.itm~
+COPY ~%MOD_FOLDER%/items/d#silve1.itm~ ~override/d#silve2.itm~
 	SAY NAME1 @303
 	SAY NAME2 @303
 	SAY UNIDENTIFIED_DESC @305
 	SAY DESC @305
 
-COPY ~star/items/D#Crybl1.itm~ ~override/D#Crybl1.itm~
+// Cry Blade (Moon Blade)
+COPY ~%MOD_FOLDER%/items/d#crybl1.itm~ ~override~
 	SAY NAME1 @306
 	SAY NAME2 @307
 	SAY UNIDENTIFIED_DESC @306
 	SAY DESC @308
 
-APPEND ~ItemDial.2da~ ~D#Crybl1    5689    D#Crybl1~
-EXTEND_BOTTOM ~Baldur.bcs~ ~star/scripts/D#Crybl1.bcs~
-	REPLACE 4000 @310
-	REPLACE 4001 @315
-	REPLACE 4002 @316
-	REPLACE 4003 @317
-	REPLACE 4004 @318
-	REPLACE 4005 @319
+APPEND ~itemdial.2da~ ~d#crybl1    5689    d#crybl1~
 
-COPY ~star/creature/SHAPE.cre~ ~override/SHAPE.cre~
-// Mary
-// ----
-COPY ~star/items/D#liec1.itm~ ~override/D#liec1.itm~
+// Liecor's Blade Handbook 15th
+COPY ~%MOD_FOLDER%/items/d#liec1.itm~ ~override~
 	SAY NAME1 @320
 	SAY NAME2 @320
 	SAY UNIDENTIFIED_DESC @321
-COPY ~star/scripts/D#Mary.bcs~ ~override/D#Mary.bcs~
 
-COPY ~star/spells/DCSdoom.spl~ ~override/DCSdoom.spl~
-     ~star/spells/DCSston.spl~ ~override/DCSston.spl~
-     ~star/spells/DCSunwo.spl~ ~override/DCSunwo.spl~
-     ~star/scripts/D#Sbansh.bcs~ ~override/D#Sbansh.bcs~
 
-APPEND ~pdialog.2da~
-~D#SILVER    D#SILVP   D#SILVER~
-UNLESS ~D#Silver~
-UNLESS ~25POST~
+/* -------------------------------------------------- *
+ *  Appending Silver Star dialogue files to the game  *
+ * -------------------------------------------------- */
 
-APPEND ~pdialog.2da~
-~D#Silver    D#SILVP    D#SILVER~
-UNLESS ~D#Silver~
-IF ~25POST~
+// BG2 game without ToB
+// --------------------
+APPEND ~pdialog.2da~  ~D#Silver   D#SILVP    D#SILVER~ UNLESS ~D#Silver~ UNLESS ~25POST~
+APPEND ~interdia.2da~ ~D#Silver   BSILVER    D#SILVER~ UNLESS ~D#Silver~ UNLESS ~25FILE~
 
-APPEND ~interdia.2da~
-~D#Silver   BSILVER     D#Silver~
-UNLESS ~D#Silver~
-UNLESS ~25FILE~
+APPEND ~pdialog.2da~  ~D#Sbansh   D#SbansP   D#Sbansh   D#Sbansh~ UNLESS ~D#Sbansh~ UNLESS ~25POST~
+APPEND ~interdia.2da~ ~D#Sbansh   D#Sbansh~ UNLESS ~D#Sbansh~ UNLESS ~25FILE~
 
-APPEND ~interdia.2da~
-~D#Silver   BSILVER     D#SILVER~
-UNLESS ~D#Silver~
-IF     ~25FILE~
-APPEND ~pdialog.2da~ ~D#Sbansh D#SbansP D#Sbansh D#Sbansh~
-  UNLESS ~D#Sbansh~
-  UNLESS ~25POST~
-APPEND ~Interdia.2da~ ~D#Sbansh D#Sbansh~
-  UNLESS ~D#Sbansh~
-  UNLESS ~25FILE~
-APPEND ~pdialog.2da~ ~D#Sbansh D#SbansP D#Sbansh D#Sbansh D#SbansP D#Sbansh D#Sbansh              D#Sbansh~
-  UNLESS ~D#Sbansh~
-  IF ~25POST~
-APPEND ~Interdia.2da~ ~D#Sbansh  D#Sbansh  D#Sbansh~
-  UNLESS ~D#Sbansh~
-  IF ~25FILE~
+// ToB based game
+// --------------
+APPEND ~pdialog.2da~  ~D#Silver   D#SILVP    D#SILVER~ UNLESS ~D#Silver~ IF ~25POST~
+APPEND ~interdia.2da~ ~D#Silver   BSILVER    D#SILVER~ UNLESS ~D#Silver~ IF ~25FILE~
+
+APPEND ~pdialog.2da~  ~D#Sbansh   D#SbansP   D#Sbansh   D#Sbansh   D#SbansP   D#Sbansh   D#Sbansh   D#Sbansh~ UNLESS ~D#Sbansh~ IF ~25POST~
+APPEND ~interdia.2da~ ~D#Sbansh   D#Sbansh   D#Sbansh~ UNLESS ~D#Sbansh~ IF ~25FILE~

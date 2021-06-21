@@ -53,4 +53,4 @@ z*.*
 # ignore all files in any directory named
 # ========================================
 backup/
-legacy/
+# legacy/

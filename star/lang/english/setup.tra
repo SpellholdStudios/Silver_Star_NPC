@@ -37,18 +37,12 @@ Disadvantages:
 
 @210 = ~Mary~
 
-@8 = ~This place really, really needs cleaning~
-@9 = ~Lots and lots of pink ribbons will make this all better! Yes, there should be at least one mile or so of bright pink silk ribbons!~
-@10 = ~Why do I waste my time cleaning up all this dirt?  Probably as it will make this a better place for some lambs to recover!~
-@11 = ~What have you done here in the last twenty years? Even a band of ogres would be tidier than you. You should have put your father's legacy to better use.~
-@12 = ~The more work there is, the higher the number of sheep that I will require in payment, be sure of this!~
-
 
 /* ------------------ *
  *  Items and spells  *
  * ------------------ */
-@301 = ~Strength Modification.~
-@302 = ~Sulphorous poison~
+@301 = ~Strength Modification~
+@302 = ~Sulphurous poison~
 @303 = ~Cooking Book~
 @304 = ~This is not truly a book but a pile of old papers, pieces of clothes and something that appears to be a rat skin, tied together with a piece of string. It contains various types of recipes. The pages have been written with ink, others with a mud like substance and others with red liquid that is surely blood. The book stinks and is partially covered in mould. All the recipes have one thing in common: they are about how to cook lamb and sheep. Every time that Silver Star leafs through the pages an evil smile slowly spreads across her face. She thinks that reading this book is of fundamental importance and makes a person cultured. She believes it contains many pearls of wisdom.~
 @305 = ~This is not truly a book but a pile of old papers, pieces of clothes and something that appears to be a rat skin, tied together with a piece of string. It contains various types of recipes. The pages have been written with ink, others with a mud like substance and others with red liquid that is surely blood. The book stinks and is partially covered in mould. All the recipes have one thing in common: they are about how to cook lamb and sheep. Every time that Silver Star leafs through the pages an evil smile slowly spreads across her face. She thinks that reading this book is of fundamental importance and makes a person cultured. She believes it contains many pearls of wisdom. At the end of the book a recipe has been added describing a deadly poison. You truly don't want to know the details.~
@@ -63,15 +57,8 @@ Not clear at all.
 
 Usability: Only by a few fortunate people.~
 
-@310 = ~Sigh...~
-@311 = ~Why are you so evil, Star of my heart?~
-@312 = ~Don't be afraid I will love you forever.~
-@313 = ~What has a sheep ever done to you, Star of my heart?~ //Added by Seifer
-@314 = ~Every time you take a life, you cut my heart.~
-@315 = ~Daughter of my soul, why do this?~
-
-@320 = ~Liecor's Blade Handbook 15th~
-@321 = ~Introduction.
+@310 = ~Liecor's Blade Handbook 15th~
+@311 = ~Introduction.
 Liecor was a proficient mage, so when he found the recipe for his terrible sword he also recorded the enchantment in a manual so he didn't forget it. But Liecor was also careless; he forgot to record one of the fundamental ingredients for the creation of the weapon.
 There are nearly twenty different versions of Liecor's blade and no one know what the original is, the only thing that is sure is that all are extremely powerful. This book reports the recipe of the Liecor's blade with both the Vecna and Tenser corrections.
 They are known to be... blah, blah, blah, blah...
@@ -103,3 +90,22 @@ Tenser correction
 The text continues explaining the complicated and contorted alchemical methods to make the sword.~
 
 @29 = ~Signed~
+
+
+/* --------- *
+ *  Scripts  *
+ * --------- */
+
+// d#silv01.baf
+@401 = ~This place really, really needs cleaning.~
+@402 = ~Lots and lots of pink ribbons will make this all better! Yes, there should be at least one mile or so of bright pink silk ribbons!~
+@403 = ~Why do I waste my time cleaning up all this dirt?  Probably as it will make this a better place for some lambs to recover!~
+@404 = ~What have you done here in the last twenty years? Even a band of ogres would be tidier than you. You should have put your father's legacy to better use.~
+@405 = ~The more work there is, the higher the number of sheep that I will require in payment, be sure of this!~
+
+
+/* ============================================================================================================= *
+ *  Usability flags                                                                                              *
+ * ------------------------------------------------------------------------------------------------------------- *
+ * Note for translators: you will find usability flags REGEXP expressions in other items mods (Rolles, Ruad...)  *
+ * ============================================================================================================= */

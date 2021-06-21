@@ -1,0 +1,552 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Dialog(Nearest([PC]))
+END
+
+IF
+	InParty(Myself)
+	Global("Slyich","LOCALS",0)
+	See("DuegarClanChief")    // Ilyich
+	!Dead("DuegarClanChief")  // Ilyich
+THEN
+	RESPONSE #100
+		SetGlobal("Slyich","LOCALS",1)
+		StartDialogNoSet(Myself)
+END
+
+IF
+	PartyHasItem("Misca2")  // Sulfurous Poison
+	PartyHasItem("D#Silve1")
+	Global("SilverPoison","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TakePartyItem("D#Silve1")
+		DestroyItem("D#Silve1")
+		GiveItemCreate("D#Silve2","D#Silver",1,0,0)
+		SetGlobal("SilverPoison","GLOBAL",1)
+		AddSpecialAbility("D#Spoi1")
+		StartDialogNoSet(Myself)
+END
+
+IF
+	Global("SilWallace","GLOBAL",2)
+	PartyHasItem("Misca2")  // Sulfurous Poison
+	PartyHasItem("D#Silve1")
+	Global("SilverPoison","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TakePartyItem("D#Silve1")
+		DestroyItem("D#Silve1")
+		DestroyItem("Misca2")  // Sulfurous Poison
+		GiveItemCreate("D#Silve2","D#Silver",1,0,0)
+		SetGlobal("SilverPoison","GLOBAL",2)
+		AddSpecialAbility("D#Spoi1")
+END
+
+IF
+	PartyHasItem("D#Crybl1")
+	!HasItem("D#Crybl1",Myself)
+	Global("D#SilverSword","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TakePartyItem("D#Crybl1")
+		GiveItem("D#Crybl1","D#Silver")
+		StartDialogNoSet(Myself)
+END
+
+IF
+	Global("D#SilverSword","GLOBAL",1)
+	HasItem("D#Crybl1",Myself)
+THEN
+	RESPONSE #100
+		StartDialogNoSet(Myself)
+END
+
+IF
+	!HasItem("D#Crybl1",Myself)
+	Global("D#SilverSword","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Dialog(Player1)
+END
+
+IF
+	Global("D#SilverSword","GLOBAL",3)
+	HasItem("D#Crybl1",Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("D#SilverSword","GLOBAL",2)
+END
+
+IF
+	Global("D#SilverSword","GLOBAL",3)
+	RealGlobalTimerExpired("Swordtime","LOCALS")
+THEN
+	RESPONSE #100
+		Dialog(Player1)
+END
+
+IF
+	PartyRested()
+	InParty(Myself)
+	See(Player1)
+	GlobalGT("SilverEvil","GLOBAL",0)
+	Global("SilDream1","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("SilDream1","GLOBAL",1)
+		SetGlobalTimer("Nightmare","GLOBAL",TWO_DAYS)
+		Wait(5)
+		StartDialogNoSet(Player1)
+END
+
+IF
+	PartyRested()
+	GlobalTimerExpired("Nightmare","GLOBAL")
+	InParty(Myself)
+	See(Player1)
+	Global("SilDream1","GLOBAL",2)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("SilDream1","GLOBAL",3)
+		SetGlobalTimer("Nightmare","GLOBAL",FIVE_DAYS)
+		Wait(5)
+		StartDialogNoSet(Player1)
+END
+
+IF
+	PartyRested()
+	GlobalTimerExpired("Nightmare","GLOBAL")
+	InParty(Myself)
+	See(Player1)
+	Global("SilDream1","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("SilDream1","GLOBAL",5)
+		Wait(5)
+		StartDialogNoSet(Player1)
+END
+
+IF
+	Global("Silverinitbanter","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Silverinitbanter","LOCALS",1)
+		SetGlobalTimer("Siltalk","GLOBAL",THREE_DAYS)
+END
+
+IF
+	Global("#Silveryy1","GLOBAL",0)
+	GlobalTimerExpired("Siltalk","GLOBAL")
+	See(Player1)
+	InParty(Myself)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("#Silveryy1","GLOBAL",1)
+		Dialog(Player1)
+END
+
+IF
+	Global("OneMoTime","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("OneMoTime","GLOBAL",2)
+		SetGlobalTimer("TellPC","GLOBAL",ONE_DAY)
+END
+
+IF
+	GlobalTimerExpired("TellPC","GLOBAL")
+	Global("OneMoTime","GLOBAL",2)
+	InParty(Myself)
+	See(Player1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("#Silveryy1","GLOBAL",1)
+		SetGlobal("OneMoTime","GLOBAL",3)
+		StartDialogNoSet(Player1)
+END
+
+IF
+	Global("SawKhalid","AR0603",1)  // Irenicus's Dungeon 2nd Floor
+	Global("D#SawKhalid","LOCALS",0)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("D#SawKhalid","LOCALS",1)
+		Dialog("Imoen")
+END
+
+IF
+	Global("SilverEvil","GLOBAL",10)
+	Global("Silvermorph","GLOBAL",0)
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("Silvernext","GLOBAL",ONE_MINUTE)
+		SetGlobal("Silvermorph","GLOBAL",1)
+END
+
+IF
+	Global("Silvermorph","GLOBAL",1)
+	RealGlobalTimerExpired("Silvernext","GLOBAL")
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("Silvernext","GLOBAL",ONE_MINUTE)
+		CreateVisualEffectObject("SPFLSRIN",Myself)
+		Recoil()
+		SetGlobal("Silvermorph","GLOBAL",2)
+END
+
+IF
+	Global("Silvermorph","GLOBAL",2)
+	RealGlobalTimerExpired("Silvernext","GLOBAL")
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("Silvernext","GLOBAL",ONE_MINUTE)
+		SetGlobal("Silvermorph","GLOBAL",3)
+		CreateVisualEffectObject("SPFIREPI",Myself)
+		Recoil()
+END
+
+IF
+	Global("Silvermorph","GLOBAL",3)
+	RealGlobalTimerExpired("Silvernext","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPFIREPI",Myself)
+		Recoil()
+		SetGlobal("Silvermorph","GLOBAL",4)
+		CreateVisualEffectObject("SPFIREPI",Myself)
+		RealSetGlobalTimer("Silvernext","GLOBAL",TWO_MINUTES)
+		Dialog(Nearest([PC]))
+END
+
+IF
+	Global("Silvermorph","GLOBAL",5)
+	RealGlobalTimerExpired("Silvernext","GLOBAL")
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("Silvernext","GLOBAL",ONE_MINUTE)
+		SetGlobal("Silvermorph","GLOBAL",6)
+		CreateVisualEffectObject("SPCLOUD1",Myself)
+		CreateVisualEffectObject("SPCLOUD1",Player1)
+		Wait(2)
+		CreateVisualEffectObject("SPCLOUD1",Myself)
+		Dialog(Nearest([PC]))
+END
+
+IF
+	Global("Silvermorph","GLOBAL",7)
+THEN
+	RESPONSE #100
+		Kill("D#Silver")
+		CreateVisualEffectObject("SPCLOUD1",Myself)
+		CreateCreatureObject("D#SBansh","D#Silver",1,0,0)
+		LeaveParty()
+		SetGlobal("Silvermorph","GLOBAL",8)
+END
+
+IF
+	InParty("Yoshimo")
+	!Dead("Yoshimo")
+	Global("YoshTalk","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YoshTalk","LOCALS",1)
+		SetGlobalTimer("ImSoPretty","GLOBAL",FIFTEEN_TURNS)
+END
+
+IF
+	GlobalTimerExpired("ImSoPretty","GLOBAL")
+	InParty("Yoshimo")
+	See("Yoshimo")
+	!Dead("Yoshimo")
+	CombatCounter(0)
+	Global("SilverYoshi","LOCALS",0)
+THEN
+	RESPONSE #100
+		Interact("Yoshimo")
+END
+
+IF
+	Global("SilRenfeld","GLOBAL",0)
+	CombatCounter(0)
+	Dead("rethug01")  // Thug
+	Dead("rethug02")  // Mage
+	Dead("rethug03")  // Thug
+	Dead("rethug04")  // Thug
+	PartyHasItem("MISC5F")  // Renfeld's Body
+THEN
+	RESPONSE #100
+		Wait(5)
+		StartDialogNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR1404")  // Shadow Temple Land shadowed
+	Global("ShadeForest","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("ShadeForest","GLOBAL",1)
+		StartDialogNoSet(Myself)
+END
+
+IF
+	Global("NaliaKeepPlot","GLOBAL",1)
+	InParty(Myself)
+	InParty("Nalia")
+	!Dead("Nalia")
+	CombatCounter(0)
+	Global("DNaliaTalk","LOCALS",0)
+	OR(2)
+		AreaCheck("AR0400")  // Slums
+		AreaCheck("AR0300")  // The Docks
+THEN
+	RESPONSE #100
+		SetGlobal("DNaliaTalk","LOCALS",1)
+		Interact("Nalia")
+END
+
+IF
+	AreaCheck("AR0603")  // Irenicus's Dungeon 2nd Floor
+	Global("SThief1","LOCALS",0)
+	Dead("ISHADMT1")
+	Delay(5)
+THEN
+	RESPONSE #100
+		PlaySound("IRENIC04")
+		Wait(8)
+		StartDialogNoSet(Myself)
+END
+
+IF
+	PartyHasItem("MISC5L")     // Littleman, l'ours en peluche
+	!HasItem("MISC5L",Myself)  // Littleman, l'ours en peluche
+	See(Player1)
+	Global("DLittle","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		TakePartyItem("MISC5L")        // Littleman the Stuffed Bear
+		GiveItem("MISC5L","D#Silver")  // Littleman the Stuffed Bear
+		StartDialogNoSet(Player1)
+END
+
+IF
+	Global("DLittle","GLOBAL",1)
+	HasItem("MISC5L",Myself)  // Littleman the Stuffed Bear
+	See(Player1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		StartDialogNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Dead("GRREVEN")           // Revenant
+	HasItem("MISC5L",Myself)  // Littleman the Stuffed Bear
+	Global("DropBear","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DropBear","GLOBAL",1)
+		DropItem("MISC5L",[-1.-1])  // Littleman the Stuffed Bear
+		StartDialogNoSet(Myself)
+END
+
+IF
+	AreaCheck("AR0301")  // Mae'Var's Hide Out
+	Global("Maevar","LOCALS",0)
+	Delay(3)
+THEN
+	RESPONSE #100
+		SetGlobal("Maevar","LOCALS",1)
+		StartDialogNoSet(Myself)
+END
+
+IF
+	InParty(Myself)
+	See("Edwin")
+	Gender("Edwin",FEMALE)
+	Global("D#Sextalk","GLOBAL",0)
+	Global("SilverEdwina","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("D#Sextalk","GLOBAL",1)
+		SetGlobalTimer("EdwinaTwit","GLOBAL",FOUR_HOURS)
+END
+
+IF
+	GlobalTimerExpired("EdwinaTwit","GLOBAL")
+	InParty(Myself)
+	GlobalLT("SilverEdwina","GLOBAL",2)
+	See("Edwin")
+	Gender("Edwin",FEMALE)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("SilverEdwina","GLOBAL",2)
+		Interact("Edwin")
+END
+
+IF
+	PartyRested()
+	Global("HurtAerie","GLOBAL",0)
+	Global("SiverMazzy2","GLOBAL",0)
+	InParty(Myself)
+	See("Mazzy")
+	See("Aerie")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("HurtAerie","GLOBAL",1)
+		SetGlobal("SilverMazzy2","GLOBAL",1)
+		MoveToObject("Aerie")
+		Interact("Mazzy")
+END
+
+IF
+	InParty(Myself)
+	Global("#Silveryy1","GLOBAL",2)
+	Global("SilverEdwina","GLOBAL",3)
+	Global("Tale2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Tale2","GLOBAL",1)
+		SetGlobalTimer("SobStory2","GLOBAL",FIVE_DAYS)
+END
+
+IF
+	GlobalTimerExpired("SobStory2","GLOBAL")
+	InParty(Myself)
+	See(Player1)
+	Global("Tale2","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("Tale2","GLOBAL",2)
+		SetGlobal("#Silveryy1","GLOBAL",3)
+		StartDialogNoSet(Player1)
+END
+
+IF
+	Global("EdwinPoof","GLOBAL",1)
+	Global("SilverPissed","GLOBAL",0)
+	InParty(Myself)
+	InParty("Edwin")
+THEN
+	RESPONSE #100
+		SetGlobal("SilverPissed","GLOBAL",1)
+		SetGlobalTimer("EdwinGyp","GLOBAL",THREE_DAYS)
+END
+
+IF
+	GlobalTimerExpired("EdwinGyp","GLOBAL")
+	InParty(Myself)
+	InParty("Edwin")
+	!Dead("Edwin")
+	Global("SilverPissed","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("SilverPissed","GLOBAL",2)
+		SetGlobal("EdwinPoof","GLOBAL",2)
+		Dialog("Edwin")
+END
+
+IF
+	AreaCheck("AR0307")  // Aran Linvail's Hideout
+	See("Booter")
+	!Dead("Booter")
+	Global("Booter","LOCALS",0)
+	Delay(3)
+THEN
+	RESPONSE #100
+		SetGlobal("Booter","LOCALS",1)
+		StartDialogNoSet(Myself)
+END
+
+IF
+	Global("Underdark","GLOBAL",0)
+	AreaCheck("AR2100")  // Underdark
+	InParty("Edwin")
+	!Dead("Edwin")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("Underdark","GLOBAL",1)
+		Dialog("Edwin")
+END
+
+IF
+	See("Solaufein")
+	!Dead("Solaufein")
+	Global("SeeSola","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SeeSola","LOCALS",1)
+		SetGlobalTimer("SilSola1","Global",FIFTEEN_TURNS)
+END
+
+IF
+	See("Solaufein")
+	!Dead("Solaufein")
+	GlobalTimerExpired("SilSola1","GLOBAL")
+	Global("SilSola","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("SilSola","GLOBAL",1)
+		Dialog("Solaufein")
+END
+
+IF
+	InParty(Myself)
+	InParty("Haerdalis")
+	Global("SilHaerFight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@11)  // ~Please, a little kill, even a little one! I'm bored.~ [Innocd]
+		Wait(2)
+		SetDialog("")
+		LeaveParty()
+		EquipMostDamagingMelee()
+		SpellNoDec(Myself,ASSASSIN_POISON)  // SPCL423.SPL (Poison Weapon)
+		ChangeAIScript("",DEFAULT)
+		ChangeAIScript("useitem",GENERAL)
+		Attack("Haerdalis")
+END
+
+IF
+	Global("SilHaerFight","GLOBAL",2)
+	See("Haerdalis")
+	!Dead("Haerdalis")
+	HPLT(Myself,30)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@12)  // Remember, the next time you see me you will NOT be so lucky.~ [Innocj]
+		Wait(3)
+		SetGlobal("SilHaerFight","GLOBAL",3)
+		EscapeAreaMove("AR0020",672,604,3)  // City Gates
+END
+
+// Merged from difix#1.baf
+// -----------------------
+IF
+	GlobalGT("Chapter","GLOBAL",%bg2_chapter_1%)
+	Global("IrenTalk","LOCALS",1)
+	OR(2)
+		AreaCheck("AR0313")  // Sea Bounty Tavern 1st Floor
+		AreaCheck("AR0509")  // Five Flagons Inn 1st Floor
+THEN
+	RESPONSE #100
+		StartDialogNoSet(Player1)
+END

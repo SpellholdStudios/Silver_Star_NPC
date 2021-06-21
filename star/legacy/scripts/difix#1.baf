@@ -1,4 +1,4 @@
-IF GlobalGT("Chapter","GLOBAL",1)
+IF GlobalGT("Chapter","GLOBAL",%bg2_chapter_1%)
 Global("IrenTalk","LOCALS",1)
 OR(2)
 AreaCheck("AR0313")

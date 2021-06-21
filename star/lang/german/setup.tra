@@ -35,12 +35,6 @@ Nachteile
 
 @210 = ~Mary~
 
-@8  = ~Dieser Ort benötigt wirklich dringend Reinigung ~
-@9  = ~Viele, sehr viele rosa Bänder werden dies alles besser machen! Ja, es sollten mindestens eine Meile oder so helle, rosa Bänder aus Seide sein!~
-@10 = ~Wieso verschwende ich meine Zeit, um diesen ganzen Schmutz zu reinigen? Wahrscheinlich um es zu einem besseren Ort zu machen, wo einige Lämmer sich erholen können!~
-@11 = ~Was habt Ihr hier in den letzten zwanzig Jahren getan? Selbst eine Gruppe Oger wäre ordentlicher als Ihr. Ihr hättet Eures Vaters Erbe besser nutzen sollen.~
-@12 = ~Je mehr Arbeit es gibt, desto höher ist die Zahl der Schafe, die ich als Zahlung verlange. Seid Euch dessen bewusst!~
-
 
 /* ------------------ *
  *  Items and spells  *
@@ -61,15 +55,8 @@ Unbekannt.
 
 Nur von einigen wenigen glücklichen Menschen benutzbar.~
 
-@310 = ~Seufz...~
-@311 = ~Warum seid Ihr so böse, Stern meines Herzens?~
-@312 = ~Habt keine Angst, ich werde Euch immer lieben.~
-@313 = ~Was hat Euch je ein Schaf angetan, Stern meines Herzens?~
-@314 = ~Jedes Mal, wenn Ihr ein Leben nehmt, blutet mein Herz.~
-@315 = ~Tochter meiner Seele, warum tut Ihr dies?~
-
-@320 = ~Liecors Handbuch der Klingen 15ter Band.~
-@321 = ~Einleitung.
+@310 = ~Liecors Handbuch der Klingen 15ter Band.~
+@311 = ~Einleitung.
 Liecor war ein versierter Magier, und als er die richtige Zusammensetzung für sein schreckliches Schwert fand, schrieb er die Verzauberung in einem Handbuch nieder, um sie nie wieder zu vergessen. Aber Liecor war auch leichtsinnig, er vergaß eines der grundlegenden Bestandteile für die Erschaffung der Waffe. Es gibt fast zwanzig verschiedene Versionen von Liecors Klinge und niemand weiß, welche dem Original entspricht, das einzige was sicher ist, ist dass alle sehr mächtig sind. Dieses Buch beschreibt die Erschaffung von Liecors Klinge mit den Korrekturen von Vecna und Tenser.
 Von beiden ist bekannt, dass sie... ...
 ...
@@ -101,9 +88,26 @@ Der Text erklärt weiterhin die komplizierten und nebulösen alchemistische Prakti
 
 @29 = ~Unterschrieben~
 
-/////////////////
-/////////////////
+
+/* --------- *
+ *  Scripts  *
+ * --------- */
+
+// d#silv01.baf
+@401 = ~Dieser Ort benötigt wirklich dringend Reinigung ~
+@402 = ~Viele, sehr viele rosa Bänder werden dies alles besser machen! Ja, es sollten mindestens eine Meile oder so helle, rosa Bänder aus Seide sein!~
+@403 = ~Wieso verschwende ich meine Zeit, um diesen ganzen Schmutz zu reinigen? Wahrscheinlich um es zu einem besseren Ort zu machen, wo einige Lämmer sich erholen können!~
+@404 = ~Was habt Ihr hier in den letzten zwanzig Jahren getan? Selbst eine Gruppe Oger wäre ordentlicher als Ihr. Ihr hättet Eures Vaters Erbe besser nutzen sollen.~
+@405 = ~Je mehr Arbeit es gibt, desto höher ist die Zahl der Schafe, die ich als Zahlung verlange. Seid Euch dessen bewusst!~*/
+
+// d#crybl1.baf
 
 
+
+/* ============================================================================================================= *
+ *  Usability flags                                                                                              *
+ * ------------------------------------------------------------------------------------------------------------- *
+ * Note for translators: you will find usability flags REGEXP expressions in other items mods (Rolles, Ruad...)  *
+ * ============================================================================================================= */
 @9001 = ~\([Oo]nly[ %tab%]+\)?[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
