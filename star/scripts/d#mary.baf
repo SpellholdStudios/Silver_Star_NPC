@@ -1,0 +1,78 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Dialog(Nearest([PC]))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Marycontingecy","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Marycontingecy","LOCALS",1)
+		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)     // SPWI408.SPL (Peau de pierre)
+		ApplySpell(Myself,WIZARD_MINOR_SPELL_TURNING)  // SPWI522.SPL (Renvoi de sorts mineur)
+		ApplySpell(Myself,WIZARD_MIRROR_IMAGE)         // SPWI212.SPL (Image miroir)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STONE_SKIN)  // SPWI408.SPL (Peau de pierre)
+	CheckStatLT(Myself,1,STONESKINS)
+	Global("Prep","LOCALS",1)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,29736)           // Contingence - Peau de Pierre
+		ApplySpell(Myself,WIZARD_STONE_SKIN)  // SPWI408.SPL (Peau de pierre)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	StateCheck(Myself,STATE_SILENCED)
+	HaveSpell(WIZARD_VOCALIZE)  // SPWI219.SPL (Vocaliser)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_VOCALIZE)  // SPWI219.SPL (Vocaliser)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CHAOS)  // SPWI508.SPL (Chaos)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CHAOS)  // SPWI508.SPL (Chaos)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONFUSION)  // SPWI401.SPL (Confusion)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CONFUSION)  // SPWI401.SPL (Confusion)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FLAME_ARROW)  // SPWI303.SPL (Flèche enflammée)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_FLAME_ARROW)  // SPWI303.SPL (Flèche enflammée)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE)  // SPWI112.SPL (Projectile magique)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)  // SPWI112.SPL (Projectile magique)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

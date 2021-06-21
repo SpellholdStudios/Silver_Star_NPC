@@ -1,0 +1,10 @@
+IF
+	Global("D#SilverExists","GLOBAL",0)
+	!InParty("D#Silver")
+	!Dead("D#Silver")
+THEN
+	RESPONSE #100
+		SetGlobal("D#SilverExists","GLOBAL",1)
+		CreateCreature("D#Silver",[503.674],1)
+END
+

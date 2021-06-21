@@ -1,0 +1,21 @@
+IF
+	Global("D#SilverSummoned","GLOBAL",0)
+	InParty("D#Silver")
+THEN
+	RESPONSE #100
+		SetGlobal("D#SilverSummoned","GLOBAL",2)
+		Continue()
+END
+
+IF
+	Global("D#SilverSummoned","GLOBAL",1)
+	Global("D#SilverSpawnPlane","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPPORTAL",[1999.1218])
+		Wait(2)
+		CreateCreature("D#Silver",[1999.1218],0)
+		AddXPObject("D#Silver",2250000)
+		SetGlobal("D#SilverSpawnPlane","GLOBAL",1)
+END
+

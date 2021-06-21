@@ -1,0 +1,8 @@
+IF
+	Global("D#SilverExists","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("D#SilverExists","GLOBAL",1)
+		CreateCreature("D#Silver",[3855.2465],3)
+END
+

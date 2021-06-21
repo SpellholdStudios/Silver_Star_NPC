@@ -1,0 +1,18 @@
+IF
+	Delay(240)
+	CombatCounter(0)
+	HasItemEquipedReal("D#Crybl1","D#Silver")
+THEN
+	RESPONSE #100
+		DisplayStringHeadOwner("D#Crybl1",@6)  // ~Sigh...~
+	RESPONSE #100
+		DisplayStringHeadOwner("D#Crybl1",@7)  // ~Why are you so evil, Star of my heart?~
+	RESPONSE #100
+		DisplayStringHeadOwner("D#Crybl1",@8)  // ~Don't be afraid. I will love you forever.~
+	RESPONSE #100
+		DisplayStringHeadOwner("D#Crybl1",@9)  // ~What has a sheep ever done to you, Star of my heart?~
+	RESPONSE #100
+		DisplayStringHeadOwner("D#Crybl1",@10) // ~Every time you take a life, you cut my heart.~
+	RESPONSE #100
+		DisplayStringHeadOwner("D#Crybl1",@11) // ~Daughter of my soul, why do this?~
+END

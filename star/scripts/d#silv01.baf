@@ -1,0 +1,20 @@
+IF
+	True()
+	Delay(60)
+THEN
+	RESPONSE #20
+		MoveToPoint([1582.1374])
+		DisplayStringHead("D#Silver",@401)  // ~This place really, really needs cleaning.~
+	RESPONSE #20
+		MoveToPoint([1750.1241])
+		DisplayStringHead("D#Silver",@402)  // ~Lots and lots of pink ribbons will make this all better! Yes, there should be at least one mile or so of bright pink silk ribbons!~
+	RESPONSE #20
+		MoveToPoint([1993.1544])
+		DisplayStringHead("D#Silver",@403)  // ~Why do I waste my time cleaning up all this dirt?  Probably as it will make this a better place for some lambs to recover!~
+	RESPONSE #20
+		MoveToPoint([2198.1544])
+		DisplayStringHead("D#Silver",@404)  // ~What have you done here in the last twenty years? Even a band of ogres would be tidier than you. You should have put your father's legacy to better use.~
+	RESPONSE #20
+		MoveToPoint([1999.1218])
+		DisplayStringHead("D#Silver",@405)  // ~The more work there is, the higher the number of sheep that I will require in payment, be sure of this!~
+END
