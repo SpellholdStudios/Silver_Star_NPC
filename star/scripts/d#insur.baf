@@ -1,0 +1,158 @@
+IF
+	InParty("Aerie")  // Aerie
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Aerie",EVILCUTOFF)  // Aerie
+		ActionOverride("Aerie",Enemy())
+		Continue()
+END
+
+IF
+	InParty("Mazzy")  // Mazzy
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Mazzy",EVILCUTOFF)  // Mazzy
+		ActionOverride("Mazzy",Enemy())
+		Continue()
+END
+
+IF
+	InParty("Minsc")  // Minsc
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Minsc",EVILCUTOFF)  // Minsc
+		ActionOverride("Minsc",Enemy())
+		Continue()
+END
+
+IF
+	InParty("Jaheira")  // Jaheira
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Jaheira",EVILCUTOFF)  // Jaheira
+		ActionOverride("Jaheira",Enemy())
+		Continue()
+END
+
+IF
+	InParty("HaerDalis")  // Haer'Dalis
+THEN
+	RESPONSE #50
+		CutSceneId(Player1)
+		ChangeEnemyAlly("HaerDalis",EVILCUTOFF)  // Haer'Dalis
+		ActionOverride("HaerDalis",Enemy())
+	RESPONSE #50
+		NoAction()
+		Continue()
+END
+
+IF
+	InParty("Jan")  // Jan
+THEN
+	RESPONSE #50
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Jan",EVILCUTOFF)  // Jan
+		ActionOverride("Jan",Enemy())
+	RESPONSE #50
+		NoAction()
+		Continue()
+END
+
+IF
+	InParty("Anomen")  // Anomen
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Anomen",EVILCUTOFF)  // Anomen
+		ActionOverride("Anomen",Enemy())
+		Continue()
+END
+
+IF
+	InParty("Valygar")  // Valygar
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Valygar",EVILCUTOFF)  // Valygar
+		ActionOverride("Valygar",Enemy())
+		Continue()
+END
+
+IF
+	InParty("Imoen")  // Imoen
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Imoen",EVILCUTOFF)  // Imoen
+		ActionOverride("Imoen",Enemy())
+		Continue()
+END
+
+IF
+	InParty("Keldorn")  // Keldorn
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ChangeEnemyAlly("Keldorn",EVILCUTOFF)  // Keldorn
+		ActionOverride("Keldorn",Enemy())
+		Continue()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		Attack(NearestEnemyOf(Myself))
+		Continue()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+		Attack(NearestEnemyOf(Myself))
+		Continue()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		Attack(NearestEnemyOf(Myself))
+		Continue()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player5)
+		Attack(NearestEnemyOf(Myself))
+		Continue()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player6)
+		Attack(NearestEnemyOf(Myself))
+		Continue()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Attack(NearestEnemyOf(Myself))
+		EndCutSceneMode()
+END
+

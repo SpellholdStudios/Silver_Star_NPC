@@ -1,0 +1,61 @@
+IF
+	Global("Silvermorph","GLOBAL",9)
+THEN
+	RESPONSE #100
+		AddXPObject("D#Silver",600000)
+		JoinParty()
+		Continue()
+END
+
+IF
+	XPGT(Player1,800000)
+	Global("Silvermorph","GLOBAL",9)
+THEN
+	RESPONSE #100
+		AddXPObject("D#Silver",200000)
+		Continue()
+END
+
+IF
+	XPGT(Player1,100000)
+	Global("Silvermorph","GLOBAL",9)
+THEN
+	RESPONSE #100
+		AddXPObject("D#Silver",200000)
+		Continue()
+END
+
+IF
+	XPGT(Player1,1200000)
+	Global("Silvermorph","GLOBAL",9)
+THEN
+	RESPONSE #100
+		AddXPObject("D#Silver",200000)
+		Continue()
+END
+
+IF
+	XPGT(Player1,1500000)
+	Global("Silvermorph","GLOBAL",9)
+THEN
+	RESPONSE #100
+		AddXPObject("D#Silver",300000)
+		Continue()
+END
+
+IF
+	XPGT(Player1,2000000)
+	Global("Silvermorph","GLOBAL",9)
+THEN
+	RESPONSE #100
+		AddXPObject("D#Silver",500000)
+		Continue()
+END
+
+IF
+	Global("Silvermorph","GLOBAL",9)
+THEN
+	RESPONSE #100
+		SetGlobal("Silvermorph","GLOBAL",10)
+END
+
