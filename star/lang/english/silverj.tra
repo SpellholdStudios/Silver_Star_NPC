@@ -69,14 +69,14 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @68 = ~Will you bring me back to my mommy?~ 
 @69 = ~No, I will do something better. I will send you to a place where you will not suffer anymore. I don't want to see you abandoned on the streets.~
 @70 = ~You... What is that knife?~
-@71 = ~She..she would have killed her?~
+@71 = ~She... She would have killed her?~
 @72 = ~I have sacrificed many victims for the pleasure of Lolth, but this is different... senseless bloodshed!~
 @73 = ~This is madness!~
 @74 = ~<CHARNAME>, you cannot let this go unpunished. It is an aberration.~
 @75 = ~Elf, by all the Gods, do you understand what you could have done?~
 @76 = ~I cannot believe that she would have done this!~
 @77 = ~I'm astounded. I don't quite know what to say.~
-@78 = ~Why are you all looking at me that way?~ // silver
+@78 = ~Why are you all looking at me that way?~ // Silver
 @79 = ~And you are asking me! Damned elven child, it is time to grow up! You may have suffered the pain of the nine hells during your life, but that is not an excuse for what you have done! You are irresponsible, insensible and evil beyond measure! Promise me that you will never do something like that, or I swear, I will kill you here!~
 @80 = ~No, Silver Star, I will not let you do this! Stay your hand!~ // between line 70 and 71
 @81 = ~Alright. I promise.~ [Innock]
@@ -86,7 +86,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @85 = ~That will only bring you to your end faster, like all the other fools.~
 @86 = ~A prisoner! This is a chance to experiment with the Master's torture methods! Please, can we keep her prisoner for a little while, perhaps the time necessary to collect her ransom?~ [Female2a]
 @87 = ~Silver, don't be cruel. She is a person like all of us. You have suffered imprisonment and you know how bad it is, and now you want to inflict it on her? No, we must set her free!~
-@88 = ~I don't like your sadistic games, but the idea of a ransome is appealing. You can have her as a toy if you really want her.~
+@88 = ~I don't like your sadistic games, but the idea of a ransom is appealing. You can have her as a toy if you really want her.~
 @89 = ~What manners! You live in such a dusty place and you pretend that everyone obeys you! You are mad: First of all you should clean yourself, and second you should tidy your crypt. But if you want to sleep again I will be glad to put you to rest for all eternity.~
 @90 = ~You can speak as you like. I will show no mercy to intruders!~
 @91 = ~Don't think that we are so stupid, man. We know that you have something in the chickens and we want it. Sheep would be better, but I will accept chickens this time. Give us the chickens or prepare to die!~
@@ -106,13 +106,13 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @105 = ~Oh, a fool! Can I kill him? I want to kill the fool, pretty please!~ [Female2a]
 @106 = ~He is only an annoying idiot. Please leave him alone.~ 
 @107 = ~He really is an annoying idiot. Do as you please. No one will be likely to cry at his funeral.~
-@108 = ~Oh, you are a lucky boy Neeber! Very lucky, you can live one more day!~
+@108 = ~Oh, you are a lucky boy, Neeber! Very lucky, you can live one more day!~
 @109 = ~Sorry Neeber, time to die! But don't be afraid, it will not hurt, not much anyway.~ [Innoc8]
 @110 = ~I have found this strange manual. Can it be of any use to you?~
-@111 = ~Ah, now this is very interesting, let me take a closer look. Why, I have heard of this! This is a manual which details the forging of Liecor's blade. //WHO??// There are a few passages in here that I can't read. I think they are of demonic origin, so you'll need a necromancer or a... heh, a demon to read them, but I can help you. For xxx gold I'll forge the pieces into a blade, but like I said, you'll need a necromancer or a demon to finish the enchantment. In a pinch a skilled imp will do.~ //there should be a number at xxx, and is Liecor supposed to be Liracor
+@111 = ~Ah, now this is very interesting, let me take a closer look. Why, I have heard of this! This is a manual which details the forging of Liecor's blade. //WHO??// There are a few passages in here that I can't read. I think they are of demonic origin, so you'll need a necromancer or a... heh, a demon to read them, but I can help you. For xxx gold I'll forge the pieces into a blade, but like I said, you'll need a necromancer or a demon to finish the enchantment. In a pinch a skilled imp will do.~ // there should be a number at xxx, and is Liecor supposed to be Liracor
 @112 = ~I dreamt last night. It has been so long since I last had a dream. You should know that I have a curse that doesn't let me dream. Even now the dream is vanishing. In the dream there was a plain full of sheep. Then the dream changed... I was in a dark forest and shadow wolves ate all the lambs. It was horrible... And there was a girl singing. Her song was filled with despair. It was so sad.~ [marylamb]
 @113 = ~She beckoned me to come near her, but I knew if I touched her I would be lost forever. It seems so real after thousands of dreamless nights. I fear... I fear her presence is still in my mind. You must promise, promise that you will save me from her.~
-@114 = ~I think you only had a nightmare. Dreams mean nothing, only facts are important! So don't bother me with ridiculous stories about crying girls. (Staying with her will drive me crazy)~ // edwin
+@114 = ~I think you only had a nightmare. Dreams mean nothing, only facts are important! So don't bother me with ridiculous stories about crying girls. (Staying with her will drive me crazy)~ // Edwin
 @115 = ~Sometimes you seem so intelligent, but other times you are completely stupid. I'm begging you, help me!~ [Female2l]
 @116 = ~I promise that I will try to protect you from her, whoever or whatever she is.~
 @117 = ~Don't be afraid. With the light the nightmare will stop frightening you. You will see that everything is all right.~
@@ -122,7 +122,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @121 = ~But you know I'm not evil. It is something independent from my will that forces me to act as I do.~
 @122 = ~Please say something... say that you believe me! Say it!~ [Female2l]
 @123 = ~I believe in you Silver, and I understand the circumstances that have made you what you are.~
-@124 = ~Even if sometimes you disappoint me, I would like to stay with you. (Why am I saying these ridiculous things?)~ // edwin
+@124 = ~Even if sometimes you disappoint me, I would like to stay with you. (Why am I saying these ridiculous things?)~ // Edwin
 @125 = ~If you really are not evil, then try to show it. I can help you, but you must want to be helped and make serious efforts to control yourself.~
 @126 = ~I dreamt of her again last night. Are you sure she is an illusion? This is the third time I have dreamt of her. This time her hands were covered with blood and she tried to grab me and drag me into the mist.~ [marylamb]
 @127 = ~No, you should know. She is real, damned real. I am dreaming of her too often, and there is some sort of continuity from one dream to the next. Please, promise me that you will save me from her or myself or whatever she is!~
@@ -138,27 +138,27 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @137 = ~Even more interesting... it seems you are stronger than I thought. I should probably slice you into little pieces... or... Oh, I am so stupid! I have forgotten to ask you any questions. It's logical that you don't answer. So, please, can you tell me why you buried a man alive?~ [Female2a]
 @138 = ~I'm... I'm only a victim of circumstance...~
 @139 = ~If you don't answer quickly and truthfully to my questions, I could be forced to break some more fingers, or maybe cut off your manhood.~
-@140 = ~Ok, ok, I don't know nothing! I don't know nothing! I just let them bury what they want when I fill in the graves! It's a man in red, what's I see! He would have killed me if I hadn't helped! He's the one. He pays me gold to turn a blind eye! You want him! I think I see him sometimes by Bridge District.~
+@140 = ~OK, OK, I don't know nothing! I don't know nothing! I just let them bury what they want when I fill in the graves! It's a man in red, what's I see! He would have killed me if I hadn't helped! He's the one. He pays me gold to turn a blind eye! You want him! I think I see him sometimes by Bridge District.~
 @141 = ~Thank you, earth worm. Sorry... time to die!~ [Innoc8]
 // Trademeet, the man that sells poison.
 @142 = ~Wow! Poison! I like poison, <CHARNAME>, let's do it. I mean, poison is so useful, so terrible, so beautiful. You can do so many things with poison... I remember that one time the Master found a halfling, and he...~ [Female2a]
-@143 = ~Ok... Ok, you aren't interested in my happy memories, but remember that poison is my specialty. Accept the advice of an expert; accept the suggestion of Khellon! And accept it now.~
-@144 = ~I don't question your ability to use poison. If you are so happy at the idea who am I to stop your entertainment? Ok, Khellon, we accept your deal.~
+@143 = ~OK... OK, you aren't interested in my happy memories, but remember that poison is my specialty. Accept the advice of an expert; accept the suggestion of Khellon! And accept it now.~
+@144 = ~I don't question your ability to use poison. If you are so happy at the idea who am I to stop your entertainment? OK, Khellon, we accept your deal.~
 @145 = ~I don't question your ability to use poison and sometimes your blade has been useful in this group, but we will try to solve this problem in a more fair and humane way, if possible.~
 @146 = ~Hm... this thing that Khellon has given us seems interesting and even more dangerous than my normal poison. I think that I must add this to my recipes.~
-// courtesan of Spell Hold interjection
+// courtesan of Spellhold interjection
 @147 = ~Wouldn't it be simpler if we freed her forever? I can do it without causing her pain.~ [Female2a]
 @148 = ~I think that would be a great solution, cheap and smart. Yes, do it.~
 @149 = ~Don't even think of that again! Let her live. I don't want you to molest or kill innocents.~
 @150 = ~No... please have mercy on me! There is no pity in your eyes, <LADYLORD>. Don't let her do this... What will happen to my brother? If not for me, have mercy for him... Please... we have suffered enough... Ahh!!!~
 // torture rooms
-@151 = ~This place reminds me of my prison. I want to get out of here!~ // when see maevar (thief guild quest)
+@151 = ~This place reminds me of my prison. I want to get out of here!~ // when see Maevar (thief guild quest)
 @152 = ~This place reminds me of some of the best and worst memories of my life. It feels like home... only home wasn't a good place.~ // torture chamber of the thief guild
-// long dialogue between charmame & SS re her youth
-@153 = ~Have I ever told you of the time when I travelled through the swamps with the smugglers?~ // silver
+// long dialogue between CHARNAME & SS re her youth
+@153 = ~Have I ever told you of the time when I travelled through the swamps with the smugglers?~ // Silver
 @154 = ~You have been in the swamps?~
 @155 = ~No, Silver, you haven't, and if it is another horror story, don't start it.~
-@156 = ~Please, let me tell a story. The gnome tells one any time he wants and you never explain why I cannot tell mine. At least they're true!~// silver if Jan is in party
+@156 = ~Please, let me tell a story. The gnome tells one any time he wants and you never explain why I cannot tell mine. At least they're true!~// Silver if Jan is in party
 @157 = ~Please let me! I say let me! Be nice.~
 @158 = ~No, not now. Another time, maybe.~
 @159 = ~I think I can find a little time for you, Silver Star.~
@@ -193,7 +193,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @187 = ~My skin... burns! I... I can resist no more! It's... It's like a knife is slicing my body... Ahh...~ [Female2m]
 @188 = ~Edwin... I...~
 @189 = ~(Silver's body falls on the ground and you watch with horror as her skin twists and splits open to reveal a new form...)~
-// maevar torture chambers.
+// Maevar torture chambers.
 @190 = ~I think that this Mae'Var is still an amateur. With the Master, this pathetic old man would have died long before.~
 @191 = ~Is... Is this a torture chamber? It's... it's totally inadequate! Do you remember the torture room of the Master, Mommy? Where are the hot irons, the whips and the iron maiden? And you call that a rack?~ [Innocd]
 @192 = ~I must say what must be said! That old torture knife is so rusty, you should at least make some improvements. This is not the way to supply a place like this and have it work.~
@@ -204,7 +204,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @197 = ~Don't be silly, Silver Star. He is clearly innocent and so he should be free.~
 @198 = ~I'm not convinced, but if this will please you, then he will remain caged.~
 @199 = ~I have nothing against you. It is only that the girl likes seeing you caged.~
-// underdark alchemist
+// Underdark alchemist
 @200 = ~Are you sure you haven't some very special products stashed behind one of those crates?~ 
 @201 = ~I can assure you, <SIRMAAM>, that I have nothing like that. I sell only...~
 @202 = ~Hey, what are you... Girl, stop trying to mess with my wares!~ 
@@ -224,15 +224,15 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @217 = ~I have enough liquid to treat a mantle if you have one. It will cost you 3000 gold pieces.~
 @218 = ~Yes, I have this piwafwi cloak.~ // changes with a new one +4 vs breath 60% hide & move silently
 @219 = ~Anything else?~
-@220 = ~Ok I think that we have finished.~
+@220 = ~OK. I think that we have finished.~
 @221 = ~Have you nothing else to show me?~
 @222 = ~Goodbye.~
 @223 = ~Well, there is this flask of Drow poison. It can put an ogre to sleep like a baby. It will cost you 5000 gold pieces.~
 @224 = ~Yes poison, yes poison! Buy the poison! Buy it!~
-@225 = ~Ok, I'll buy it.~
+@225 = ~OK, I'll buy it.~
 @226 = ~No, I'm not interested now. Good day to you.~
-@227 = ~Good day to you. Now I am sorry, but I have an urgent appointment. I hope you will excuse me.~ //escapearea()
-// silver in the underdark
+@227 = ~Good day to you. Now I am sorry, but I have an urgent appointment. I hope you will excuse me.~ // escapearea()
+// Silver in the Underdark
 @228 = ~Ah, the Underdark with all that rothe (subterranean sheep, yeees...) that run in the earth tunnels, and they can be mine... all mine. Prepare to meet your fate, lambs of darkness!~ [Innoc8]
 @229 = ~C'mon, mage, time to have fun.~ [Female2a]
 @230 = ~Why me?!~
@@ -245,7 +245,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @236 = ~He said that the sword belonged to an elf woman. The woman was kidnapped along with her daughter by the merchant. The mother died, whilst the daughter was sold.~
 @237 = ~That night the sword spoke to me and revealed that it was my Mommy.~
 @238 = ~The smugglers died, one by one, some slowly, some quickly, always painfully. In the night you were able to hear the screams of the unfortunate victim.~
-// clone and tube people from Dancer Fritz 
+// Clone and tube people from Dancer Fritz 
 @239 = ~The Master has made many things, but she was his favorite... He was always making her, because she never seemed to work right.~
 @240 = ~You mean he's been doing this for a long time? <CHARNAME>, who is this man? I... I don't want to find out...~ 
 @241 = ~You think it because it is so, young one. The Master tries to show his lambs, tries to show how beautiful death truly is. Hehehe... it is funny, because I think sometimes he doesn't even know it. The Master wants power, you see, not beauty.~
@@ -257,7 +257,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @247 = ~You have felt it! I see it in your eyes!! How... how do you make it stop?!? I... I want so much for the pain to stop...~
 @248 = ~No... NO, PLEASE, NO MORE CUTTING!! MOMMY!! Mommy, PLEASE, make it stop!!~ [Female2m]
 @249 = ~We give chase... to the Master? Oh, what a strange turn this is. The lamb hunts the wolf. Hahaha! We will see how well he enjoys poison, then.~ [Female2a]
-@285 = ~Fee, fie foe fum, I smell the blood of some Duerger scum!~ [Female2a]
+@285 = ~Fee, fie foe fum, I smell the blood of some duerger scum!~ [Female2a]
 @311 = ~His voice! I hear the voice of the Master... Oh, lambs will roast if he finds his toys have escaped... ~
 @312 = ~Silver, calm down or you'll attract attention to us!~
 @313 = ~You're safe with us, Silver. You don't have to worry now.~
@@ -319,7 +319,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @380 = ~Bah! I would have slit their throats while they slept!~
 @381 = ~Now I understand why you hate bards so much, poor girl.~
 @390 = ~I will not tolerate actions such as this! Bad, bad little elf!~
-@391 = ~Ye keeps up that nonense, missy, and ye'll be feelin' the blunt head of me axe on yer arse, ye surely shall!~
+@391 = ~Ye keeps up that nonsense, missy, and ye'll be feelin' the blunt head of me axe on yer arse, ye surely shall!~
 @392 = ~Child, this evil that you hold inside you is truly unhealthy. It is akin to the rot in a tree trunk that will only weaken you in a time when you need to be strong.~
 @395 = ~You sure are cruel to an old gnome. Poor Jan! *sob*~
 @400 = ~By Talona! This poison sure is potent! It's a shame they're all dead -- I would have liked to get their recipe!~
@@ -341,7 +341,7 @@ And in the end, your life I rend. And the harp strings broken.~ [Female2a]
 @513 = ~Keep him if you wish, Silver.~
 @514 = ~Die, Harper!~
 @515 = ~I really don't want this stupid old bear anyway.~
-@516 = ~Put the spirit of the child Wellyn to rest.
+@516 = ~Put the spirit of the child Wellyn to rest
 
 When Silver refused to return a toy bear to the spirit of a murdered halfling child named Wellyn, he turned into a revenant which we destroyed. Rest in pieces, Wellyn.~
 @520 = ~Hello, friend. I couldn't help but overhear your conversation with Lord Khellon.~
@@ -367,9 +367,9 @@ When Silver refused to return a toy bear to the spirit of a murdered halfling ch
 @549 = ~What did I tell you, wael? Your tongue will get you, and us, killed here in an instant! Be silent!~
 @550 = ~Home? Was this home?! *Sob* Mommy, why can't I remember!~
 
-//Additional Edit (Seifer/Diana - 01.11.04)
+// Additional Edit (Seifer/Diana - 01.11.04)
 
-@551 = ~I saw him in the backroom kissing his floozie.~ [Female2a]
+@551 = ~I saw him in the back room kissing his floozie.~ [Female2a]
 @590 = ~What are you going to do with the Master when you find him? Hehe... I hope you do not hurt him too much. I would like to do some things too.~ [Female2a]
 @591 = ~I'm going to find out what he wants with me. Why?~
 @592 = ~I will find out what he's done with Imoen.~
@@ -395,7 +395,7 @@ When Silver refused to return a toy bear to the spirit of a murdered halfling ch
 @612 = ~Silver Star, I know you have suffered, but torturing Irenicus will not take away your pain. You will only perpetuate the cycle of violence, and if you truly want to keep these things from happening, you have to fight against it. Do not sink to his levels. He *will* be held responsible.~
 @613 = ~Well, sure, maybe you've got a point. Let's have some fun with him when we catch him, then.~
 @614 = ~Hehe! I would... I would start on the outside and work in! I would put screws on his thumbs... and ankles... and wind them tight! And then pull off his fingernails and toenails. You have to work slowly. Small things first.~
-@615 = ~That's... that's disgusting! Look, I know this sort of thing goes on, but I don't want to hear about it.~
+@615 = ~That's... That's disgusting! Look, I know this sort of thing goes on, but I don't want to hear about it.~
 @616 = ~Silver Star... I'm shocked by your casual attitude. Do you truly take such pleasure in the pain of others?~
 @617 = ~Excellent. Your approach is a little naive, but you have a respect for the classics. What next?~
 @618 = ~Yes, that's nice. Let's continue, shall we?~
@@ -410,7 +410,7 @@ When Silver refused to return a toy bear to the spirit of a murdered halfling ch
 @627 = ~Then I would take Mommy and slit along his arms and legs, and peel the skin off his limbs. I would still have to use a knife - pull a little, then cut a little free. It would be slow, and that's good. He would be bleeding a lot, so I might use some bright hot metal to burn the peeled parts next. It would keep it clean and painful at once. Very efficient.~
 @628 = ~That is quite enough, Silver Star. <CHARNAME>, Ask this poor twisted creature to cease her ramblings this instance. It troubles me that you have allowed her to speak this much on it.~ // Keldorn
 @629 = ~Certainly more than I cared to know. <CHARNAME>, if you do not tell her to stop, I will.~ // Valygar
-@630 = ~Oh, what hideous stories. There is no reason for this sort of talk, <CHARNAME>.~ //Nalia
+@630 = ~Oh, what hideous stories. There is no reason for this sort of talk, <CHARNAME>.~ // Nalia
 @631 = ~I cannot abide such terrible plotting in my own group. <CHARNAME>, you must ask Silver Star to desist or I will be forced to take action.~ // Mazzy
 @632 = ~More than I can stand! <CHARNAME>, tell this abomination to be quiet at once!~ // Anomen
 @633 = ~Oh! How awful! I... I can't stand to listen to it! <CHARNAME>, p-please, make her stop.~ // Aerie
