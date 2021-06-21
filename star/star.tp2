@@ -1,6 +1,7 @@
 BACKUP ~star/backup~
 
-AUTHOR ~Olryx2@Yahoo.co.uk~
+//AUTHOR ~Olryx2@Yahoo.co.uk~
+SUPPORT ~SHS Staff at http://www.shsforums.net/forum/127-mod-resurrections~
 
 VERSION ~v2.0.0~
 
@@ -81,6 +82,8 @@ LANGUAGE ~Russian~
  *    Silver Star NPC Mod for BGII:SoA  (main component)  *
  * ====================================================== */
 
-BEGIN ~SilverStar Mod~
+BEGIN @1 // ~Silver Star NPC Mod for BGII:SoA~
+LABEL ~d#_silverstar_npc_main~
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @2 // ~You must have BG2, ToB, BGT, BG2:EE or EET installed to install the Silver Star NPC mod.~
 
 INCLUDE ~%MOD_FOLDER%/lib/main_component.tpa~
