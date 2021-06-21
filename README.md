@@ -181,18 +181,12 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
-I also added EE-EET compatibility to the Silver Star mod (last official release was 1.93) and added other fixes.
-
-I know that there is already an unofficial version from a Roxanne(Paula), but I checked it and a lot was not done there (sound, journal entry, etc. did not adapt, and instead of adapting portraits, some other portrait was added in general very different from the original, etc.).
-
-And even earlier, lines in the tp2 file were not tra-fied in the mod. I fixed that too (but requires translation of the new five lines in the German version as long as they remain in English)
-
-Here is the result of the work (v.2.0): https://www.dropbox....r-v2.0.rar?dl=0
-
-The last time this mod (v.1.93) was uploaded here: http://www.shsforums...od-from-seifer/
-
-Considering that the official version of the mod is almost nowhere to be found, the original author's site does not work and the mod is practically lost, could you post the mod to SHS to fix this? It seems there was a "Mod Resurrections" section here.
-
+    I also added EE-EET compatibility to the Silver Star mod (last official release was 1.93) and added other fixes.
+    I know that there is already an unofficial version from a Roxanne(Paula), but I checked it and a lot was not done there (sound, journal entry, etc. did not adapt, and instead of adapting portraits, some other portrait was added in general very different from the original, etc.).
+    And even earlier, lines in the tp2 file were not tra-fied in the mod. I fixed that too (but requires translation of the new five lines in the German version as long as they remain in English)
+    Here is the result of the work (v.2.0): https://www.dropbox....r-v2.0.rar?dl=0
+    The last time this mod (v.1.93) was uploaded here: http://www.shsforums...od-from-seifer/
+    Considering that the official version of the mod is almost nowhere to be found, the original author's site does not work and the mod is practically lost, could you post the mod to SHS to fix this? It seems there was a "Mod Resurrections" section here.
 
 Here is the changelog:
 - added command LAF HANDLE_AUDIO to install a sound file
