@@ -1,11 +1,9 @@
-@1 = ~Ассассин~
-
 /* ======================= *
  *  Installation messages  *
  * ======================= */
 
 @10  = ~Silver Star NPC Mod for BGII:SoA~
-@11  = ~You must have BG2, ToB, BGT, BG2:EE or EET installed to install the Luxley Family mod~
+@11  = ~You must have BG2, ToB, BGT, BG2:EE or EET installed to install the Silver Star NPC mod~
 
 
 /* -------------- *
@@ -89,7 +87,7 @@
 
 ...
 ...
-Дальше в тексте можно найти различные путанные и неразборчивые рецепты изготовления меча.~
+Дальше в тексте можно найти различные путанные и неразборчивые инструкции по изготовлению меча.~
 
 @29 = ~Подписано~
 

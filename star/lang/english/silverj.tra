@@ -158,7 +158,7 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @153 = ~Have I ever told you of the time when I travelled through the swamps with the smugglers?~ // Silver
 @154 = ~You have been in the swamps?~
 @155 = ~No, Silver, you haven't, and if it is another horror story, don't start it.~
-@156 = ~Please, let me tell a story. The gnome tells one any time he wants and you never explain why I cannot tell mine. At least they're true!~// Silver if Jan is in party
+@156 = ~Please, let me tell a story. The gnome tells one any time he wants and you never explain why I cannot tell mine. At least they're true!~ // Silver if Jan is in party
 @157 = ~Please let me! I say let me! Be nice.~
 @158 = ~No, not now. Another time, maybe.~
 @159 = ~I think I can find a little time for you, Silver Star.~
@@ -215,9 +215,9 @@ The fog and its icy touch dissipates, and you are left wondering what fate await
 @207 = ~Yes, oh well... they are...~
 @208 = ~Mommy, is he lying? Yes, he is. I think, Mommy, that we should make him pay for his lies. Don't we? How lovely could the cut throat of a liar be?~ [Female2a] // if she is evil
 @209 = ~Oh, I think that a good child doesn't lie to Mommy, and you have been bad. What do you think, Mommy? Yes, we think that you have been a naughty boy. But still, we don't want to harm you.~ // if she is neutral
-@210 = ~Are we sure, Silver Star?~ //Edwin
-@211 = ~Yeeeeeessss! (Crosses her fingers behind her back)~ [Female2a] //Silver
-@212 = ~Don't listen to her, she doesn't mean it. Now, regarding those potions that you sell under the table, I am curious to know what would be the opinion of a handmaiden of Lloth.~ // if silver is evil
+@210 = ~Are we sure, Silver Star?~ // Edwin
+@211 = ~Yeeeeeessss! (Crosses her fingers behind her back)~ [Female2a] // Silver
+@212 = ~Don't listen to her, she doesn't mean it. Now, regarding those potions that you sell under the table, I am curious to know what would be the opinion of a handmaiden of Lloth.~ // if Silver is evil
 @214 = ~No need for that. I am sure we can arrive at some accommodation.~
 @215 = ~I am always interested in accommodations.~
 @216 = ~I have some potions to fix adamantine so it can become stable in the sunlight. Logically, you cannot expect that a raffinated item can be equal to a pure adamantine one, but it is certainly still a work of the best Drow craftsmanship.~

@@ -28,13 +28,13 @@ Nachteile
 @201 = ~Silver Star~
 //@5  = ~Silver Star~
 @202 = ~Wenn Ihr Silver Star nach ihrer Vergangenheit fragt, beginnt sie zu weinen, ihre Worte vermischen sich mit kontinuierlichen Schluchzen. Sie erzählt, dass sie ihren wahren Namen vergessen hat, dass Silver Star ein Spitzname ist, den ihr Irenicus gab. Ihre Vergangenheit ist fern und obskur und sie bevorzugt, dass dies so bleibt, weil sie sich wirklich lieber an nichts mehr erinnern möchte. Ihr fühlt Mitleid für dieses arme Geschöpf, aber ihr kindisches Wesen weist eine seltsame Art von Unschuld auf.~
-// These lines require translation into German!
-// ++++++++++++++++++++++++++++++++++++++++++++
-@203 = ~Please, a little kill, even a little one! I'm bored.~ [Innocd]
-@204 = ~Mommy, I must sleep.~ [Innocc]
-@205 = ~Why will no one play with me?~
-@206 = ~You are mean! You don't want me to play with my knife on other people!~
-@207 = ~How can I enjoy myself without a little killing? You said that you would play with me!~
+// These lines require translation into German! DONE! Thanks to jastey!
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@203 = ~Bitte, können wir nicht irgendwas töten... nur was ganz kleines? Mir ist langweilig.~ [Innocd]
+@204 = ~Mama, ich brauche Schlaf.~ [Innocc]
+@205 = ~Warum spielt keiner mit mir?~
+@206 = ~Ihr seid gemein! Ihr lasst mich nicht an anderen Leuten mit meinem Messer spielen!~
+@207 = ~Wie soll ich Spaß haben wenn wir nichts töten? Ihr habt gesagt, dass Ihr mit mir spielen würdet!~
 
 @208 = ~Silver Star will nicht weiter von ihrer Vergangenheit sprechen. Das einzige, was sie tut, ist weinen und schluchzen, bis sie einen einzigen eisigen Schrei ausstößt. Sie denkt, und das aus gutem Grunde, dass Ihr für ihren Zustand verantwortlich seid, sowie für ihre unruhige Seele. Wenn Ihr in ihre Augen schaut, seht Ihr ihre Wut und Verzweiflung, und ihren Wunsch Euch zu töten, aus Rache für das, was Ihr ihr angetan habt, aber sie weiß, dass sie Euch nicht schaden kann, ohne ihren eigenen Tod zu verursachen. In Anbetracht dieser Tatsache, bleibt sie ruhig... fürs erste.~
 
