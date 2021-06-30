@@ -338,9 +338,9 @@ APPEND ~itemdial.2da~ ~d#crybl1    5689    d#crybl1~
 
 // Liecor's Blade Handbook 15th
 COPY ~%MOD_FOLDER%/items/d#liec1.itm~ ~override~
-	SAY NAME1 @320
-	SAY NAME2 @320
-	SAY UNIDENTIFIED_DESC @321
+	SAY NAME1 @310
+	SAY NAME2 @310
+	SAY UNIDENTIFIED_DESC @311
 
 
 /* -------------------------------------------------- *
