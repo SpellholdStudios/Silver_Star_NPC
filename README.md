@@ -1,37 +1,34 @@
 
-![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/Silver_Star_NPC?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/Silver_Star_NPC?color=gold)
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Silver_Star_NPC?include_prereleases&color=darkred)<a name="top" id="top"> </a>
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/Silver_Star_NPC?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Russian&color=limegreen)
 
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGII%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
 
 
-<div align="center"><h1></a>Silver Star NPC (WIP)</h1>
+<div align="center"><h1></a>Silver Star NPC</h1>
 
 <h3>A mod hosted at Spellhold Studios for Baldur's Gate II: SoA and ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
 
 </div><br>
 
-**Original Author:** Davide Carta  
-**Author:** <a href="http://www.shsforums.net/user/701-seifer/">Seifer</a>  
+**Authors:** Davide Carta (original) - <a href="http://www.shsforums.net/user/701-seifer/">Seifer</a>  
 **Mod Website:** <a href="http://www.shsforums.net/topic/61082-silver-star-npc-updated-to-v200-ee-compatible/">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/forum/127-mod-resurrections/">The Luxley Family</a>
+**Mod Forum:** <a href="http://www.shsforums.net/forum/127-mod-resurrections/">Mods Resurrections</a>
 
 ## 
 
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/Silver_Star_NPC?style=plastic)](https://badges.pufler.dev)
-![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/Silver_Star_NPC?style=plastic)
-[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/Silver_Star_NPC?color=cyan&style=plastic)](https://badges.pufler.dev) 
+[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/Silver_Star_NPC?style=plastic)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/Silver_Star_NPC?style=plastic)
+[![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/Silver_Star_NPC?color=cyan&style=plastic)](https://badges.pufler.dev) 
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/Silver_Star_NPC?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/Silver_Star_NPC?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+![GitHub contributors](https://img.shields.io/github/contributors/SpellholdStudios/Silver_Star_NPC?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/SpellholdStudios/Silver_Star_NPC?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
 ## 
 
-:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/star-readme-english.html)
-
-:inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/)<br>
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/star-readme-english.html)<br>
 
 ## 
 
@@ -181,17 +178,6 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
-    I also added EE-EET compatibility to the Silver Star mod (last official release was 1.93) and added other fixes.
-    I know that there is already an unofficial version from a Roxanne(Paula), but I checked it and a lot was not done there (sound, journal entry, etc. did not adapt, and instead of adapting portraits, some other portrait was added in general very different from the original, etc.).
-    And even earlier, lines in the tp2 file were not tra-fied in the mod. I fixed that too (but requires translation of the new five lines in the German version as long as they remain in English)
-    Here is the result of the work (v.2.0): https://www.dropbox....r-v2.0.rar?dl=0
-    The last time this mod (v.1.93) was uploaded here: http://www.shsforums...od-from-seifer/
-    Considering that the official version of the mod is almost nowhere to be found, the original author's site does not work and the mod is practically lost, could you post the mod to SHS to fix this? It seems there was a "Mod Resurrections" section here.
-
-Here is the changelog:
-- added command LAF HANDLE_AUDIO to install a sound file
-- added Gwendolyne's function to automatically adapt item descriptions depending on the version of the game
-
 ##### Version 2.0.0 &nbsp;(June 18, 2021)
 
 - Added *star.ini* metadata file (including dynamic install order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
@@ -208,17 +194,15 @@ Here is the changelog:
     - Provided NPC portraits for EE games.
     - `ADD_KIT` process: fixed lower kit strref, and added WeiDU `fl#add_kit_ee` function for EE games.
 - *starhl.2da*: Removed one extra column entry.
-- *d#silver.baf*: fixed wrong hard-coded strref entries and merged difix#1.baf into it instead of extending it after compilation.
+- *d#silver.baf*: fixed wrong hard-coded strref entries and merged *difix#1.baf* into it instead of extending it after compilation.
 - Decompiled bcs files and compiled scripts with their appropriated tra file when relevant. Removed useless duplicated script files.
 - Included all BWP Fixpack fixes:
     - Patched "*shape.cre*" instead of overwriting it to solve the <a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/page-14#entry566376">micbaldur Silverstar NPC - Frennedan NPC compatibility issue</a>.
     - Completed dialogues traification, and added the <a href="http://www.shsforums.net/topic/13501-updated-silverstar-released/page-2?p=533395#entry533395">Escaped clone Silver Star dialog bug fix by Lollorian</a>.
     - Added a more robust workaround than <a href="https://www.gibberlings3.net/forums/topic/21964-add_kit-and-tobex/?do=findComment&comment=183270">BWP Fixpack cmorgan's ToBEx compatible ADD_KIT fix</a> to fix Sebastian creature file installation issue with classic games if TobEx is not installed and more than 256 kits are installed. I know, pretty rare case, but who knows... :wink:
-- Updated *setup.tra* file for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function requirements which automatically removes items usability restrictions for EE games.
 - Proofread strrefs (Gwendolyne).
 - Proofread Russian translation (Austin).
 - Fully TRAified the mod (some lines were not traified in tp2 file).
-- Updated deprecated modding tools links.
 - Re-formated, updated, renamed readme file to *star-readme-english.html*, then moved it into new :file_folder: "*readme*" folder.
 - Removed useless :file_folder: "*backup*" folder.
 - Lower cased files.

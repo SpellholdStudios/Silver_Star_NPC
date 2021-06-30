@@ -5,7 +5,7 @@ SUPPORT ~SHS Staff at http://www.shsforums.net/forum/127-mod-resurrections~
 
 VERSION ~v2.0.0~
 
-README ~star/readme-star.html~
+README ~star/readme/star-readme-english.html~
 
 
 ALLOW_MISSING ~ar4500.bcs~
@@ -91,7 +91,7 @@ LANGUAGE ~Deutsch~
          ~german~
          ~star/lang/german/setup.tra~
 
-LANGUAGE ~Russian~
+LANGUAGE ~Russian (translation: Prowler)~
          ~russian~
          ~star/lang/russian/setup.tra~
 
@@ -100,8 +100,8 @@ LANGUAGE ~Russian~
  *    Silver Star NPC Mod for BGII:SoA  (main component)  *
  * ====================================================== */
 
-BEGIN @1 // ~Silver Star NPC Mod for BGII:SoA~
+BEGIN @10 // ~Silver Star NPC Mod for BGII:SoA~
 LABEL ~d#_silverstar_npc_main~
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @2 // ~You must have BG2, ToB, BGT, BG2:EE or EET installed to install the Silver Star NPC mod.~
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @11 // ~You must have BG2, ToB, BGT, BG2:EE or EET installed to install the Silver Star NPC mod.~
 
 INCLUDE ~%MOD_FOLDER%/lib/main_component.tpa~
