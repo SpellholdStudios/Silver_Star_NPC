@@ -19,16 +19,20 @@ IF ~~ Meet1
   IF ~~ GOTO Meet2
 END
 
+IF ~~ Meet2
+  SAY @4
+  IF ~InParty("Edwin")~ THEN REPLY @5 GOTO Meet2b
+END
+
+IF ~~ Meet2b
+  SAY @6 = @7 = @8
+  IF ~~ GOTO Meet3
+END
+
 IF ~~ Meet3
   SAY @9
   IF ~~ EXIT
 END
-
-CHAIN D#Sbansh Meet2
-@4
-IF ~InParty("Edwin")~ THEN @5
-@6 = @7 = @8
-END D#Sbansh Meet3
 
 
 BEGIN D#SbansP
